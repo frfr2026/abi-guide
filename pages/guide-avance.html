@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guide avancé — Mouvement, angles et décisions… | ABI NEXUS</title>
+  <meta name="description" content="Techniques avancées Arena Breakout Infinite : mouvement, peek, gestion des angles, pré-fire, médical sous le feu, timing tiers-partis et prise de décision en…">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="author" content="ABI NEXUS">
+  <meta name="language" content="French">
+  <meta name="theme-color" content="#0a0b0e" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)">
+  <link rel="canonical" href="https://abinexus.fr/pages/guide-avance.html">
+  <link rel="alternate" hreflang="fr" href="https://abinexus.fr/pages/guide-avance.html">
+  <link rel="sitemap" type="application/xml" title="Sitemap ABI NEXUS" href="https://abinexus.fr/sitemap.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ABI NEXUS">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="Guide avancé — ABI NEXUS">
+  <meta property="og:description" content="Mouvement, angles, pré-fire et décisions : le jeu des vétérans sur Kamona.">
+  <meta property="og:url" content="https://abinexus.fr/pages/guide-avance.html">
+  <meta property="og:image" content="https://abinexus.fr/img/guides/guide-tactics.jpg">
+  <meta property="og:image:width" content="1672">
+  <meta property="og:image:height" content="941">
+  <meta property="og:image:alt" content="ABI NEXUS — guide Arena Breakout Infinite, Saison 7 : Utopia">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Guide avancé — ABI NEXUS">
+  <meta name="twitter:description" content="Mouvement, angles, pré-fire et décisions : le jeu des vétérans sur Kamona.">
+  <meta name="twitter:image" content="https://abinexus.fr/img/guides/guide-tactics.jpg">
+  <meta name="twitter:image:alt" content="ABI NEXUS — guide Arena Breakout Infinite, Saison 7 : Utopia">
+  <meta property="article:section" content="Accueil">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Rajdhani:wght@400;500;600;700&family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/variables.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/animations.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="icon" type="image/jpeg" sizes="64x64" href="../img/ui/favicon-64.jpg">
+  <link rel="apple-touch-icon" href="../img/ui/favicon-180.jpg">
+  <link rel="manifest" href="../manifest.json">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://abinexus.fr/#organization",
+      "name": "ABI NEXUS",
+      "url": "https://abinexus.fr/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://abinexus.fr/img/ui/favicon-512.jpg",
+        "width": 512,
+        "height": 512
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://abinexus.fr/#website",
+      "url": "https://abinexus.fr/",
+      "name": "ABI NEXUS — Guide Ultime Arena Breakout Infinite",
+      "description": "Le guide de reference francais d'Arena Breakout Infinite : Saison 7 Utopia, armes, armures, munitions, cartes, economie, strategies, tier lists et outils interactifs.",
+      "inLanguage": "fr-FR",
+      "publisher": {
+        "@id": "https://abinexus.fr/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://abinexus.fr/pages/guide-avance.html#webpage",
+      "url": "https://abinexus.fr/pages/guide-avance.html",
+      "name": "Guide avancé — Mouvement, angles et décisions… | ABI NEXUS",
+      "description": "Techniques avancées Arena Breakout Infinite : mouvement, peek, gestion des angles, pré-fire, médical sous le feu, timing tiers-partis et prise de décision en…",
+      "inLanguage": "fr-FR",
+      "isPartOf": {
+        "@id": "https://abinexus.fr/#website"
+      },
+      "publisher": {
+        "@id": "https://abinexus.fr/#organization"
+      },
+      "datePublished": "2026-09-16",
+      "dateModified": "2026-11-17",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://abinexus.fr/img/guides/guide-tactics.jpg",
+        "width": 1672,
+        "height": 941
+      },
+      "breadcrumb": {
+        "@id": "https://abinexus.fr/pages/guide-avance.html#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://abinexus.fr/pages/guide-avance.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://abinexus.fr/index.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guides"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://abinexus.fr/pages/guide-avance.html#article",
+      "headline": "Guide avancé — Mouvement, angles et décisions…",
+      "description": "Techniques avancées Arena Breakout Infinite : mouvement, peek, gestion des angles, pré-fire, médical sous le feu, timing tiers-partis et prise de décision en…",
+      "image": [
+        "https://abinexus.fr/img/guides/guide-tactics.jpg"
+      ],
+      "datePublished": "2026-09-16",
+      "dateModified": "2026-11-17",
+      "author": {
+        "@id": "https://abinexus.fr/#organization"
+      },
+      "publisher": {
+        "@id": "https://abinexus.fr/#organization"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://abinexus.fr/pages/guide-avance.html#webpage"
+      },
+      "inLanguage": "fr-FR",
+      "isPartOf": {
+        "@id": "https://abinexus.fr/#website"
+      }
+    }
+  ]
+}
+  </script>
+</head><body>
+  <a class="skip-link" href="#contenu" id="lnk-guide-avance-001">Aller au contenu</a>
+  <div class="progress-bar" aria-hidden="true"></div>
+
+  <header class="site-nav">
+    <div class="nav-inner">
+      <a class="logo" href="../index.html" aria-label="ABI NEXUS — Accueil" id="lnk-guide-avance-002">
+        <span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="#C8A84B" stroke-width="2"><path d="M12 2l8 4.5v9L12 20l-8-4.5v-9z"/><path d="M12 22V12M12 12L4 6.5M12 12l8-5.5"/></svg></span>
+        ABI<span class="logo-accent">NEXUS</span>
+      </a>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <div class="has-mega">
+          <a class="nav-link active" href="guide-debutant.html" aria-current="page" id="lnk-guide-avance-003">Guides</a>
+          <div class="mega-menu">
+            <div class="mega-col"><h5>Progression</h5>
+              <a href="guide-debutant.html" id="lnk-guide-avance-004">Guide du débutant</a>
+              <a href="guide-avance.html" id="lnk-guide-avance-005">Guide avancé</a>
+              <a href="guide-progression.html" id="lnk-guide-avance-006">Progression</a>
+              <a href="guide-extraction.html" id="lnk-guide-avance-007">Extraction</a>
+            </div>
+            <div class="mega-col"><h5>Économie</h5>
+              <a href="guide-economie.html" id="lnk-guide-avance-008">Économie Koen</a>
+              <a href="guide-craft.html" id="lnk-guide-avance-009">Craft &amp; Workbench</a>
+              <a href="guide-traders.html" id="lnk-guide-avance-010">Marchands</a>
+            </div>
+            <div class="mega-col"><h5>Stratégie</h5>
+              <a href="meta-stratégies-s7.html" id="lnk-guide-avance-011">Stratégies S7</a>
+              <a href="meta-builds-roles.html" id="lnk-guide-avance-012">Builds par rôle</a>
+              <a href="meta-loadout-optimizer.html" id="lnk-guide-avance-013">Loadout Optimizer</a>
+              <a href="reglages-sensibilite.html" id="lnk-guide-avance-014">Réglages &amp; sensibilité</a>
+            </div>
+          </div>
+        </div>
+        <div class="has-mega">
+          <a class="nav-link" href="armes-fusils-assaut.html" id="lnk-guide-avance-015">Armes</a>
+          <div class="mega-menu">
+            <div class="mega-col"><h5>Catégories</h5>
+              <a href="armes-fusils-assaut.html" id="lnk-guide-avance-016">Fusils d'assaut</a>
+              <a href="armes-dmr.html" id="lnk-guide-avance-017">DMR</a>
+              <a href="armes-smg.html" id="lnk-guide-avance-018">SMG</a>
+              <a href="armes-sniper.html" id="lnk-guide-avance-019">Snipers</a>
+              <a href="armes-shotgun.html" id="lnk-guide-avance-020">Shotguns</a>
+              <a href="armes-pistolets.html" id="lnk-guide-avance-021">Pistolets</a>
+              <a href="armes-lmg.html" id="lnk-guide-avance-022">LMG</a>
+              <a href="armes-carbine.html" id="lnk-guide-avance-023">Carabines</a>
+            </div>
+            <div class="mega-col"><h5>Saison 7</h5>
+              <a href="armes-nouveautes-s7.html" id="lnk-guide-avance-024">A545 &amp; AK-15SC</a>
+              <a href="armes-attachements-s7.html" id="lnk-guide-avance-025">Attachements S7</a>
+              <a href="armes-attachements.html" id="lnk-guide-avance-026">Tous attachements</a>
+            </div>
+            <div class="mega-col"><h5>Méta</h5>
+              <a href="armes-tier-list.html" id="lnk-guide-avance-027">Tier List Armes</a>
+              <a href="armes-builds.html" id="lnk-guide-avance-028">Meilleurs builds</a>
+              <a href="meta-tier-list-globale.html" id="lnk-guide-avance-029">Tier List globale S7</a>
+            </div>
+          </div>
+        </div>
+        <div class="has-mega">
+          <a class="nav-link" href="equipement-armures.html" id="lnk-guide-avance-030">Équipement</a>
+          <div class="mega-menu">
+            <div class="mega-col"><h5>Protection</h5>
+              <a href="equipement-armures.html" id="lnk-guide-avance-031">Armures T1–T6</a>
+              <a href="equipement-casques.html" id="lnk-guide-avance-032">Casques</a>
+              <a href="equipement-rigs.html" id="lnk-guide-avance-033">Rigs</a>
+              <a href="equipement-sacs.html" id="lnk-guide-avance-034">Sacs à dos</a>
+              <a href="equipement-headsets.html" id="lnk-guide-avance-035">Casques audio</a>
+            </div>
+            <div class="mega-col"><h5>Méta</h5>
+              <a href="equipement-tier-list.html" id="lnk-guide-avance-036">Tier List Équipement</a>
+            </div>
+          </div>
+        </div>
+        <div class="has-mega">
+          <a class="nav-link" href="map-farm.html" id="lnk-guide-avance-037">Cartes</a>
+          <div class="mega-menu">
+            <div class="mega-col"><h5>Cartes</h5>
+              <a href="map-farm.html" id="lnk-guide-avance-038">Farm</a>
+              <a href="map-valley.html" id="lnk-guide-avance-039">Valley</a>
+              <a href="map-northridge.html" id="lnk-guide-avance-040">Northridge</a>
+              <a href="map-armory.html" id="lnk-guide-avance-041">Armory</a>
+              <a href="map-tv-station.html" id="lnk-guide-avance-042">TV Station</a>
+              <a href="map-airport.html" id="lnk-guide-avance-043">Airport</a>
+              <a href="map-no-mans-land.html" id="lnk-guide-avance-044">No Man's Land</a>
+            </div>
+          </div>
+        </div>
+        <div class="has-mega">
+          <a class="nav-link" href="items-munitions.html" id="lnk-guide-avance-045">Objets</a>
+          <div class="mega-menu">
+            <div class="mega-col"><h5>Munitions &amp; Valeur</h5>
+              <a href="items-munitions.html" id="lnk-guide-avance-046">Munitions &amp; Pénétration</a>
+              <a href="items-valeur.html" id="lnk-guide-avance-047">Valeur des objets</a>
+              <a href="items-koen-economy.html" id="lnk-guide-avance-048">Koen &amp; Économie</a>
+            </div>
+            <div class="mega-col"><h5>Accès &amp; Production</h5>
+              <a href="items-cles.html" id="lnk-guide-avance-049">Clés &amp; Accès</a>
+              <a href="items-collection-room.html" id="lnk-guide-avance-050">Collection Room</a>
+              <a href="items-craft-workbench.html" id="lnk-guide-avance-051">Craft &amp; Workbench</a>
+            </div>
+            <div class="mega-col"><h5>Soins &amp; Cosmétiques</h5>
+              <a href="items-medical.html" id="lnk-guide-avance-052">Médical &amp; Soins</a>
+              <a href="cosmetiques-skins-armes.html" id="lnk-guide-avance-053">Skins d'armes</a>
+              <a href="cosmetiques-skins-perso.html" id="lnk-guide-avance-054">Cosmétiques de personnage</a>
+              <a href="cosmetiques-dog-tags.html" id="lnk-guide-avance-055">Dog Tags</a>
+            </div>
+          </div>
+        </div>
+        <div class="has-mega">
+          <a class="nav-link" href="saison7-utopia.html" id="lnk-guide-avance-056">Saison 7 <span class="badge badge-s7">Utopia</span></a>
+          <div class="mega-menu">
+            <div class="mega-col"><h5>La saison</h5>
+              <a href="saison7-utopia.html" id="lnk-guide-avance-057">Utopia (S7)</a>
+              <a href="saison7-nouveautes.html" id="lnk-guide-avance-058">Nouveautés S7</a>
+              <a href="saison7-balance-changes.html" id="lnk-guide-avance-059">Balance Changes</a>
+              <a href="saison7-battle-pass.html" id="lnk-guide-avance-060">Battle Pass S7</a>
+            </div>
+            <div class="mega-col"><h5>Modes zombies</h5>
+              <a href="saison7-zombie-infected-zone.html" id="lnk-guide-avance-061">Infected Zone</a>
+              <a href="saison7-zombie-endless.html" id="lnk-guide-avance-062">Zombie Endless</a>
+              <a href="saison7-zombie-research.html" id="lnk-guide-avance-063">Zombie Research</a>
+            </div>
+          </div>
+        </div>
+        <div class="has-mega">
+          <a class="nav-link" href="meta-tier-list-globale.html" id="lnk-guide-avance-064">Méta</a>
+          <div class="mega-menu">
+            <div class="mega-col"><h5>Classements</h5>
+              <a href="meta-tier-list-globale.html" id="lnk-guide-avance-065">Tier List globale S7</a>
+              <a href="meta-builds-roles.html" id="lnk-guide-avance-066">Builds par rôle</a>
+            </div>
+            <div class="mega-col"><h5>Stratégie &amp; Outils</h5>
+              <a href="meta-stratégies-s7.html" id="lnk-guide-avance-067">Stratégies Saison 7</a>
+              <a href="meta-loadout-optimizer.html" id="lnk-guide-avance-068">Loadout Optimizer</a>
+            </div>
+          </div>
+        </div>
+        <div class="has-mega">
+          <a class="nav-link" href="univers-lore.html" id="lnk-guide-avance-069">Univers</a>
+          <div class="mega-menu">
+            <div class="mega-col"><h5>Univers de Kamona</h5>
+              <a href="univers-lore.html" id="lnk-guide-avance-070">Histoire &amp; chronologie</a>
+              <a href="univers-factions.html" id="lnk-guide-avance-071">Factions &amp; personnages</a>
+              <a href="univers-dark-zone.html" id="lnk-guide-avance-072">La Dark Zone</a>
+            </div>
+            <div class="mega-col"><h5>Sur le terrain</h5>
+              <a href="map-tv-station.html" id="lnk-guide-avance-073">TV Station</a>
+              <a href="map-armory.html" id="lnk-guide-avance-074">Armory</a>
+              <a href="map-farm.html" id="lnk-guide-avance-075">Farm</a>
+              <a href="saison7-utopia.html" id="lnk-guide-avance-076">Utopia (S7)</a>
+            </div>
+          </div>
+        </div>
+        <!--S13-NAV-->
+        <div class="has-mega">
+          <a class="nav-link" href="events-calendrier.html" id="lnk-guide-avance-077">Événements</a>
+          <div class="mega-menu">
+            <div class="mega-col"><h5>Saison 7 : Utopia</h5>
+              <a href="events-calendrier.html" id="lnk-guide-avance-078">Calendrier &amp; échéances</a>
+              <a href="events-supplies-drops.html" id="lnk-guide-avance-079">Supply Drops 2.0</a>
+              <a href="events-warlord-tournament.html" id="lnk-guide-avance-080">Warlord Tournament III</a>
+            </div>
+            <div class="mega-col"><h5>Événements majeurs</h5>
+              <a href="saison7-utopia.html" id="lnk-guide-avance-081">Utopia (S7)</a>
+              <a href="saison7-battle-pass.html" id="lnk-guide-avance-082">Battle Pass S7</a>
+              <a href="saison7-zombie-infected-zone.html" id="lnk-guide-avance-083">Infected Zone</a>
+            </div>
+          </div>
+        </div>
+        <!--/S13-NAV-->
+        <!--S14-NAV-->
+        <div class="has-mega">
+          <a class="nav-link" href="communaute-ressources.html" id="lnk-guide-avance-084">Communauté</a>
+          <div class="mega-menu">
+            <div class="mega-col"><h5>Ressources</h5>
+              <a href="communaute-ressources.html" id="lnk-guide-avance-085">Ressources communautaires</a>
+              <a href="communaute-patch-notes.html" id="lnk-guide-avance-086">Patch notes &amp; mises à jour</a>
+              <a href="communaute-streamers.html" id="lnk-guide-avance-087">Streamers &amp; créateurs</a>
+            </div>
+            <div class="mega-col"><h5>Créateurs &amp; Patch notes</h5>
+              <a href="meta-stratégies-s7.html" id="lnk-guide-avance-088">Stratégies S7</a>
+              <a href="saison7-utopia.html" id="lnk-guide-avance-089">Utopia (S7)</a>
+              <a href="guide-craft.html" id="lnk-guide-avance-090">Craft &amp; Workbench</a>
+            </div>
+          </div>
+        </div>
+        <!--/S14-NAV-->
+      </nav>
+      <div class="nav-actions">
+        <button class="nav-icon-btn" data-theme-toggle aria-label="Basculer le thème">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+        <a class="btn btn-primary btn-sm" href="meta-loadout-optimizer.html" id="lnk-guide-avance-091">Loadout Builder</a>
+        <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenu" class="section">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Fil d'Ariane">
+        <a href="../index.html" id="lnk-guide-avance-092">Accueil</a><span class="sep">/</span>
+        <a href="guide-debutant.html" id="lnk-guide-avance-093">Guides</a><span class="sep">/</span>
+        <span aria-current="page">Guide avancé</span>
+      </nav>
+
+      <header class="page-head">
+        <p class="eyebrow">Série Guides — 02</p>
+        <h1>Guide avancé :<br>penser comme un vétéran</h1>
+        <p class="page-sub">Le skill gap d'ABI ne se joue pas au aim, mais à la <strong>gestion de l'information, des angles et du risque</strong>. Voici les mécaniques qui transforment un fragger correct en joueur craint de tous les lobbies.</p>
+      </header>
+
+      <div class="page-layout">
+        <article class="content-col">
+          <figure class="page-figure">
+            <img width="1672" height="941" src="../img/guides/guide-tactics.jpg" alt="Deux opérateurs avançant en formation tactique dans un couloir en ruine" loading="lazy" decoding="async">
+            <figcaption>La moitié des duels sont gagnés avant qu'une balle ne soit tirée : position, information, surprise.</figcaption>
+          </figure>
+
+          <h2 id="mouvement">1. Mouvement : la discrétion est une arme</h2>
+          <ul>
+            <li><strong>Crouch-walk systématique</strong> en zone contestée : la vitesse de sprint est audible à 30+ mètres ; la marche accroupie réduit le rayon de détection sonore de moitié.</li>
+            <li><strong>Changez d'angle après chaque engagement</strong> : un ennemi qui a vu votre position pré-visera votre réapparition. Le peek doit toujours être latéral (shoulder peek), jamais vertical tant que le niveau le permet.</li>
+            <li><strong>Lean (Q / E)</strong> : exposez 20 % de votre corps, pas 100 %. C'est la différence entre être touché et ne pas l'être.</li>
+            <li><strong>Jiggle peek</strong> pour forcer l'ennemi à se révéler ; <strong>wide peek</strong> pour engager quand vous avez l'avantage d'information.</li>
+            <li><strong>Stamina</strong> : ne jamais arriver au combat en sprint. Un personnage essoufflé tire moins vite et vise moins juste.</li>
+          </ul>
+
+          <h2 id="angles">2. Gestion des angles : la géométrie du combat</h2>
+          <p>Chaque angle se divise en trois zones : <strong>near</strong> (0–15 m), <strong>mid</strong> (15–60 m), <strong>far</strong> (60 m+). Un bon ABI player ne combat jamais sur le timing de l'ennemi :</p>
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead><tr><th>Angle</th><th>Mentalité</th><th>Action</th></tr></thead>
+              <tbody>
+                <tr><td>Angle mort piqué</td><td>L'ennemi sait que vous savez</td><td>Pré-fire ou nade, jamais un peek « au cas où »</td></tr>
+                <tr><td>Angle ouvert long</td><td>Avantage au premier tir</td><td>Hold + headshot renforcé S7 = duel gagné</td></tr>
+                <tr><td>Angle aveugle double</td><td>Deux menaces superposées</td><td>Clear dans l'ordre, jamais les deux en même temps</td></tr>
+                <tr><td>Angle de repli</td><td>Porte de sortie</td><td>Identifiez-la AVANT chaque engagement</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="callout callout-warning">
+            <h3 class="h4">La règle d'or du S7</h3>
+            <p>La Saison 7 a <strong>augmenté la portée effective des armes</strong> et <strong>renforcé les headshots</strong>. Tenir un angle long n'a jamais été aussi rentable — et sprinter dans un couloir ouvert jamais aussi risqué.</p>
+          </div>
+          <div class="callout callout-info">
+            <h3 class="h4">Avant de jouer : les réglages</h3>
+            <p>La gestuelle ne vaut que si le client ne vous trahit pas. <strong>La sensibilité se règle par grossissement</strong>, le <strong>Focal Point</strong> — le point central — vous donne un repère de hip-fire à condition de connaître son décalage, et le preset de visibilité décide si vous voyez un ennemi à 40 mètres. Le détail de chaque réglage est dans le guide dédié : <a href="reglages-sensibilite.html" id="lnk-guide-avance-094">Réglages &amp; sensibilité</a>.</p>
+          </div>
+
+          <h2 id="info">3. Information : gagner avant le combat</h2>
+          <ul>
+            <li><strong>Headset &gt; tout</strong> : un bon casque audio (voir notre <a href="equipement-headsets.html" id="lnk-guide-avance-095">guide dédié</a>) révèle les pas à travers les murs fins. Priorisez-le sur une armure de plus.</li>
+            <li><strong>Beacons sonores</strong> : munitions tirées = position révélée. Après 1-2 chargeurs ennemis, vous connaissez la zone à ±10 m.</li>
+            <li><strong>Timer tiers-partis</strong> : le combat moyen dure 45–90 secondes. Le troisième larron arrive à l'expiration. Ne looter pas à ce moment-là : surveillez.</li>
+            <li><strong>Dogtags</strong> : en S7, l'inspection des dogtags a été améliorée. Elles servent de preuve de kill mais aussi de monnaie d'extraction (Valley Helipad : 2 dogtags requis).</li>
+            <li><strong>Bruit des extracteurs</strong> : une extraction active attire les joueurs en rotation. Approchez par l'arrière, jamais de face.</li>
+          </ul>
+
+          <h2 id="medical">4. Médical sous le feu : l'ordre des priorités</h2>
+          <ol>
+            <li><strong>Stopper le saignement</strong> (garrot / bandage compressif) — première seconde.</li>
+            <li><strong>Fractures</strong> (attelle) — la mobilité avant tout.</li>
+            <li><strong>HP jusqu'au seuil de survie</strong> — pas au max, juste au-dessus du dégât prochain attendu.</li>
+            <li><strong>Antalgiques</strong> (analgésiques) — pour la vitesse et l'anti-douleur en S7 où les hits aux jambes sont dévastateurs.</li>
+            <li><strong>Stims régénérantes</strong> — en combat prolongé, pas en extraction : chaque seconde compte.</li>
+          </ol>
+          <div class="callout callout-success">
+            <h3 class="h4">Astuce de vétéran</h3>
+            <p>Pré-médication + Hidden Compartment (Core Mastery S7) = un mid-raid heal silencieux sans jamais ouvrir l'inventaire principal. Combinez avec Acoustic Earpads pour neutraliser les pics sonores.</p>
+          </div>
+
+          <h3 id="matrice-posture">Trois postures, trois conséquences</h3>
+          <p>Avant de décider si vous combattez, vous devez déjà savoir dans quelle
+          posture vous êtes. La posture est le résultat de trois variables, et elle
+          décide de ce que vous pouvez faire dans les cinq secondes qui suivent le
+          premier contact.</p>
+          <div class="table-wrap">
+            <table class="data-table">
+              <caption>Posture et capacité de réponse</caption>
+              <thead><tr><th scope="col">Posture</th><th scope="col">Condition</th>
+              <th scope="col">Ce que vous pouvez faire</th><th scope="col">Ce que
+              vous ne pouvez pas faire</th></tr></thead>
+              <tbody>
+                <tr><td><strong>Stable</strong></td>
+                <td>Arme pointée, angle dégagé, issue connue</td>
+                <td>Tirer le premier, prendre l'angle, engager</td>
+                <td>Rester exposé plus d'une seconde</td></tr>
+                <tr><td><strong>Fragile</strong></td>
+                <td>En mouvement, sans issue identifiée, ou sous le feu</td>
+                <td>Se déplacer, chercher un angle, se replier</td>
+                <td>Tirer sans cible identifiée</td></tr>
+                <tr><td><strong>Engagé</strong></td>
+                <td>Échange de tirs déjà commencé</td>
+                <td>Rompre l'échange, gagner l'angle, décider vite</td>
+                <td>Reculer en arrière : c'est reculer de profil</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="callout callout-warning">
+            <p><strong>L'erreur la plus fréquente des joueurs intermédiaires</strong>
+            est de tirer dans la posture <em>fragile</em>. Un tir sans cible
+            identifiée ne se défend pas et ne s'annule pas : il révèle votre
+            position, consomme votre munition et informe l'adversaire. Dans la
+            posture fragile, le seul tir acceptable est le tir de riposte, celui qui
+            répond à un tir déjà reçu.</p>
+          </div>
+
+<h2 id="missions-sautables">Les trois sections de mission qu'il vaut mieux sauter</h2>
+          <p>La progression de faction passe par des sections de mission, et
+          trois d'entre elles sont  les plus pénibles du
+          jeu au regard de ce qu'elles rapportent. Les sauter est un choix
+          rationnel, pas une triche.</p>
+          <div class="table-wrap">
+            <table class="data-table">
+              <caption>Les sections de mission à contourner — ce qu'elles coûtent</caption>
+              <thead><tr><th scope="col">Section</th><th scope="col">Ce qu'elle impose</th>
+              <th scope="col">Coût réel</th></tr></thead>
+              <tbody>
+                <tr><td><strong>Exploration souterraine</strong></td>
+                <td>Survivre à dix extractions en mission urgente</td>
+                <td>Le trafic des zones à forte affluence en fait un goulot
+                d'étranglement économique</td></tr>
+                <tr><td><strong>Perturbation interne</strong></td>
+                <td>Extraire par un ascenseur de second étage très exposé, avec
+                restriction des grenades</td>
+                <td>Un piège à wipe d'équipe : l'ascenseur est un couloir préparé
+                et la restriction supprime votre réponse</td></tr>
+                <tr><td><strong>Interférences de communication</strong></td>
+                <td>Interagir avec un marchand précis dix fois, avec un plafond
+                de deux interactions par déploiement</td>
+                <td>Cinq raids minimum, pour un reward final faible</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>Le principe commun aux trois : elles imposent soit un risque
+          disproportionné, soit une répétition mécanique qui coûte plus de
+          temps qu'elle ne rapporte de progression. L'option de contournement
+          existe pour chacune. Les ressources restantes à commercer avec se répartit sur
+          les sections qui ne demandent ni position exposée ni répétition.</p>
+          <div class="callout callout-warning">
+            <p><strong>Statut de cette information :</strong> retour
+            communautaire. Un guide de survie de Saison 7 publié sur Reddit
+            signale ces trois sections et l'existence d'une option de
+            contournement. Les notes officielles de saison ne détaillent pas
+            section par section, donc vérifiez dans votre propre interface que
+            l'option est bien active avant de foncer.</p>
+          </div>
+
+          <h2 id="style-solo">Jouer seul : la discipline qui rend le solo viable</h2>
+          <p>Le jeu n'offre pas de file solo : vous êtes toujours matché contre
+          des équipes. Mais la valeur extraite en solo est statistiquement
+          <strong>supérieure</strong>, puisque vous ne partagez rien. Trois règles
+          suffisent à en profiter.</p>
+          <ol>
+            <li><strong>Les fumées d'abord.</strong> Le conseil le plus répété des
+            joueurs solitaires : beaucoup de fumées, un tir, puis un déplacement.
+            La fumée coupe la ligne de vue de l'équipe adverse pendant que vous
+            supprimez un membre, et vous vous repositionnez avant qu'ils ne vous reacquièrent.</li>
+            <li><strong>Se repositionner après chaque tir.</strong> Dès que vous
+            tirez, votre position est connue. Un joueur solitaire qui reste
+            immobile contre une équipe est un joueur solitaire qui meurt du
+            flanc.</li>
+            <li><strong>Combattre pour la sortie, pas pour la carte.</strong>
+            Remplissez le sac sur un ou deux kills et partez. Chaque minute
+            supplémentaire en raid est une minute de plus pendant laquelle une
+            équipe converge vers vous.</li>
+          </ol>
+          <p>Si vous voulez la valeur la plus forte en mode PvE sans le risque
+          PvP, la réponse est le <strong>Secteur hostile</strong> sur Farm et
+          Northridge, où les équipes ne peuvent pas s'infliger de dégâts, et
+          l'<strong>Infiltration solo</strong> par tickets, qui donne accès à la
+          carte en solo ou en équipe réduite. La queue solo n'existe pas, mais
+          l'Infiltration solo si.</p>
+
+<h2 id="decision">5. La matrice de décision : combattre ou disparaître ?</h2>
+          <p>Avant chaque engagement, posez-vous quatre questions. Deux « non » = disengage.</p>
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead><tr><th>Question</th><th>Si NON</th></tr></thead>
+              <tbody>
+                <tr><td>Ai-je le meilleur angle ou la surprise ?</td><td>Changez de position ou contournez</td></tr>
+                <tr><td>Ai-je assez de HP / munitions pour 2 duels ?</td><td>Battez en retraite, heal, revenez</td></tr>
+                <tr><td>Le loot potentiel justifie-t-il le risque ?</td><td>Laissez le corps, gardez votre stash</td></tr>
+                <tr><td>Un tiers-parti arrive-t-il après ?</td><td>Terminez vite ou disparaissez</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 id="criteres-sortie">Les quatre questions à se poser avant d'entrer</h3>
+          <p>L'économie se décide avant l'extraction, pas pendant. Quatre questions
+          suffisent à trancher, et elles se posent dans cet ordre.</p>
+          <ol>
+            <li><strong>Quel est mon objectif de raid, en objets et non en Koen ?</strong>
+            Une mission précise justifie un risque précis. Un raid « pour voir » se
+            termine en perte sèche dans plus de la moitié des cas.</li>
+            <li><strong>Quel est le coût total de mon échec ?</strong> Valeur de
+            l'équipement, munitions consommées, clé perdue. Si ce total dépasse ce
+            que le raid peut rapporter, le raid est perdant avant même de
+            commencer.</li>
+            <li><strong>Quelle est ma marge de sortie ?</strong> Combien d'options
+            ai-je de quitter la zone sans combat ? Une seule, c'est un piège : il
+            faut toujours pouvoir partir sans tirer.</li>
+            <li><strong>Quel est mon seuil d'engagement ?</strong> À partir de
+            quel point je décroche ? Ce seuil doit être écrit avant le raid, sinon
+            c'est l'orgueil qui le fixe au moment de l'affrontement.</li>
+          </ol>
+          <div class="callout callout-info">
+            <p><strong>Le seuil d'engagement est le seul de ces quatre éléments que
+            les joueurs ne définissent jamais à l'avance, et c'est le plus
+            déterminant.</strong> Un seuil écrit, même approximatif, transforme un
+            duel perdu en raid terminé. La règle la plus rentable du jeu tient en une
+            phrase : partir avant d'être engagé coûte presque toujours moins cher
+            que gagner un combat que vous ne saviez pas éviter.</p>
+          </div>
+
+<h2 id="economie-combat">6. L'économie au combat</h2>
+          <p>Chaque balle a un coût. Les vétérans ne gaspillent pas : ils tirent en rafales contrôlées, visent la tête (S7 buff), et ne poursuivent jamais un ennemi hors de leur zone de confort. Un combat gagné à 100 munitions = victoire ; un combat gagné à 400 = stash en danger.</p>
+          <div class="callout callout-biohazard">
+            <h3 class="h4">Saison 7 : le nouveau meta</h3>
+            <p>Avec la suppression du RNG de pénétration T5/T6, les duels haut de gamme sont plus lisibles : la <strong>meilleure munition gagne presque toujours</strong>. Plus de « j'ai perdu contre du T5 qui passait pas ». Lisez notre <a href="../pages/saison7-balance-changes.html" id="lnk-guide-avance-096">analyse complète des balance changes</a>.</p>
+          </div>
+
+          <div class="callout callout-success">
+            <h4>Prochaine étape</h4>
+            <p>Maîtrisez l'art de la sortie : <a href="guide-extraction.html" id="lnk-guide-avance-097">Guide Extraction</a> — les rituels, les pièges et les timings qui font la différence entre un raid réussi et un raid raté.</p>
+          </div>
+        </article>
+        <aside class="toc" aria-label="Sommaire">
+          <h4>Sommaire</h4>
+          <a href="#mouvement" id="lnk-guide-avance-098">1. Mouvement</a>
+          <a href="#angles" id="lnk-guide-avance-099">2. Gestion des angles</a>
+          <a href="#info" id="lnk-guide-avance-100">3. Information &amp; audio</a>
+          <a href="#medical" id="lnk-guide-avance-101">4. Médical sous le feu</a>
+          <a href="#decision" id="lnk-guide-avance-102">5. Combattre ou fuir</a>
+          <a href="#economie-combat" id="lnk-guide-avance-103">6. Économie au combat</a>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="../index.html" id="lnk-guide-avance-104"><span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="#C8A84B" stroke-width="2"><path d="M12 2l8 4.5v9L12 20l-8-4.5v-9z"/></svg></span>ABI<span class="logo-accent">NEXUS</span></a>
+          <p class="mt-md">Le guide de référence ultime d'Arena Breakout Infinite. Toutes les armes, armures, cartes, stratégies et les nouveautés de la Saison 7 : Utopia.</p>
+          <p class="small text-muted mt-sm">Dernière mise à jour : <span data-updated>17 novembre 2026</span></p>
+        </div>
+        <div class="footer-col"><h5>Guides</h5>
+          <a href="guide-debutant.html" id="lnk-guide-avance-105">Débutant</a><a href="guide-avance.html" id="lnk-guide-avance-106">Avancé</a>
+          <a href="guide-extraction.html" id="lnk-guide-avance-107">Extraction</a><a href="guide-economie.html" id="lnk-guide-avance-108">Économie</a>
+          <a href="guide-craft.html" id="lnk-guide-avance-109">Craft</a><a href="guide-traders.html" id="lnk-guide-avance-110">Marchands</a>
+        </div>
+        <div class="footer-col"><h5>Armes &amp; Équipement</h5>
+          <a href="armes-fusils-assaut.html" id="lnk-guide-avance-111">Fusils d'assaut</a><a href="armes-tier-list.html" id="lnk-guide-avance-112">Tier List Armes</a>
+          <a href="equipement-armures.html" id="lnk-guide-avance-113">Armures</a><a href="equipement-tier-list.html" id="lnk-guide-avance-114">Tier List Équipement</a>
+          <a href="items-munitions.html" id="lnk-guide-avance-115">Munitions</a><a href="items-valeur.html" id="lnk-guide-avance-116">Loot rouge</a>
+        </div>
+        <div class="footer-col"><h5>Saison 7 : Utopia</h5>
+          <a href="saison7-utopia.html" id="lnk-guide-avance-117">Hub S7</a><a href="saison8-attente.html" id="lnk-guide-avance-118">Saison 8 : ce qui arrive</a><a href="saison7-zombie-infected-zone.html" id="lnk-guide-avance-119">Infected Zone</a>
+          <a href="saison7-zombie-endless.html" id="lnk-guide-avance-120">Zombie Endless</a><a href="saison7-zombie-research.html" id="lnk-guide-avance-121">Zombie Research</a>
+          <a href="saison7-balance-changes.html" id="lnk-guide-avance-122">Balance Changes</a><a href="saison7-battle-pass.html" id="lnk-guide-avance-123">Battle Pass</a>
+        </div>
+        <div class="footer-col"><h5>Univers</h5>
+          <a href="univers-lore.html" id="lnk-guide-avance-124">Histoire de Kamona</a><a href="univers-factions.html" id="lnk-guide-avance-125">Factions</a>
+          <a href="univers-dark-zone.html" id="lnk-guide-avance-126">La Dark Zone</a><a href="meta-stratégies-s7.html" id="lnk-guide-avance-127">Stratégies S7</a>
+        </div>
+        <!--S13-FOOTER-->
+        <div class="footer-col"><h5>Événements</h5>
+          <a href="events-calendrier.html" id="lnk-guide-avance-128">Calendrier S7</a><a href="events-supplies-drops.html" id="lnk-guide-avance-129">Supply Drops 2.0</a>
+          <a href="events-warlord-tournament.html" id="lnk-guide-avance-130">Warlord Tournament III</a><a href="meta-stratégies-s7.html" id="lnk-guide-avance-131">Stratégies S7</a>
+        </div>
+        <!--/S13-FOOTER-->
+        <!--S14-FOOTER-->
+        <div class="footer-col"><h5>Communauté</h5>
+          <a href="communaute-ressources.html" id="lnk-guide-avance-132">Ressources</a><a href="communaute-streamers.html" id="lnk-guide-avance-133">Streamers</a>
+          <a href="communaute-patch-notes.html" id="lnk-guide-avance-134">Patch notes</a><a href="meta-stratégies-s7.html" id="lnk-guide-avance-135">Stratégies S7</a>
+        </div>
+        <!--/S14-FOOTER-->
+        <div class="footer-col"><h5>Officiel</h5>
+          <a href="https://www.arenabreakoutinfinite.com/" target="_blank" rel="noopener" id="lnk-guide-avance-136">Site officiel ABI<span class="sr-only"> (nouvel onglet)</span></a>
+          <a href="https://x.com/ArenaBreakoutPC" target="_blank" rel="noopener" id="lnk-guide-avance-137">X / Twitter<span class="sr-only"> (nouvel onglet)</span></a>
+          <a href="https://www.youtube.com/@ArenaBreakoutInfinite" target="_blank" rel="noopener" id="lnk-guide-avance-138">YouTube officiel<span class="sr-only"> (nouvel onglet)</span></a>
+          <a href="https://discord.gg/arenabreakoutinfinite" target="_blank" rel="noopener" id="lnk-guide-avance-139">Discord officiel<span class="sr-only"> (nouvel onglet)</span></a>
+          <a href="https://www.reddit.com/r/ArenaBreakoutInfinite/" target="_blank" rel="noopener" id="lnk-guide-avance-140">Reddit r/ArenaBreakoutInfinite<span class="sr-only"> (nouvel onglet)</span></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="disclaimer">ABI NEXUS est un guide communautaire non officiel. Arena Breakout Infinite est une marque de MoreFun Studios. Toutes les informations sont compilées depuis des sources publiques et peuvent évoluer à chaque patch. Jouez responsable, extrayez vivant.</p>
+        <p>© <span data-year>2026</span> ABI NEXUS — Exfiltration réussie ou mort en essayant. 🎖️</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="audio-narration" data-track="../audio/narration-guide-avance.mp3" data-label="Narration : Guide avance">
+    <button aria-label="Ecouter la narration"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
+    <span class="audio-label">Narration</span>
+    <span class="audio-bar"><span class="audio-bar-fill"></span></span>
+  </div>
+  <div class="audio-player" data-track="../audio/ambiance-menu.mp3" data-label="Briefing">
+    <button aria-label="Lecture / Pause du briefing"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
+    <span class="audio-label">Briefing</span>
+    <input type="range" min="0" max="1" step="0.05" value="0.5" aria-label="Volume">
+  </div>
+  <button class="back-to-top" aria-label="Retour en haut"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+
+  <script src="../js/navigation.js" defer></script>
+  <script src="../js/main.js" defer></script>
+  <script src="../js/search.js" defer></script>
+</body>
+</html>

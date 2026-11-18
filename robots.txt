@@ -1,0 +1,52 @@
+# robots.txt — ABI NEXUS — Guide Arena Breakout Infinite
+# Mis a jour le 2026-11-17
+#
+# Regle de base : robots.txt controle l'exploration, pas l'indexation.
+# Pour desinterdire une page de l'index, il faut une balise meta robots=noindex
+# sur une page que le robot peut au contraire lire.
+#
+# Les robots de recherche classiques (Googlebot, Bingbot) sont autorises :
+# le guide doit etre trouvable et citable.
+# Les robots d'entrainement IA sont bloques : le contenu reste cite
+# (PerplexityBot, AI Overviews) mais n'alimente pas les corpus d'entrainement.
+# Pour inverser ce choix, editez tools/seo_config.py puis relancez ce script.
+
+User-agent: *
+Allow: /
+Disallow: /tools/
+Disallow: /backup/
+
+# ── Robots d'entrainement IA (bloques) ──────────────────────────
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+# ── Robots de citation (autorises) ──────────────────────────────
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# ── Sitemaps ───────────────────────────────────────────────────
+Sitemap: https://abinexus.fr/sitemap.xml

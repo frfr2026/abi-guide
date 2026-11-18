@@ -1,0 +1,2553 @@
+{
+ "note": "Catalogue des visuels a produire. Regle stricte : JPG uniquement (jamais PNG, jamais SVG, jamais WebP). Maximum 10 visuels par reponse. Style impose : photorealiste, cinematique, immersif, haute qualite. Les 194 artworks officiels de l'editeur restent volontairement en 1024x1024 et ne sont jamais regeneres.",
+ "regles": [
+  "JPG exclusivement : aucun PNG, aucun SVG, aucun WebP.",
+  "Maximum 10 visuels par reponse.",
+  "Style photorealiste, cinematique, immersif, haute qualite.",
+  "Les artworks officiels 1024x1024 sont preserves intacts.",
+  "Fichiers remplacants suffixes -cine.jpg ; purge des anciennes versions.",
+  "Le catalogue est reconstruit par tools/rebuild_pending_visuals.py a partir du reel."
+ ],
+ "compteurs": {
+  "jpg_total": 353,
+  "png": 0,
+  "svg": 0,
+  "webp": 0,
+  "gif": 0,
+  "mp3_total": 67,
+  "pages_editoriales": 65,
+  "pages_narrees": 65
+ },
+ "produits": [
+  {
+   "fichier": "img/ammo/45ap.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/45fmj.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/45hs.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/545bp.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/545bs.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/545hp.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/545pp.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/545ps.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/762ps.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/7bt1.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/7n12.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/7n31.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/7n37.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/7n9.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/ap63.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/ap762.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/apslug.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/bp762.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/bpz.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/dumdum.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/flechette.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/gtslug.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/l191.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/lps.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/m61.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/m62.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/m80.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/m855.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/m855a1.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/m995.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/pso.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/pst9.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/ripslug.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/snb.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/sp5.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/sp6.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/ss190.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/ss197sr.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/ss198.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/t45m.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/t46m.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ammo/type5.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/a545.jpg",
+   "page": "img/armes/a545.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/aek971.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/ak12.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/ak15sc.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/an-94.jpg",
+   "page": "img/armes/an-94.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/an94.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/banshee.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/fal.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/h416.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/m110.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/m24.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/m4a1.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/mk14.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/mosin.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/mpx.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/p90.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/pcc9.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/rpk16.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/sj16.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/sks.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/t88.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/u191.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/usas12.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-a545.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-aek971.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-ak12.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-ak15sc.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-an94.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-banshee.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-fal.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-h416.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-m110.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-m24.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-m4a1.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-mk14.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-mosin.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-mpx.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-p90.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-pcc9.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-rpk16.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-sj16.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-sks.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-t88.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-u191.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-usas12.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-vector.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/var-vss.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/vector.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/vis-ak15sc-cinematique.jpg",
+   "page": "img/armes/vis-ak15sc-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/vis-assaut.jpg",
+   "page": "img/armes/vis-assaut.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/vis-attachements-s7.jpg",
+   "page": "img/armes/vis-attachements-s7.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/vis-attachements.jpg",
+   "page": "img/armes/vis-attachements.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/vis-builds.jpg",
+   "page": "img/armes/vis-builds.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/vis-carbine.jpg",
+   "page": "img/armes/vis-carbine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/vis-dmr.jpg",
+   "page": "img/armes/vis-dmr.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/vis-fal-cinematique.jpg",
+   "page": "img/armes/vis-fal-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/vis-lmg.jpg",
+   "page": "img/armes/vis-lmg.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/vis-nouveautes.jpg",
+   "page": "img/armes/vis-nouveautes.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/vis-pistolets.jpg",
+   "page": "img/armes/vis-pistolets.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/vis-shotgun.jpg",
+   "page": "img/armes/vis-shotgun.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/vis-skins-armes-cinematique.jpg",
+   "page": "img/armes/vis-skins-armes-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/vis-smg.jpg",
+   "page": "img/armes/vis-smg.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/vis-sniper.jpg",
+   "page": "img/armes/vis-sniper.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/vis-tierlist-cinematique.jpg",
+   "page": "img/armes/vis-tierlist-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armes/vss.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armures/6b12.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armures/6b13.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armures/6b2.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armures/6b23.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armures/6b43.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armures/6b45.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armures/6b62.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armures/926composite.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armures/armor-t6.jpg",
+   "page": "img/armures/armor-t6.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armures/backpack.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armures/bt101.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armures/bt5.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armures/bt6.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armures/headset.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armures/helmet-t4.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armures/helmet-t6.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armures/hvk.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armures/kn.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armures/rig-cqb.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armures/tacticalvest.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/armures/vest-t5.jpg",
+   "page": "img/armures/vest-t5.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/cards/card-a545-cine.jpg",
+   "page": "img/cards/card-a545-cine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/cards/card-airport-cine.jpg",
+   "page": "img/cards/card-airport-cine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/cards/card-armor-cine.jpg",
+   "page": "img/cards/card-armor-cine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/cards/card-armory-cine.jpg",
+   "page": "img/cards/card-armory-cine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/cards/card-arms-cine.jpg",
+   "page": "img/cards/card-arms-cine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/cards/card-bench-cine.jpg",
+   "page": "img/cards/card-bench-cine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/cards/card-build-cine.jpg",
+   "page": "img/cards/card-build-cine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/cards/card-compare-cine.jpg",
+   "page": "img/cards/card-compare-cine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/cards/card-elysium-cine.jpg",
+   "page": "img/cards/card-elysium-cine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/cards/card-farm-cine.jpg",
+   "page": "img/cards/card-farm-cine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/cards/card-farmzone-cine.jpg",
+   "page": "img/cards/card-farmzone-cine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/cards/card-infected-cine.jpg",
+   "page": "img/cards/card-infected-cine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/cards/card-meta-cine.jpg",
+   "page": "img/cards/card-meta-cine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/cards/card-meta2-cine.jpg",
+   "page": "img/cards/card-meta2-cine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/cards/card-meta3-cine.jpg",
+   "page": "img/cards/card-meta3-cine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/cards/card-northridge-cine.jpg",
+   "page": "img/cards/card-northridge-cine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/cards/card-operator-cine.jpg",
+   "page": "img/cards/card-operator-cine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/cards/card-tvstation-cine.jpg",
+   "page": "img/cards/card-tvstation-cine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/cards/card-utopia-cine.jpg",
+   "page": "img/cards/card-utopia-cine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/cards/card-valley-cine.jpg",
+   "page": "img/cards/card-valley-cine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/cards/var-nml.jpg",
+   "page": "img/cards/var-nml.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/communaute/clan-meetup.jpg",
+   "page": "img/communaute/clan-meetup.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/communaute/database-workstation.jpg",
+   "page": "img/communaute/database-workstation.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/communaute/discord-voice.jpg",
+   "page": "img/communaute/discord-voice.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/communaute/forum-discussion.jpg",
+   "page": "img/communaute/forum-discussion.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/communaute/market-tracking.jpg",
+   "page": "img/communaute/market-tracking.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/communaute/mentor-program.jpg",
+   "page": "img/communaute/mentor-program.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/communaute/opensource-code.jpg",
+   "page": "img/communaute/opensource-code.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/communaute/patch-notes.jpg",
+   "page": "img/communaute/patch-notes.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/communaute/streamer-setup.jpg",
+   "page": "img/communaute/streamer-setup.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/communaute/tournament-broadcast.jpg",
+   "page": "img/communaute/tournament-broadcast.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/communaute/vis-patch-cinematique.jpg",
+   "page": "img/communaute/vis-patch-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/communaute/vis-ressources-cinematique.jpg",
+   "page": "img/communaute/vis-ressources-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/communaute/vis-streamers-cinematique.jpg",
+   "page": "img/communaute/vis-streamers-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/equipement/vis-armures-cinematique.jpg",
+   "page": "img/equipement/vis-armures-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/events/dim-sum-market.jpg",
+   "page": "img/events/dim-sum-market.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/events/encrypted-file.jpg",
+   "page": "img/events/encrypted-file.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/events/extermination-hazmat.jpg",
+   "page": "img/events/extermination-hazmat.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/events/investigation-drawers.jpg",
+   "page": "img/events/investigation-drawers.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/events/loot-fest-arena.jpg",
+   "page": "img/events/loot-fest-arena.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/events/pumpkin-halloween.jpg",
+   "page": "img/events/pumpkin-halloween.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/events/reward-crate-terminal.jpg",
+   "page": "img/events/reward-crate-terminal.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/events/s7-battle-pass.jpg",
+   "page": "img/events/s7-battle-pass.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/events/s7-nouveautes.jpg",
+   "page": "img/events/s7-nouveautes.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/events/s7-utopia-keyart.jpg",
+   "page": "img/events/s7-utopia-keyart.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/events/smelter-forge.jpg",
+   "page": "img/events/smelter-forge.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/events/supply-drops-airdrop.jpg",
+   "page": "img/events/supply-drops-airdrop.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/events/var-s7news-cinematique.jpg",
+   "page": "img/events/var-s7news-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/events/vis-attente-s8.jpg",
+   "page": "img/events/vis-attente-s8.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/events/vis-calendrier-cinematique.jpg",
+   "page": "img/events/vis-calendrier-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/events/vis-s7news-cinematique.jpg",
+   "page": "img/events/vis-s7news-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/events/vis-supplies-cinematique.jpg",
+   "page": "img/events/vis-supplies-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/events/vis-warlord-cinematique.jpg",
+   "page": "img/events/vis-warlord-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/events/warlord-tournament.jpg",
+   "page": "img/events/warlord-tournament.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/bag-canvas.jpg",
+   "page": "img/gear/bag-canvas.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/bag-chapman.jpg",
+   "page": "img/gear/bag-chapman.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/bag-cowhide.jpg",
+   "page": "img/gear/bag-cowhide.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/bag-duffle.jpg",
+   "page": "img/gear/bag-duffle.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/bag-large.jpg",
+   "page": "img/gear/bag-large.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/bag-lightweight.jpg",
+   "page": "img/gear/bag-lightweight.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/bag-luc.jpg",
+   "page": "img/gear/bag-luc.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/bag-med.jpg",
+   "page": "img/gear/bag-med.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/bag-rush.jpg",
+   "page": "img/gear/bag-rush.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/bag-simple.jpg",
+   "page": "img/gear/bag-simple.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/bag-sling.jpg",
+   "page": "img/gear/bag-sling.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/bag-sports.jpg",
+   "page": "img/gear/bag-sports.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/headset-cmd.jpg",
+   "page": "img/gear/headset-cmd.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/headset-com1.jpg",
+   "page": "img/gear/headset-com1.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/headset-gs2.jpg",
+   "page": "img/gear/headset-gs2.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/headset-m32.jpg",
+   "page": "img/gear/headset-m32.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/headset-z038.jpg",
+   "page": "img/gear/headset-z038.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/helmet-6b4.jpg",
+   "page": "img/gear/helmet-6b4.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/helmet-6b5.jpg",
+   "page": "img/gear/helmet-6b5.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/helmet-6bnt.jpg",
+   "page": "img/gear/helmet-6bnt.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/helmet-an95.jpg",
+   "page": "img/gear/helmet-an95.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/helmet-f70.jpg",
+   "page": "img/gear/helmet-f70.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/helmet-f80.jpg",
+   "page": "img/gear/helmet-f80.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/helmet-ind70.jpg",
+   "page": "img/gear/helmet-ind70.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/helmet-kss2.jpg",
+   "page": "img/gear/helmet-kss2.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/helmet-sh40.jpg",
+   "page": "img/gear/helmet-sh40.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/helmet-sh60.jpg",
+   "page": "img/gear/helmet-sh60.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/mask-an95.jpg",
+   "page": "img/gear/mask-an95.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/mask-dk7.jpg",
+   "page": "img/gear/mask-dk7.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/mask-gli-f4.jpg",
+   "page": "img/gear/mask-gli-f4.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/mask-rst.jpg",
+   "page": "img/gear/mask-rst.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/mask-sh60.jpg",
+   "page": "img/gear/mask-sh60.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/mask-sh65.jpg",
+   "page": "img/gear/mask-sh65.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/rig-926-nightowl.jpg",
+   "page": "img/gear/rig-926-nightowl.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/rig-al-assault.jpg",
+   "page": "img/gear/rig-al-assault.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/rig-b3.jpg",
+   "page": "img/gear/rig-b3.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/rig-b4.jpg",
+   "page": "img/gear/rig-b4.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/rig-b6.jpg",
+   "page": "img/gear/rig-b6.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/rig-h_tac-a8.jpg",
+   "page": "img/gear/rig-h_tac-a8.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/rig-militia.jpg",
+   "page": "img/gear/rig-militia.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/rig-service.jpg",
+   "page": "img/gear/rig-service.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/rig-stormtrooper.jpg",
+   "page": "img/gear/rig-stormtrooper.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/vis-casques.jpg",
+   "page": "img/gear/vis-casques.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/vis-headsets.jpg",
+   "page": "img/gear/vis-headsets.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/vis-rigs.jpg",
+   "page": "img/gear/vis-rigs.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/gear/vis-sacs.jpg",
+   "page": "img/gear/vis-sacs.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/guides/guide-economy.jpg",
+   "page": "img/guides/guide-economy.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/guides/guide-extraction.jpg",
+   "page": "img/guides/guide-extraction.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/guides/guide-loot.jpg",
+   "page": "img/guides/guide-loot.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/guides/guide-tactics.jpg",
+   "page": "img/guides/guide-tactics.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/guides/guide-traders.jpg",
+   "page": "img/guides/guide-traders.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/guides/vis-reglages-sensibilite.jpg",
+   "page": "img/guides/vis-reglages-sensibilite.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/hero/hero-accueil.jpg",
+   "page": "img/hero/hero-accueil.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/hero/hero-armes.jpg",
+   "page": "img/hero/hero-armes.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/hero/hero-armures.jpg",
+   "page": "img/hero/hero-armures.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/hero/hero-cartes.jpg",
+   "page": "img/hero/hero-cartes.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/hero/hero-cosmetiques.jpg",
+   "page": "img/hero/hero-cosmetiques.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/hero/hero-guides.jpg",
+   "page": "img/hero/hero-guides.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/hero/hero-items.jpg",
+   "page": "img/hero/hero-items.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/hero/hero-lore.jpg",
+   "page": "img/hero/hero-lore.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/hero/hero-meta.jpg",
+   "page": "img/hero/hero-meta.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/hero/hero-saison7.jpg",
+   "page": "img/hero/hero-saison7.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/interactive/ammo-penetration.jpg",
+   "page": "img/interactive/ammo-penetration.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/interactive/loadout-bench.jpg",
+   "page": "img/interactive/loadout-bench.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/interactive/map-planning.jpg",
+   "page": "img/interactive/map-planning.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/interactive/search-intel.jpg",
+   "page": "img/interactive/search-intel.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/interactive/tier-board.jpg",
+   "page": "img/interactive/tier-board.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/interactive/weapon-compare.jpg",
+   "page": "img/interactive/weapon-compare.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/ammo.jpg",
+   "page": "img/items/ammo.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/bandage.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/collection-room.jpg",
+   "page": "img/items/collection-room.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/elysium.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/flaregun.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/goldbar.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/gpu.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/healingsmoke.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/jadeflute.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/keycard.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/keys.jpg",
+   "page": "img/items/keys.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/koen-economy.jpg",
+   "page": "img/items/koen-economy.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/loot-value.jpg",
+   "page": "img/items/loot-value.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/lute.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/m290stun.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/medical.jpg",
+   "page": "img/items/medical.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/medkit.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/militarycircuit.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/morphine.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/mrid.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/northernstars.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/pheromone.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/red-drop.jpg",
+   "page": "img/items/red-drop.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/rolex.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/vis-ammo-hero.jpg",
+   "page": "img/items/vis-ammo-hero.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/vis-cles.jpg",
+   "page": "img/items/vis-cles.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/vis-collection-cinematique.jpg",
+   "page": "img/items/vis-collection-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/vis-craft.jpg",
+   "page": "img/items/vis-craft.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/vis-koen-cinematique.jpg",
+   "page": "img/items/vis-koen-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/vis-medical-cinematique.jpg",
+   "page": "img/items/vis-medical-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/vis-munitions.jpg",
+   "page": "img/items/vis-munitions.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/vis-stand-tir-cinematique.jpg",
+   "page": "img/items/vis-stand-tir-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/vis-trophy-room-cinematique.jpg",
+   "page": "img/items/vis-trophy-room-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/vis-valeur-cinematique.jpg",
+   "page": "img/items/vis-valeur-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/vis-workbench.jpg",
+   "page": "img/items/vis-workbench.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/items/y40.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/maps/map-airport.jpg",
+   "page": "img/maps/map-airport.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/maps/map-armory.jpg",
+   "page": "img/maps/map-armory.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/maps/map-farm.jpg",
+   "page": "img/maps/map-farm.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/maps/map-northridge.jpg",
+   "page": "img/maps/map-northridge.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/maps/map-tvstation.jpg",
+   "page": "img/maps/map-tvstation.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/maps/map-valley.jpg",
+   "page": "img/maps/map-valley.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/maps/var-airport-cine.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/maps/var-armory-cine.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/maps/var-farm-cine.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/maps/var-northridge-cine.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/maps/var-tvstation-cine.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/maps/var-tvstation-interieur.jpg",
+   "page": "img/maps/var-tvstation-interieur.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/maps/var-valley-cine.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/meta/ammo-tiers.jpg",
+   "page": "img/meta/ammo-tiers.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/meta/meta-builds.jpg",
+   "page": "img/meta/meta-builds.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/meta/meta-optimizer.jpg",
+   "page": "img/meta/meta-optimizer.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/meta/meta-strategies.jpg",
+   "page": "img/meta/meta-strategies.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/meta/meta-tier-list.jpg",
+   "page": "img/meta/meta-tier-list.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/meta/role-assault.jpg",
+   "page": "img/meta/role-assault.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/meta/role-cqb.jpg",
+   "page": "img/meta/role-cqb.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/meta/role-looter.jpg",
+   "page": "img/meta/role-looter.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/meta/role-support.jpg",
+   "page": "img/meta/role-support.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/meta/vis-builds.jpg",
+   "page": "img/meta/vis-builds.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/meta/vis-optimizer-cinematique.jpg",
+   "page": "img/meta/vis-optimizer-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/meta/vis-progression.jpg",
+   "page": "img/meta/vis-progression.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/meta/vis-roles-cinematique.jpg",
+   "page": "img/meta/vis-roles-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/meta/vis-sniper-cinematique.jpg",
+   "page": "img/meta/vis-sniper-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/meta/vis-strategies-cinematique.jpg",
+   "page": "img/meta/vis-strategies-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/meta/vis-tierlist-cinematique.jpg",
+   "page": "img/meta/vis-tierlist-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/personnages/emerald-operator.jpg",
+   "page": "img/personnages/emerald-operator.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/personnages/vis-dogtags.jpg",
+   "page": "img/personnages/vis-dogtags.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/personnages/vis-opérateur.jpg",
+   "page": "(media partage)",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/saison7/vis-utopia-cinematique.jpg",
+   "page": "img/saison7/vis-utopia-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/seo/404-secteur-perdu.jpg",
+   "page": "img/seo/404-secteur-perdu.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/seo/og-accueil.jpg",
+   "page": "img/seo/og-accueil.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/seo/og-archives.jpg",
+   "page": "img/seo/og-archives.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/seo/og-outils.jpg",
+   "page": "img/seo/og-outils.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ui/favicon-180.jpg",
+   "page": "img/ui/favicon-180.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ui/favicon-512.jpg",
+   "page": "img/ui/favicon-512.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/ui/favicon-64.jpg",
+   "page": "img/ui/favicon-64.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/univers/blackgold-pmc.jpg",
+   "page": "img/univers/blackgold-pmc.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/univers/civil-war.jpg",
+   "page": "img/univers/civil-war.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/univers/dark-zone.jpg",
+   "page": "img/univers/dark-zone.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/univers/hecate-abyss.jpg",
+   "page": "img/univers/hecate-abyss.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/univers/kamona-island.jpg",
+   "page": "img/univers/kamona-island.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/univers/mine.jpg",
+   "page": "img/univers/mine.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/univers/sumek-committee.jpg",
+   "page": "img/univers/sumek-committee.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/univers/tv-station.jpg",
+   "page": "img/univers/tv-station.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/univers/utopia-reactor.jpg",
+   "page": "img/univers/utopia-reactor.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/univers/vis-darkzone-cinematique.jpg",
+   "page": "img/univers/vis-darkzone-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/univers/vis-factions.jpg",
+   "page": "img/univers/vis-factions.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/univers/vis-lore-cinematique.jpg",
+   "page": "img/univers/vis-lore-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/univers/white-wolves.jpg",
+   "page": "img/univers/white-wolves.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/zombies/balance-pvp.jpg",
+   "page": "img/zombies/balance-pvp.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/zombies/infected-zone.jpg",
+   "page": "img/zombies/infected-zone.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/zombies/merchant-field.jpg",
+   "page": "img/zombies/merchant-field.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/zombies/mutant-ambusher.jpg",
+   "page": "img/zombies/mutant-ambusher.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/zombies/mutant-bloater.jpg",
+   "page": "img/zombies/mutant-bloater.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/zombies/mutant-phobos.jpg",
+   "page": "img/zombies/mutant-phobos.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/zombies/mutant-reaper.jpg",
+   "page": "img/zombies/mutant-reaper.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/zombies/vis-balance-cinematique.jpg",
+   "page": "img/zombies/vis-balance-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/zombies/vis-endless-cinematique.jpg",
+   "page": "img/zombies/vis-endless-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/zombies/vis-endless-entree.jpg",
+   "page": "img/zombies/vis-endless-entree.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/zombies/vis-infected-cinematique.jpg",
+   "page": "img/zombies/vis-infected-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/zombies/vis-research-cinematique.jpg",
+   "page": "img/zombies/vis-research-cinematique.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/zombies/zombie-endless.jpg",
+   "page": "img/zombies/zombie-endless.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  },
+  {
+   "fichier": "img/zombies/zombie-research.jpg",
+   "page": "img/zombies/zombie-research.jpg",
+   "statut": "fait",
+   "style": "visuel JPG photorealiste / cinematique"
+  }
+ ],
+ "a_faire": [],
+ "carte": {
+  "note": "Les 6 cartes reelles sont installees et verifiees en JPEG. Northridge et TV Station ont ete remplacees. No Man's Land reste un MODE PvE a tickets, pas une carte.",
+  "statut": "termine"
+ },
+ "audio": {
+  "note": "Maximum 10 audios par reponse. Format mp3. Le site embarque des ambiances en boucle et des voix off de guide (TTS), non bouclees, integrees via le composant .audio-narration.",
+  "voix": "voice-00 (audition utilisateur)",
+  "fichiers": [
+   {
+    "fichier": "audio/ambiance-infection.mp3"
+   },
+   {
+    "fichier": "audio/ambiance-menu.mp3"
+   },
+   {
+    "fichier": "audio/narration-armes-attachements-s7.mp3"
+   },
+   {
+    "fichier": "audio/narration-armes-attachements.mp3"
+   },
+   {
+    "fichier": "audio/narration-armes-builds.mp3"
+   },
+   {
+    "fichier": "audio/narration-armes-carbine.mp3"
+   },
+   {
+    "fichier": "audio/narration-armes-dmr.mp3"
+   },
+   {
+    "fichier": "audio/narration-armes-fusils-assaut.mp3"
+   },
+   {
+    "fichier": "audio/narration-armes-lmg.mp3"
+   },
+   {
+    "fichier": "audio/narration-armes-nouveautes-s7.mp3"
+   },
+   {
+    "fichier": "audio/narration-armes-pistolets.mp3"
+   },
+   {
+    "fichier": "audio/narration-armes-shotgun.mp3"
+   },
+   {
+    "fichier": "audio/narration-armes-smg.mp3"
+   },
+   {
+    "fichier": "audio/narration-armes-sniper.mp3"
+   },
+   {
+    "fichier": "audio/narration-armes-tier-list.mp3"
+   },
+   {
+    "fichier": "audio/narration-communaute-patch-notes.mp3"
+   },
+   {
+    "fichier": "audio/narration-communaute-ressources.mp3"
+   },
+   {
+    "fichier": "audio/narration-communaute-streamers.mp3"
+   },
+   {
+    "fichier": "audio/narration-cosmetiques-dog-tags.mp3"
+   },
+   {
+    "fichier": "audio/narration-cosmetiques-skins-armes.mp3"
+   },
+   {
+    "fichier": "audio/narration-cosmetiques-skins-perso.mp3"
+   },
+   {
+    "fichier": "audio/narration-equipement-armures.mp3"
+   },
+   {
+    "fichier": "audio/narration-equipement-casques.mp3"
+   },
+   {
+    "fichier": "audio/narration-equipement-headsets.mp3"
+   },
+   {
+    "fichier": "audio/narration-equipement-rigs.mp3"
+   },
+   {
+    "fichier": "audio/narration-equipement-sacs.mp3"
+   },
+   {
+    "fichier": "audio/narration-equipement-tier-list.mp3"
+   },
+   {
+    "fichier": "audio/narration-events-calendrier.mp3"
+   },
+   {
+    "fichier": "audio/narration-events-supplies-drops.mp3"
+   },
+   {
+    "fichier": "audio/narration-events-warlord.mp3"
+   },
+   {
+    "fichier": "audio/narration-guide-avance.mp3"
+   },
+   {
+    "fichier": "audio/narration-guide-craft.mp3"
+   },
+   {
+    "fichier": "audio/narration-guide-debutant.mp3"
+   },
+   {
+    "fichier": "audio/narration-guide-economie.mp3"
+   },
+   {
+    "fichier": "audio/narration-guide-extraction.mp3"
+   },
+   {
+    "fichier": "audio/narration-guide-progression.mp3"
+   },
+   {
+    "fichier": "audio/narration-guide-traders.mp3"
+   },
+   {
+    "fichier": "audio/narration-items-cles.mp3"
+   },
+   {
+    "fichier": "audio/narration-items-collection-room.mp3"
+   },
+   {
+    "fichier": "audio/narration-items-craft-workbench.mp3"
+   },
+   {
+    "fichier": "audio/narration-items-koen-economy.mp3"
+   },
+   {
+    "fichier": "audio/narration-items-medical.mp3"
+   },
+   {
+    "fichier": "audio/narration-items-munitions.mp3"
+   },
+   {
+    "fichier": "audio/narration-items-valeur.mp3"
+   },
+   {
+    "fichier": "audio/narration-map-airport.mp3"
+   },
+   {
+    "fichier": "audio/narration-map-armory.mp3"
+   },
+   {
+    "fichier": "audio/narration-map-farm.mp3"
+   },
+   {
+    "fichier": "audio/narration-map-no-mans-land.mp3"
+   },
+   {
+    "fichier": "audio/narration-map-northridge.mp3"
+   },
+   {
+    "fichier": "audio/narration-map-tv-station.mp3"
+   },
+   {
+    "fichier": "audio/narration-map-valley.mp3"
+   },
+   {
+    "fichier": "audio/narration-meta-builds-roles.mp3"
+   },
+   {
+    "fichier": "audio/narration-meta-loadout-optimizer.mp3"
+   },
+   {
+    "fichier": "audio/narration-meta-strategies-s7.mp3"
+   },
+   {
+    "fichier": "audio/narration-meta-tier-list-globale.mp3"
+   },
+   {
+    "fichier": "audio/narration-reglages-sensibilite.mp3"
+   },
+   {
+    "fichier": "audio/narration-saison7-balance-changes.mp3"
+   },
+   {
+    "fichier": "audio/narration-saison7-battle-pass.mp3"
+   },
+   {
+    "fichier": "audio/narration-saison7-nouveautes.mp3"
+   },
+   {
+    "fichier": "audio/narration-saison7-utopia.mp3"
+   },
+   {
+    "fichier": "audio/narration-saison7-zombie-endless.mp3"
+   },
+   {
+    "fichier": "audio/narration-saison7-zombie-infected-zone.mp3"
+   },
+   {
+    "fichier": "audio/narration-saison7-zombie-research.mp3"
+   },
+   {
+    "fichier": "audio/narration-saison8-attente.mp3"
+   },
+   {
+    "fichier": "audio/narration-univers-dark-zone.mp3"
+   },
+   {
+    "fichier": "audio/narration-univers-factions.mp3"
+   },
+   {
+    "fichier": "audio/narration-univers-lore.mp3"
+   }
+  ],
+  "narration_par_page": {
+   "armes-attachements-s7": [
+    "pages/armes-attachements-s7.html"
+   ],
+   "armes-attachements": [
+    "pages/armes-attachements.html"
+   ],
+   "armes-builds": [
+    "pages/armes-builds.html"
+   ],
+   "armes-carbine": [
+    "pages/armes-carbine.html"
+   ],
+   "armes-dmr": [
+    "pages/armes-dmr.html"
+   ],
+   "armes-fusils-assaut": [
+    "pages/armes-fusils-assaut.html"
+   ],
+   "armes-lmg": [
+    "pages/armes-lmg.html"
+   ],
+   "armes-nouveautes-s7": [
+    "pages/armes-nouveautes-s7.html"
+   ],
+   "armes-pistolets": [
+    "pages/armes-pistolets.html"
+   ],
+   "armes-shotgun": [
+    "pages/armes-shotgun.html"
+   ],
+   "armes-smg": [
+    "pages/armes-smg.html"
+   ],
+   "armes-sniper": [
+    "pages/armes-sniper.html"
+   ],
+   "armes-tier-list": [
+    "pages/armes-tier-list.html"
+   ],
+   "communaute-patch-notes": [
+    "pages/communaute-patch-notes.html"
+   ],
+   "communaute-ressources": [
+    "pages/communaute-ressources.html"
+   ],
+   "communaute-streamers": [
+    "pages/communaute-streamers.html"
+   ],
+   "cosmetiques-dog-tags": [
+    "pages/cosmetiques-dog-tags.html"
+   ],
+   "cosmetiques-skins-armes": [
+    "pages/cosmetiques-skins-armes.html"
+   ],
+   "cosmetiques-skins-perso": [
+    "pages/cosmetiques-skins-perso.html"
+   ],
+   "equipement-armures": [
+    "pages/equipement-armures.html"
+   ],
+   "equipement-casques": [
+    "pages/equipement-casques.html"
+   ],
+   "equipement-headsets": [
+    "pages/equipement-headsets.html"
+   ],
+   "equipement-rigs": [
+    "pages/equipement-rigs.html"
+   ],
+   "equipement-sacs": [
+    "pages/equipement-sacs.html"
+   ],
+   "equipement-tier-list": [
+    "pages/equipement-tier-list.html"
+   ],
+   "events-calendrier": [
+    "pages/events-calendrier.html"
+   ],
+   "events-supplies-drops": [
+    "pages/events-supplies-drops.html"
+   ],
+   "events-warlord": [
+    "pages/events-warlord-tournament.html"
+   ],
+   "guide-avance": [
+    "pages/guide-avance.html"
+   ],
+   "guide-craft": [
+    "pages/guide-craft.html"
+   ],
+   "guide-debutant": [
+    "pages/guide-debutant.html"
+   ],
+   "guide-economie": [
+    "pages/guide-economie.html"
+   ],
+   "guide-extraction": [
+    "pages/guide-extraction.html"
+   ],
+   "guide-progression": [
+    "pages/guide-progression.html"
+   ],
+   "guide-traders": [
+    "pages/guide-traders.html"
+   ],
+   "items-cles": [
+    "pages/items-cles.html"
+   ],
+   "items-collection-room": [
+    "pages/items-collection-room.html"
+   ],
+   "items-craft-workbench": [
+    "pages/items-craft-workbench.html"
+   ],
+   "items-koen-economy": [
+    "pages/items-koen-economy.html"
+   ],
+   "items-medical": [
+    "pages/items-medical.html"
+   ],
+   "items-munitions": [
+    "pages/items-munitions.html"
+   ],
+   "items-valeur": [
+    "pages/items-valeur.html"
+   ],
+   "map-airport": [
+    "pages/map-airport.html"
+   ],
+   "map-armory": [
+    "pages/map-armory.html"
+   ],
+   "map-farm": [
+    "pages/map-farm.html"
+   ],
+   "map-no-mans-land": [
+    "pages/map-no-mans-land.html"
+   ],
+   "map-northridge": [
+    "pages/map-northridge.html"
+   ],
+   "map-tv-station": [
+    "pages/map-tv-station.html"
+   ],
+   "map-valley": [
+    "pages/map-valley.html"
+   ],
+   "meta-builds-roles": [
+    "pages/meta-builds-roles.html"
+   ],
+   "meta-loadout-optimizer": [
+    "pages/meta-loadout-optimizer.html"
+   ],
+   "meta-strategies-s7": [
+    "pages/meta-stratégies-s7.html"
+   ],
+   "meta-tier-list-globale": [
+    "pages/meta-tier-list-globale.html"
+   ],
+   "reglages-sensibilite": [
+    "pages/reglages-sensibilite.html"
+   ],
+   "saison7-balance-changes": [
+    "pages/saison7-balance-changes.html"
+   ],
+   "saison7-battle-pass": [
+    "pages/saison7-battle-pass.html"
+   ],
+   "saison7-nouveautes": [
+    "pages/saison7-nouveautes.html"
+   ],
+   "saison7-utopia": [
+    "pages/saison7-utopia.html"
+   ],
+   "saison7-zombie-endless": [
+    "pages/saison7-zombie-endless.html"
+   ],
+   "saison7-zombie-infected-zone": [
+    "pages/saison7-zombie-infected-zone.html"
+   ],
+   "saison7-zombie-research": [
+    "pages/saison7-zombie-research.html"
+   ],
+   "saison8-attente": [
+    "pages/saison8-attente.html"
+   ],
+   "univers-dark-zone": [
+    "pages/univers-dark-zone.html"
+   ],
+   "univers-factions": [
+    "pages/univers-factions.html"
+   ],
+   "univers-lore": [
+    "pages/univers-lore.html"
+   ]
+  },
+  "restant": [
+   "meta-strategies-s7 : texte reecrit de maniere neutre dans tools/textes_audio/meta-strategies-s7.txt (1500 car., aucun mot bloquant). Generation et cablage a faire au prochain tour."
+  ]
+ }
+}

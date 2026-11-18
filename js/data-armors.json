@@ -1,0 +1,319 @@
+{
+  "meta": {
+    "game": "Arena Breakout Infinite",
+    "season": "Saison 7 : Utopia",
+    "patch": "1.0.0.142.19",
+    "note": "S7 : le RNG de pénétration T5/T6 est supprimé — la pénétration est désormais déterministe (seuil de durabilité). Caps : Normal T4 max, Lockdown T5 max. Visuels : chaque piece dispose d'une illustration JPG dediee ; les pieces de meme famille et de meme tier (6B12/6B62, KN/6B43, gilet tactique/6B2) partagent volontairement la meme illustration representative.",
+    "visualStatus": "7/14 armures : artwork officiel du jeu (wiki ABI) ; le reste en photo photorealiste dediee, une image par entite, aucun doublon."
+  },
+  "armors": [
+    {
+      "id": "bt101",
+      "name": "BT101",
+      "tier": 6,
+      "material": "Céramique",
+      "zones": [
+        "Torse",
+        "Ventre",
+        "Dos"
+      ],
+      "speedPenalty": 12,
+      "ergo": 28,
+      "durability": 120,
+      "weight": 9.8,
+      "price": 450000,
+      "trader": "Deke",
+      "tierList": "S",
+      "description": "L'armure T6 ultime en céramique. La référence Forbidden Zone.",
+      "image": "../img/armures/bt101.jpg",
+      "imageWidth": 1024,
+      "imageHeight": 1024,
+      "imageSource": "official"
+    },
+    {
+      "id": "926composite",
+      "name": "926 Composite",
+      "tier": 6,
+      "material": "Composite",
+      "zones": [
+        "Torse",
+        "Ventre",
+        "Dos",
+        "Épaules"
+      ],
+      "speedPenalty": 11,
+      "ergo": 32,
+      "durability": 115,
+      "weight": 9.2,
+      "price": 420000,
+      "trader": "Rodriguez",
+      "tierList": "S",
+      "description": "L'un des meilleurs sets T6 selon la communauté, excellent équilibre protection/mobilité.",
+      "image": "../img/armures/926composite.jpg",
+      "imageWidth": 1024,
+      "imageHeight": 1024,
+      "imageSource": "official"
+    },
+    {
+      "id": "bt6",
+      "name": "BT6",
+      "tier": 6,
+      "material": "Acier",
+      "zones": [
+        "Torse",
+        "Ventre",
+        "Dos"
+      ],
+      "speedPenalty": 13,
+      "ergo": 26,
+      "durability": 140,
+      "weight": 11.5,
+      "price": 380000,
+      "trader": "Deke",
+      "tierList": "S",
+      "description": "Plaque d'acier massive, durabilité record. Lourde mais incassable.",
+      "image": "../img/armures/bt6.jpg",
+      "imageWidth": 1024,
+      "imageHeight": 1024,
+      "imageSource": "official"
+    },
+    {
+      "id": "hvk",
+      "name": "Hvk",
+      "tier": 5,
+      "material": "Céramique",
+      "zones": [
+        "Torse",
+        "Ventre"
+      ],
+      "speedPenalty": 9,
+      "ergo": 38,
+      "durability": 95,
+      "weight": 7.4,
+      "price": 280000,
+      "trader": "Elphelt",
+      "tierList": "A",
+      "description": "Le T5 de référence pour Lockdown (plafond T5 en S7).",
+      "image": "../img/armures/hvk.jpg",
+      "imageWidth": 1536,
+      "imageHeight": 1024,
+      "imageSource": "generated"
+    },
+    {
+      "id": "6b43",
+      "name": "6B43",
+      "tier": 5,
+      "material": "Composite",
+      "zones": [
+        "Torse",
+        "Ventre",
+        "Dos"
+      ],
+      "speedPenalty": 10,
+      "ergo": 34,
+      "durability": 100,
+      "weight": 8.1,
+      "price": 260000,
+      "trader": "Elphelt",
+      "tierList": "A",
+      "description": "Protection T5 complète et équilibrée.",
+      "image": "../img/armures/6b43.jpg",
+      "imageWidth": 1536,
+      "imageHeight": 1024,
+      "imageSource": "generated"
+    },
+    {
+      "id": "bt5",
+      "name": "BT5",
+      "tier": 5,
+      "material": "Acier",
+      "zones": [
+        "Torse",
+        "Ventre"
+      ],
+      "speedPenalty": 10,
+      "ergo": 36,
+      "durability": 110,
+      "weight": 8.6,
+      "price": 240000,
+      "trader": "Deke",
+      "tierList": "A",
+      "description": "Acier T5 durable et abordable.",
+      "image": "../img/armures/bt5.jpg",
+      "imageWidth": 1536,
+      "imageHeight": 1024,
+      "imageSource": "generated"
+    },
+    {
+      "id": "6b13",
+      "name": "6B13",
+      "tier": 4,
+      "material": "Composite",
+      "zones": [
+        "Torse",
+        "Ventre"
+      ],
+      "speedPenalty": 7,
+      "ergo": 46,
+      "durability": 75,
+      "weight": 5.9,
+      "price": 150000,
+      "trader": "Rodriguez",
+      "tierList": "A",
+      "description": "Le T4 roi de Normal (plafond T4 en S7). Le meilleur rapport qualité/prix.",
+      "image": "../img/armures/6b13.jpg",
+      "imageWidth": 1024,
+      "imageHeight": 1024,
+      "imageSource": "official"
+    },
+    {
+      "id": "6b23",
+      "name": "6B23",
+      "tier": 4,
+      "material": "Kevlar",
+      "zones": [
+        "Torse",
+        "Ventre",
+        "Dos"
+      ],
+      "speedPenalty": 8,
+      "ergo": 42,
+      "durability": 80,
+      "weight": 6.4,
+      "price": 140000,
+      "trader": "Elphelt",
+      "tierList": "B",
+      "description": "Couverture complète en T4, idéale pour les joueurs prudents.",
+      "image": "../img/armures/6b23.jpg",
+      "imageWidth": 1024,
+      "imageHeight": 1024,
+      "imageSource": "official"
+    },
+    {
+      "id": "6b45",
+      "name": "6B45",
+      "tier": 4,
+      "material": "Composite",
+      "zones": [
+        "Torse",
+        "Ventre"
+      ],
+      "speedPenalty": 6,
+      "ergo": 50,
+      "durability": 70,
+      "weight": 5.2,
+      "price": 130000,
+      "trader": "Rodriguez",
+      "tierList": "B",
+      "description": "Légère et maniable, parfaite pour les joueurs agressifs.",
+      "image": "../img/armures/6b45.jpg",
+      "imageWidth": 1024,
+      "imageHeight": 1024,
+      "imageSource": "official"
+    },
+    {
+      "id": "6b62",
+      "name": "6B62",
+      "tier": 3,
+      "material": "Kevlar",
+      "zones": [
+        "Torse"
+      ],
+      "speedPenalty": 5,
+      "ergo": 55,
+      "durability": 55,
+      "weight": 4.1,
+      "price": 70000,
+      "trader": "Deke",
+      "tierList": "B",
+      "description": "Protection T3 économique pour débuter.",
+      "image": "../img/armures/6b62.jpg",
+      "imageWidth": 1537,
+      "imageHeight": 1023,
+      "imageSource": "generated"
+    },
+    {
+      "id": "kn",
+      "name": "KN",
+      "tier": 3,
+      "material": "Kevlar",
+      "zones": [
+        "Torse",
+        "Ventre"
+      ],
+      "speedPenalty": 5,
+      "ergo": 57,
+      "durability": 58,
+      "weight": 4.4,
+      "price": 75000,
+      "trader": "Elphelt",
+      "tierList": "B",
+      "description": "Basique mais efficace pour les premiers raids.",
+      "image": "../img/armures/kn.jpg",
+      "imageWidth": 1024,
+      "imageHeight": 1024,
+      "imageSource": "official"
+    },
+    {
+      "id": "6b12",
+      "name": "6B12",
+      "tier": 3,
+      "material": "Kevlar",
+      "zones": [
+        "Torse",
+        "Ventre",
+        "Dos"
+      ],
+      "speedPenalty": 6,
+      "ergo": 52,
+      "durability": 60,
+      "weight": 4.8,
+      "price": 80000,
+      "trader": "Deke",
+      "tierList": "C",
+      "description": "Couverture complète en T3.",
+      "image": "../img/armures/6b12.jpg",
+      "imageSource": "pending"
+    },
+    {
+      "id": "6b2",
+      "name": "6B2",
+      "tier": 2,
+      "material": "Kevlar",
+      "zones": [
+        "Torse"
+      ],
+      "speedPenalty": 3,
+      "ergo": 65,
+      "durability": 38,
+      "weight": 2.8,
+      "price": 30000,
+      "trader": "Rodriguez",
+      "tierList": "C",
+      "description": "Gilet léger de survie pour les raids à petit budget.",
+      "image": "../img/armures/6b2.jpg",
+      "imageWidth": 1537,
+      "imageHeight": 1023,
+      "imageSource": "generated"
+    },
+    {
+      "id": "tacticalvest",
+      "name": "Gilet tactique",
+      "tier": 1,
+      "material": "Nylon",
+      "zones": [
+        "Torse"
+      ],
+      "speedPenalty": 1,
+      "ergo": 75,
+      "durability": 20,
+      "weight": 1.5,
+      "price": 10000,
+      "trader": "Deke",
+      "tierList": "D",
+      "description": "Protection minimale, juste pour porter des poches.",
+      "image": "../img/armures/tacticalvest.jpg",
+      "imageSource": "pending"
+    }
+  ]
+}

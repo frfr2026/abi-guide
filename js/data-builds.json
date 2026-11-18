@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "game": "Arena Breakout Infinite",
+    "season": "Saison 7 : Utopia",
+    "patch": "1.0.0.142.19",
+    "note": "Templates d'equipement et roles pour le Loadout Optimizer. Prix indicatifs (Koen), calques sur des estimations de marche communautaires : casque T4 ~25 000 K, casque T5 ~60 000 K, casque T6 ~90 000 K, casque audio GS2 ~15 000 K, rig armies T4 ~45 000 K, sac de raid T5 ~75 000 K. Ces valeurs fluctuent fortement selon la saison et le serveur."
+  },
+  "modes": [
+    {
+      "id": "normal",
+      "label": "Normal",
+      "tierCap": 4,
+      "unlock": "Accessible immediatement",
+      "note": "T4 et inferieur. C'est la zone ou l'on apprend."
+    },
+    {
+      "id": "lockdown",
+      "label": "Lockdown",
+      "tierCap": 5,
+      "unlock": "Niveau 12",
+      "note": "T5 et inferieur. Le mode ou se fait l'economie."
+    },
+    {
+      "id": "forbidden",
+      "label": "Forbidden",
+      "tierCap": 6,
+      "unlock": "Niveau 30",
+      "note": "T6 autorise. Risque et rendement maximaux."
+    }
+  ],
+  "roles": [
+    {
+      "id": "flex",
+      "name": "Polyvalent",
+      "tier": "S",
+      "icon": "◈",
+      "categories": [
+        "Fusil d'assaut"
+      ],
+      "rangeBias": 0.5,
+      "rpmBias": 0.5,
+      "desc": "Le role par defaut : un fusil d'assaut qui couvre le CQB et la moyenne distance sans arme secondaire.",
+      "tip": "Le meilleur choix si vous ne savez pas encore ce que vous voulez jouer."
+    },
+    {
+      "id": "assaut",
+      "name": "Assaut",
+      "tier": "S",
+      "icon": "◆",
+      "categories": [
+        "Fusil d'assaut",
+        "DMR"
+      ],
+      "rangeBias": 0.35,
+      "rpmBias": 0.65,
+      "desc": "Push agressif sur les zones de loot contestees, combat a moyenne distance, extraction avec du loot lourd.",
+      "tip": "H416 ou A545 en tete. Budget type 350 000 K en Lockdown."
+    },
+    {
+      "id": "cqb",
+      "name": "CQB",
+      "tier": "A",
+      "icon": "▶",
+      "categories": [
+        "SMG",
+        "Shotgun"
+      ],
+      "rangeBias": 0.05,
+      "rpmBias": 0.95,
+      "desc": "Dents serrees, 3 a 15 metres. TV Station, Armory et les lignes de piege.",
+      "tip": "P90 ou PCC-9 + Full-Auto Kit. Ne prenez jamais un sniper en primaire ici."
+    },
+    {
+      "id": "loot",
+      "name": "Lointier",
+      "tier": "A",
+      "icon": "●",
+      "categories": [
+        "SMG",
+        "Shotgun",
+        "Fusil d'assaut"
+      ],
+      "rangeBias": 0.2,
+      "rpmBias": 0.6,
+      "desc": "Sprinte vers les spawns de valeur, remplis les conteneurs, extracte par le point le plus proche.",
+      "tip": "MP5 ou USAS-12. Priorite absolue : la vitesse d'extraction, pas le TTK."
+    },
+    {
+      "id": "sniper",
+      "name": "Longue distance",
+      "tier": "A",
+      "icon": "◉",
+      "categories": [
+        "Sniper",
+        "DMR"
+      ],
+      "rangeBias": 0.95,
+      "rpmBias": 0.15,
+      "desc": "Overwatch en hauteur, tir a plus de 150 m, relocation apres chaque tir pour eviter le contre-sniper.",
+      "tip": "M24, M110 + Binary Trigger ou SJ16. Jamais en primaire en CQB."
+    },
+    {
+      "id": "support",
+      "name": "Soutien",
+      "tier": "A",
+      "icon": "◇",
+      "categories": [
+        "LMG",
+        "Fusil d'assaut",
+        "DMR"
+      ],
+      "rangeBias": 0.5,
+      "rpmBias": 0.4,
+      "desc": "Reste avec le squad, supprime, redistribue munitions et medical, tient un angle de suppression.",
+      "tip": "RPK-16 ou AEK. Prevoyez deux fois plus de munitions et de soin."
+    }
+  ],
+  "gear": {
+    "normal": {
+      "helmet": {
+        "name": "Casque T4 (IND70 / SH65)",
+        "tier": 4,
+        "price": 25000,
+        "note": "T4 maximum autorise en Normal",
+        "image": "../img/armures/helmet-t4.jpg"
+      },
+      "rig": {
+        "name": "926 Chest Rig",
+        "tier": 4,
+        "price": 12000,
+        "note": "Multi-slots, porte la masse du kit",
+        "image": "../img/armures/rig-cqb.jpg"
+      },
+      "backpack": {
+        "name": "Sac de raid 25 L",
+        "tier": 4,
+        "price": 30000,
+        "note": "Le seuil de 5 000 K par slot impose un volume discipline",
+        "image": "../img/armures/backpack.jpg"
+      },
+      "headset": {
+        "name": "Casque audio GS2",
+        "tier": 4,
+        "price": 15000,
+        "note": "Le son est une information : la meilleure info en CQB",
+        "image": "../img/armures/headset.jpg"
+      },
+      "medical": {
+        "name": "100D Battlefield Medkit + TMK Surgical + OPM Bandage x2",
+        "tier": 4,
+        "price": 23000,
+        "note": "Le trio standard : saignement, membre casse, PV"
+      }
+    },
+    "lockdown": {
+      "helmet": {
+        "name": "Casque T5",
+        "tier": 5,
+        "price": 60000,
+        "note": "T5 maximum autorise en Lockdown",
+        "image": "../img/armures/helmet-t4.jpg"
+      },
+      "rig": {
+        "name": "BH Tactical Rig",
+        "tier": 5,
+        "price": 45000,
+        "note": "Plus de slots, plus de poids",
+        "image": "../img/armures/rig-cqb.jpg"
+      },
+      "backpack": {
+        "name": "Sac de raid 35 L",
+        "tier": 5,
+        "price": 75000,
+        "note": "Volume utile pour les runs a fort loot",
+        "image": "../img/armures/backpack.jpg"
+      },
+      "headset": {
+        "name": "Casque audio GS2 / Commander",
+        "tier": 5,
+        "price": 35000,
+        "note": "Commander porte plus loin, GS2 localise",
+        "image": "../img/armures/headset.jpg"
+      },
+      "medical": {
+        "name": "STO First Aid Set + STO Surgical Set + OPM Bandage x4",
+        "tier": 5,
+        "price": 45000,
+        "note": "Volume long : le STO ne coute pas de slot de penalite"
+      }
+    },
+    "forbidden": {
+      "helmet": {
+        "name": "Casque T6",
+        "tier": 6,
+        "price": 90000,
+        "note": "T6 autorise uniquement en Forbidden",
+        "image": "../img/armures/helmet-t6.jpg"
+      },
+      "rig": {
+        "name": "BT101 Chest Rig",
+        "tier": 6,
+        "price": 90000,
+        "note": "Le BT101 pese 9,8 kg : surveillez l'endurance",
+        "image": "../img/armures/bt101.jpg"
+      },
+      "backpack": {
+        "name": "Sac de raid 45 L + Titanium Case",
+        "tier": 6,
+        "price": 140000,
+        "note": "La Titanium Case protege le loot, pas le sac",
+        "image": "../img/armures/backpack.jpg"
+      },
+      "headset": {
+        "name": "Casque audio Commander",
+        "tier": 6,
+        "price": 60000,
+        "note": "Les snipersthermiques vous trouvent avant vous",
+        "image": "../img/armures/headset.jpg"
+      },
+      "medical": {
+        "name": "STO First Aid Set + STO Surgical Set + EX Painkiller x2",
+        "tier": 6,
+        "price": 80000,
+        "note": "Budget medical serieux : un membre casse non soigne = mort"
+      }
+    }
+  },
+  "ammoBudget": {
+    "rounds": 120,
+    "roundsHeavy": 180,
+    "note": "120 cartouches par defaut, 180 pour les roles de suppression"
+  },
+  "allocation": {
+    "weapon": 0.34,
+    "ammo": 0.13,
+    "armor": 0.2,
+    "helmet": 0.11,
+    "rig": 0.04,
+    "backpack": 0.1,
+    "headset": 0.03,
+    "medical": 0.05
+  },
+  "budgets": {
+    "normal": {
+      "min": 120000,
+      "max": 900000,
+      "default": 450000,
+      "label": "Budget Normal"
+    },
+    "lockdown": {
+      "min": 300000,
+      "max": 2000000,
+      "default": 900000,
+      "label": "Budget Lockdown"
+    },
+    "forbidden": {
+      "min": 700000,
+      "max": 3500000,
+      "default": 2000000,
+      "label": "Budget Forbidden"
+    }
+  }
+}

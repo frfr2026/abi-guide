@@ -1,0 +1,894 @@
+{
+ "meta": {
+  "game": "Arena Breakout Infinite",
+  "season": "Saison 7 : Utopia",
+  "patch": "1.0.0.142.19",
+  "note": "Infected Zone S7 : Farm (Heavy), Valley (standard), Airport (Heavy). Zombie Endless : Airport. No Man's Land de retour en S7 : mode PvE a ticket en rotation sur Farm, Valley et TV Station — ce n'est pas une carte, et l'explorateur ne l'affiche donc pas.",
+  "visualStatus": "6/6 cartes avec la carte officielle du jeu (wiki ABI, JPG 1920x1080). No Man's Land est un mode PvE a ticket, pas une carte : il fait tourner Farm, Valley et TV Station.",
+  "dataStatus": "Zones, extractions, cles et boss releves sur la base officielle du wiki ABI."
+ },
+ "maps": [
+  {
+   "id": "farm",
+   "name": "Farm",
+   "difficulty": "Facile",
+   "extractions": 8,
+   "modes": [
+    "Normal",
+    "Lockdown",
+    "Forbidden",
+    "Heavy Infected Zone"
+   ],
+   "infected": true,
+   "infectedTier": "Heavy (Forbidden)",
+   "description": "Champs ouverts, granges et zones d'embuscade. La carte idéale pour débuter — et désormais infectée en S7.",
+   "image": "../img/maps/map-farm.jpg",
+   "players": 12,
+   "duration": "30 min",
+   "extractionNames": [
+    "Outpost",
+    "Highway",
+    "Artificial Lake",
+    "Hunter's Path",
+    "Southern Blockade",
+    "Path to Northridge",
+    "Boulder Wall",
+    "Path to Restricted Area"
+   ],
+   "zones": [
+    "SW Farmhouse",
+    "Grain Trade Center",
+    "Artificial Lake",
+    "Stables",
+    "Motel",
+    "Bridge Fracture (pont)",
+    "South Wheatfield",
+    "North Wheatfield",
+    "Loading Area",
+    "Zone de stockage",
+    "Villa"
+   ],
+   "zoneDetails": [
+    {
+     "name": "SW Farmhouse",
+     "features": [
+      "Loot libre"
+     ]
+    },
+    {
+     "name": "Grain Trade Center",
+     "features": [
+      "Bureau verrouillé avec coffre"
+     ]
+    },
+    {
+     "name": "Artificial Lake",
+     "features": [
+      "Extraction possible"
+     ]
+    },
+    {
+     "name": "Stables",
+     "features": [
+      "Spawn de boss possible"
+     ]
+    },
+    {
+     "name": "Motel",
+     "features": [
+      "Spawn de boss possible"
+     ]
+    },
+    {
+     "name": "Bridge Fracture (pont)",
+     "features": [
+      "Bifurcation principale de la carte"
+     ]
+    },
+    {
+     "name": "South Wheatfield",
+     "features": [
+      "Grandes zones ouvertes"
+     ]
+    },
+    {
+     "name": "North Wheatfield",
+     "features": [
+      "Grandes zones ouvertes"
+     ]
+    },
+    {
+     "name": "Loading Area",
+     "features": [
+      "Spawn de boss possible"
+     ]
+    },
+    {
+     "name": "Zone de stockage",
+     "features": [
+      "Boîtes à outils"
+     ]
+    },
+    {
+     "name": "Villa",
+     "features": [
+      "Coffre-fort (pièce verrouillée)"
+     ]
+    }
+   ],
+   "keys": [
+    {
+     "name": "Master Bedroom Key",
+     "durability": 45
+    },
+    {
+     "name": "Stables Warehouse Key",
+     "durability": 75
+    },
+    {
+     "name": "Motel 201 Key",
+     "durability": 45
+    },
+    {
+     "name": "Motel Main Guest Room Key",
+     "durability": 30
+    },
+    {
+     "name": "Barn Office Key",
+     "durability": 45
+    }
+   ],
+   "boss": [
+    "Ajax",
+    "Hecate"
+   ],
+   "officialDescription": "The Farm of Arbor Town is located in the pass of the Onotos Mountains and serves as Kamona's main agricultural production center. The area is elongated with a main road running through it, and buildings are distributed along this road. The central Motel on the map is the core area of the farm and the stronghold of the boss.",
+   "imageSource": "officielle",
+   "interactiveMap": "https://maps.tcno.co/abi/farm",
+   "referenceMaps": "https://abibuilder.com/maps",
+   "page": "map-farm.html",
+   "bossStatut": {
+    "Ajax": "attache par le recit de l'editeur",
+    "Hecate": "nomme par l'editeur"
+   }
+  },
+  {
+   "id": "valley",
+   "name": "Valley",
+   "difficulty": "Moyenne",
+   "extractions": 8,
+   "modes": [
+    "Normal",
+    "Lockdown",
+    "Forbidden",
+    "Infected Zone"
+   ],
+   "infected": true,
+   "infectedTier": "Standard (Lockdown)",
+   "description": "Vallées, rivières et villages. La seule carte en Infected Zone standard (plus accessible) en S7.",
+   "image": "../img/maps/map-valley.jpg",
+   "players": 20,
+   "duration": "30 min",
+   "extractionNames": [
+    "Helipad",
+    "Boat",
+    "Road to City",
+    "Temporary Command Post Extraction",
+    "Abandoned Shack",
+    "Steel Bridge Extraction",
+    "Escape Boat",
+    "Abandoned RV"
+   ],
+   "zones": [
+    "Beach Villa",
+    "Port",
+    "Small Factory",
+    "North Courtyard",
+    "Beachhead Positions",
+    "Valley Village",
+    "Crash Canyon",
+    "Radar Station",
+    "Frontier Positions",
+    "Supply Camp",
+    "Eastern Farm"
+   ],
+   "zoneDetails": [
+    {
+     "name": "Beach Villa",
+     "features": [
+      "Nombreux Scavengers",
+      "Point d'extraction",
+      "Plusieurs coffres-forts",
+      "Spawn de boss possible",
+      "Nombreux conteneurs de loot"
+     ]
+    },
+    {
+     "name": "Port",
+     "features": [
+      "Coffre-fort",
+      "Plusieurs Scavengers",
+      "Point d'extraction",
+      "Nombreux conteneurs de loot"
+     ]
+    },
+    {
+     "name": "Small Factory",
+     "features": [
+      "Coffre-fort",
+      "Nombreux conteneurs de loot",
+      "Plusieurs Scavengers"
+     ]
+    },
+    {
+     "name": "North Courtyard",
+     "features": [
+      "Coffre-fort",
+      "Nombreux conteneurs de loot",
+      "Plusieurs Scavengers"
+     ]
+    },
+    {
+     "name": "Beachhead Positions",
+     "features": [
+      "Quelques conteneurs de loot"
+     ]
+    },
+    {
+     "name": "Valley Village",
+     "features": [
+      "Quelques conteneurs de loot"
+     ]
+    },
+    {
+     "name": "Crash Canyon",
+     "features": [
+      "Quelques conteneurs de loot"
+     ]
+    },
+    {
+     "name": "Radar Station",
+     "features": [
+      "Quelques conteneurs de loot"
+     ]
+    },
+    {
+     "name": "Frontier Positions",
+     "features": [
+      "Quelques conteneurs de loot"
+     ]
+    },
+    {
+     "name": "Supply Camp",
+     "features": [
+      "Quelques conteneurs de loot"
+     ]
+    },
+    {
+     "name": "Eastern Farm",
+     "features": [
+      "Quelques conteneurs de loot"
+     ]
+    }
+   ],
+   "keys": [
+    {
+     "name": "Staff Dormitory Key",
+     "durability": 45
+    },
+    {
+     "name": "Factory Dressing Room Key",
+     "durability": 45
+    },
+    {
+     "name": "Beach Villa Main Bedroom Key",
+     "durability": 30
+    },
+    {
+     "name": "Factory File Room Key",
+     "durability": 45
+    },
+    {
+     "name": "Beach Villa Storage Key",
+     "durability": 30
+    },
+    {
+     "name": "RV Camp Cabin Cafeteria Key",
+     "durability": 45
+    },
+    {
+     "name": "Courtyard Basement Key",
+     "durability": 30
+    }
+   ],
+   "boss": [
+    "Doss"
+   ],
+   "officialDescription": "Nestled by the Floranpino Sea, the Valley is a scenic vacation area with high terrain around the edges and lower in the middle. The southern Beach Villa are surrounded by a bay, creating a secure and comfortable environment for the gang leader to securely place their wealth. Atop the low hills in the middle of the valley sits Noan Courtyard, used for gatherings, and a secluded Small Factory lies at the base of the mountains to the north, casting a shadow over the entire Valley, awaiting your exploration.",
+   "imageSource": "officielle",
+   "interactiveMap": "https://maps.tcno.co/abi/valley",
+   "referenceMaps": "https://abibuilder.com/maps",
+   "page": "map-valley.html",
+   "bossStatut": {
+    "Doss": "rapporte (aucun post officiel)"
+   }
+  },
+  {
+   "id": "northridge",
+   "name": "Northridge",
+   "difficulty": "Difficile",
+   "extractions": 11,
+   "modes": [
+    "Normal",
+    "Lockdown",
+    "Forbidden"
+   ],
+   "infected": false,
+   "description": "Montagnes enneigées et combats de longue portée. PvE Hostile Sector disponible.",
+   "image": "../img/maps/map-northridge.jpg",
+   "players": 20,
+   "duration": "30 min",
+   "extractionNames": [
+    "Dam Sluice Gate",
+    "Access Bridge",
+    "Lifeboat",
+    "Armored Vehicle",
+    "Eastern Bridge",
+    "Village End",
+    "Path to Onotos Mountains",
+    "Bus Terminal",
+    "Sawmill",
+    "Lakeside Boardwalk",
+    "Star Observation Deck"
+   ],
+   "zones": [
+    "Cable Car Station",
+    "Parking Lot",
+    "Communication Station",
+    "NW Woodland",
+    "West Building",
+    "Service Room",
+    "Access Bridge",
+    "Radio Room",
+    "Barracks",
+    "Testing Station",
+    "Observation Station",
+    "Schoolhouse",
+    "SW Camp",
+    "NW Campsite",
+    "Observation Dock",
+    "Stray Site"
+   ],
+   "zoneDetails": [
+    {
+     "name": "Cable Car Station",
+     "features": [
+      "Nombreux conteneurs de loot",
+      "Point d'extraction"
+     ]
+    },
+    {
+     "name": "Parking Lot",
+     "features": [
+      "Loot libre",
+      "Plusieurs Scavengers"
+     ]
+    },
+    {
+     "name": "Communication Station",
+     "features": [
+      "Nombreux conteneurs de loot",
+      "Plusieurs coffres-forts"
+     ]
+    },
+    {
+     "name": "NW Woodland",
+     "features": [
+      "Loot libre"
+     ]
+    },
+    {
+     "name": "West Building",
+     "features": [
+      "Nombreux conteneurs de loot",
+      "Zones de bureaux"
+     ]
+    },
+    {
+     "name": "Service Room",
+     "features": [
+      "Coffre-fort",
+      "Nombreux conteneurs de loot"
+     ]
+    },
+    {
+     "name": "Access Bridge",
+     "features": [
+      "Point d'extraction",
+      "Postes de sniper"
+     ]
+    },
+    {
+     "name": "Radio Room",
+     "features": [
+      "Nombreux conteneurs de loot"
+     ]
+    },
+    {
+     "name": "Barracks",
+     "features": [
+      "Nombreux conteneurs de loot",
+      "Lits"
+     ]
+    },
+    {
+     "name": "Testing Station",
+     "features": [
+      "Coffre-fort",
+      "Nombreux conteneurs de loot"
+     ]
+    },
+    {
+     "name": "Observation Station",
+     "features": [
+      "Plusieurs coffres-forts",
+      "Loot premium"
+     ]
+    },
+    {
+     "name": "Schoolhouse",
+     "features": [
+      "Nombreux conteneurs de loot"
+     ]
+    },
+    {
+     "name": "SW Camp",
+     "features": [
+      "Loot libre"
+     ]
+    },
+    {
+     "name": "NW Campsite",
+     "features": [
+      "Loot libre"
+     ]
+    },
+    {
+     "name": "Observation Dock",
+     "features": [
+      "Point d'extraction",
+      "Postes de sniper"
+     ]
+    },
+    {
+     "name": "Stray Site",
+     "features": [
+      "Spawn de loot rare"
+     ]
+    }
+   ],
+   "keys": [
+    {
+     "name": "Cafeteria Cashiers Office Key",
+     "durability": 3
+    },
+    {
+     "name": "Building C Lounge 1 Key",
+     "durability": 30
+    },
+    {
+     "name": "Building B Managers Office Key",
+     "durability": 45
+    },
+    {
+     "name": "Service Area Managers Office Key",
+     "durability": 30
+    },
+    {
+     "name": "Building D Projection Room Key",
+     "durability": 45
+    },
+    {
+     "name": "Sewage Plant Workshop Key",
+     "durability": 45
+    },
+    {
+     "name": "Building C Lounge Private Room Key",
+     "durability": 30
+    },
+    {
+     "name": "Building B Reception Room Key",
+     "durability": 30
+    },
+    {
+     "name": "Waiting Area Lounge Key",
+     "durability": 45
+    }
+   ],
+   "boss": [
+    "Fred (Frade) Lee"
+   ],
+   "officialDescription": "Northridge is the largest map in the current version of Arena Breakout: Infinite. A central lake divides it into East and West sections, connected by a single narrow bridge. While the bridge provides crucial access between both sides, it also leaves anyone crossing it vulnerable to sniper fire and ambushes.",
+   "imageSource": "officielle",
+   "interactiveMap": "https://maps.tcno.co/abi/northridge",
+   "referenceMaps": "https://abibuilder.com/maps",
+   "page": "map-northridge.html",
+   "bossStatut": {
+    "Fred (Frade) Lee": "nomme par l'editeur"
+   }
+  },
+  {
+   "id": "armory",
+   "name": "Armory",
+   "difficulty": "Moyenne",
+   "extractions": 3,
+   "modes": [
+    "Normal",
+    "Lockdown",
+    "Forbidden"
+   ],
+   "infected": false,
+   "description": "Complexe militaire urbain, combats rapprochés intenses.",
+   "image": "../img/maps/map-armory.jpg",
+   "players": 12,
+   "duration": "20 min",
+   "extractionNames": [
+    "F Control Room",
+    "B1 Canal",
+    "B1 Passage"
+   ],
+   "zones": [
+    "Core Unit",
+    "Control Room",
+    "Lounge",
+    "Ammo Dump",
+    "Conference Room",
+    "Canal",
+    "Command Room"
+   ],
+   "zoneDetails": [
+    {
+     "name": "Core Unit",
+     "features": []
+    },
+    {
+     "name": "Control Room",
+     "features": []
+    },
+    {
+     "name": "Lounge",
+     "features": []
+    },
+    {
+     "name": "Ammo Dump",
+     "features": []
+    },
+    {
+     "name": "Conference Room",
+     "features": []
+    },
+    {
+     "name": "Canal",
+     "features": []
+    },
+    {
+     "name": "Command Room",
+     "features": []
+    }
+   ],
+   "keys": [
+    {
+     "name": "Weapon Storage Keycard",
+     "durability": 30
+    },
+    {
+     "name": "Commnand Room Entry Keycard",
+     "durability": 30
+    },
+    {
+     "name": "Private Lounge Key",
+     "durability": 45
+    },
+    {
+     "name": "Second Floor Lounge Key",
+     "durability": 45
+    },
+    {
+     "name": "Commnand Room Exit Keycard",
+     "durability": 30
+    },
+    {
+     "name": "Sluice No. 2 Key",
+     "durability": 3
+    }
+   ],
+   "boss": [
+    "Renoir"
+   ],
+   "officialDescription": "This military armory, once under the Northern Front's control, was heavily fortified and stocked with weapons. During the North-South Conflict, Ajax defended it for months until Renoir's forces took over. Now, Renoir's men control the armory, with heavily armed guards stationed at key choke points to keep outsiders at bay.",
+   "imageSource": "officielle",
+   "interactiveMap": "https://maps.tcno.co/abi/armory",
+   "referenceMaps": "https://abibuilder.com/maps",
+   "page": "map-armory.html",
+   "bossStatut": {
+    "Renoir": "attache par le recit de l'editeur"
+   }
+  },
+  {
+   "id": "tvstation",
+   "name": "TV Station",
+   "difficulty": "Moyenne",
+   "extractions": 3,
+   "modes": [
+    "Normal",
+    "Lockdown",
+    "Forbidden"
+   ],
+   "infected": false,
+   "description": "Studio de télévision abandonné, couloirs serrés et loot de qualité.",
+   "image": "../img/maps/map-tvstation.jpg",
+   "players": 12,
+   "duration": "20 min",
+   "extractionNames": [
+    "Elevator",
+    "Loading Dock",
+    "Main Entrance"
+   ],
+   "zones": [
+    "Live Broadcast Room",
+    "Auditorium",
+    "Couloir d'exposition",
+    "Lobby",
+    "Cafeteria",
+    "Archive Room"
+   ],
+   "zoneDetails": [
+    {
+     "name": "Live Broadcast Room",
+     "features": []
+    },
+    {
+     "name": "Auditorium",
+     "features": []
+    },
+    {
+     "name": "Couloir d'exposition",
+     "features": []
+    },
+    {
+     "name": "Lobby",
+     "features": []
+    },
+    {
+     "name": "Cafeteria",
+     "features": []
+    },
+    {
+     "name": "Archive Room",
+     "features": []
+    }
+   ],
+   "keys": [
+    {
+     "name": "2F Directors Office Card",
+     "durability": 30
+    },
+    {
+     "name": "2F General Office Key",
+     "durability": 30
+    },
+    {
+     "name": "Post-Production Room Key",
+     "durability": 30
+    },
+    {
+     "name": "Editing Room Key",
+     "durability": 30
+    },
+    {
+     "name": "Darkroom Key",
+     "durability": 45
+    },
+    {
+     "name": "Infirmary Key",
+     "durability": 45
+    },
+    {
+     "name": "Planning Room Key",
+     "durability": 30
+    }
+   ],
+   "boss": [
+    "Kurt Williams",
+    "Rolf Schneider",
+    "Bernard Martin"
+   ],
+   "officialDescription": "The TV Station, true to its name, was the main broadcaster for most of native Kamona television. During the North-South Conflict, it was seized by the Northerners, but the Sumek Committee later intervened, bringing an end to the war. The station was eventually taken over by the White Wolves, who are believed to have installed the gas distribution system in the central area. Under Kayla's leadership, Blackgold Universal launched a siege of the TV Station, creating an opportunity for other groups to enter in search of the valuable remnants left behind.",
+   "imageSource": "officielle",
+   "interactiveMap": "https://maps.tcno.co/abi/tv-station",
+   "referenceMaps": "https://abibuilder.com/maps",
+   "page": "map-tv-station.html",
+   "bossStatut": {
+    "Kurt Williams": "nomme par l'editeur",
+    "Rolf Schneider": "nomme par l'editeur",
+    "Bernard Martin": "nomme par l'editeur"
+   }
+  },
+  {
+   "id": "airport",
+   "name": "Airport",
+   "difficulty": "Difficile",
+   "extractions": 4,
+   "modes": [
+    "Normal",
+    "Lockdown",
+    "Forbidden",
+    "Heavy Infected Zone",
+    "Zombie Endless"
+   ],
+   "infected": true,
+   "infectedTier": "Heavy (Forbidden)",
+   "description": "Aéroport international : la carte la plus riche et la plus dangereuse. Zombie Endless (PvE) s'y déroule.",
+   "image": "../img/maps/map-airport.jpg",
+   "players": 12,
+   "duration": "30 min",
+   "extractionNames": [
+    "VIP Lounge Extraction",
+    "Runway Extraction",
+    "Hangar Extraction",
+    "Service Road Extraction"
+   ],
+   "zones": [
+    "Fuel Storage",
+    "Construction Site",
+    "Medical Area",
+    "Control Tower",
+    "Exhibition",
+    "Military Zone",
+    "Freight Center",
+    "Ticket Hall",
+    "Parking Lot"
+   ],
+   "zoneDetails": [
+    {
+     "name": "Fuel Storage",
+     "features": [
+      "Zone de stockage",
+      "Plusieurs conteneurs de loot"
+     ]
+    },
+    {
+     "name": "Construction Site",
+     "features": [
+      "Nombreux conteneurs de loot"
+     ]
+    },
+    {
+     "name": "Medical Area",
+     "features": [
+      "Loot médical",
+      "Plusieurs conteneurs de loot"
+     ]
+    },
+    {
+     "name": "Control Tower",
+     "features": [
+      "Point d'extraction",
+      "Loot premium",
+      "Plusieurs coffres-forts"
+     ]
+    },
+    {
+     "name": "Exhibition",
+     "features": [
+      "Plusieurs conteneurs de loot",
+      "Point d'extraction"
+     ]
+    },
+    {
+     "name": "Military Zone",
+     "features": [
+      "Loot militaire",
+      "Nombreux Scavengers"
+     ]
+    },
+    {
+     "name": "Freight Center",
+     "features": [
+      "Nombreux conteneurs de loot",
+      "Plusieurs coffres-forts"
+     ]
+    },
+    {
+     "name": "Ticket Hall",
+     "features": [
+      "Plusieurs conteneurs de loot",
+      "Coffre-fort"
+     ]
+    },
+    {
+     "name": "Parking Lot",
+     "features": [
+      "Loot libre",
+      "Point d'extraction"
+     ]
+    }
+   ],
+   "keys": [
+    {
+     "name": "Executive Lounge Key",
+     "durability": 30
+    },
+    {
+     "name": "VIP Reception Keycard",
+     "durability": 30
+    },
+    {
+     "name": "AOC Secret Archives Keycard",
+     "durability": 30
+    },
+    {
+     "name": "Employee Lounge Key",
+     "durability": 30
+    },
+    {
+     "name": "Fuel Storage Key",
+     "durability": 30
+    },
+    {
+     "name": "Cargo Inspection Area Key",
+     "durability": 30
+    },
+    {
+     "name": "Exhibition Uitlity Room Key",
+     "durability": 30
+    },
+    {
+     "name": "Control Area Permission Card",
+     "durability": 30
+    },
+    {
+     "name": "Ticket Hall Conference Room Key",
+     "durability": 30
+    }
+   ],
+   "boss": [],
+   "officialDescription": "L'Aeroport de Kamona est le hub de transport du monde : terminal, tour de controle, zone d'exposition et fret. Loot premium, de nombreuses zones cles et une pression PvP elevee.",
+   "imageSource": "officielle",
+   "interactiveMap": "https://maps.tcno.co/abi/airport",
+   "referenceMaps": "https://abibuilder.com/maps",
+   "page": "map-airport.html",
+   "bossStatut": {}
+  }
+ ],
+ "modes": [
+  {
+   "id": "nomansland",
+   "name": "No Man's Land",
+   "difficulty": "Variable",
+   "extractions": 8,
+   "modes": [
+    "PvE (ticket)"
+   ],
+   "infected": true,
+   "infectedTier": "Zombies No Man's Land (S7)",
+   "description": "Mode PvE à ticket : aucun joueur hostile, que de l'IA (et des zombies en S7). Le meilleur moyen de farmer en sécurité.",
+   "image": "../img/cards/var-nml.jpg",
+   "imageSource": "variant-officielle",
+   "note": "No Man's Land est un MODE PvE a ticket, pas une carte : il fait tourner les cartes Farm, Valley et TV Station. Le visuel designe ici est une declenchee dediee.",
+   "type": "mode",
+   "isMap": false,
+   "subtitle": "Mode PvE a tickets",
+   "rotation": [
+    "Farm",
+    "Valley",
+    "TV Station"
+   ],
+   "entry": "1 ticket par run",
+   "loadout": "Impose par le mode",
+   "adversaries": "IA seule : Militants, Elite, zombies",
+   "loot": "Pack complet conserve a l'extraction",
+   "page": "map-no-mans-land.html"
+  }
+ ]
+}

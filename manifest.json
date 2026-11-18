@@ -1,0 +1,99 @@
+{
+  "id": "/",
+  "name": "ABI NEXUS — Guide Ultime Arena Breakout Infinite",
+  "short_name": "ABI NEXUS",
+  "description": "Le guide de reference francais d'Arena Breakout Infinite — Saison 7 : Utopia. Armes, armures, munitions, cartes, strategies, tier lists et outils interactifs.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui",
+    "browser"
+  ],
+  "orientation": "portrait-primary",
+  "background_color": "#0a0b0e",
+  "theme_color": "#0a0b0e",
+  "categories": [
+    "games",
+    "reference",
+    "guides"
+  ],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "img/ui/favicon-64.jpg",
+      "sizes": "64x64",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "img/ui/favicon-180.jpg",
+      "sizes": "180x180",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "img/ui/favicon-512.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "img/ui/favicon-512.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Guide du debutant",
+      "short_name": "Debuter",
+      "url": "pages/guide-debutant.html",
+      "icons": [
+        {
+          "src": "img/ui/favicon-180.jpg",
+          "sizes": "180x180",
+          "type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Loadout Optimizer",
+      "short_name": "Loadout",
+      "url": "pages/meta-loadout-optimizer.html",
+      "icons": [
+        {
+          "src": "img/ui/favicon-180.jpg",
+          "sizes": "180x180",
+          "type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Tier List des armes",
+      "short_name": "Tier List",
+      "url": "pages/armes-tier-list.html",
+      "icons": [
+        {
+          "src": "img/ui/favicon-180.jpg",
+          "sizes": "180x180",
+          "type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Cartes",
+      "short_name": "Cartes",
+      "url": "pages/map-farm.html",
+      "icons": [
+        {
+          "src": "img/ui/favicon-180.jpg",
+          "sizes": "180x180",
+          "type": "image/jpeg"
+        }
+      ]
+    }
+  ]
+}

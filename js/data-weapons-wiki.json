@@ -1,0 +1,1911 @@
+{
+ "meta": {
+  "game": "Arena Breakout Infinite",
+  "source": "Wiki ABI de reference (Fandom) — donnee documentee, non publiee par l'editeur",
+  "updated": "2026-11-17",
+  "count": 77,
+  "note": "Catalogue complet des armes documentees par la source de reference. Les statistiques sont sur une echelle de 0 a 100, sauf la cadence (tours/min), la vitesse du projectile (m/s) et le poids (kg). Aucun tier ni prix : ces valeurs ne sont pas documentees par cette source et restent reservees au catalogue local de js/data-weapons.json."
+ },
+ "weapons": [
+  {
+   "id": "bm59",
+   "name": "BM59",
+   "nomComplet": "BM59 Carbine",
+   "category": "Carabine",
+   "categorieWiki": "Carbines",
+   "caliber": "7.62×51mm",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 3.43,
+   "stats": {
+    "reculVertical": 34,
+    "reculHorizontal": 25,
+    "ergonomie": 48,
+    "stabilite": 55,
+    "precision": 60,
+    "stabiliteHipfire": 46,
+    "portee": 62,
+    "vitesseProjectile": 823,
+    "cadence": 300
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "m14",
+   "name": "M14",
+   "nomComplet": "M14 Carbine",
+   "category": "Carabine",
+   "categorieWiki": "Carbines",
+   "caliber": "7.62×51mm",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 5.34,
+   "stats": {
+    "reculVertical": 44,
+    "reculHorizontal": 39,
+    "ergonomie": 45,
+    "stabilite": 63,
+    "precision": 76,
+    "stabiliteHipfire": 61,
+    "portee": 66,
+    "vitesseProjectile": 853,
+    "cadence": 350
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "m16",
+   "name": "M16",
+   "nomComplet": "M16 Carbine",
+   "category": "Carabine",
+   "categorieWiki": "Carbines",
+   "caliber": "5.56×45mm",
+   "modes": [
+    "Semi-automatique",
+    "Rafale 3 balles"
+   ],
+   "poids": 5.04,
+   "stats": {
+    "reculVertical": 64,
+    "reculHorizontal": 39,
+    "ergonomie": 53,
+    "stabilite": 48,
+    "precision": 43,
+    "stabiliteHipfire": 72,
+    "portee": 73,
+    "vitesseProjectile": 875,
+    "cadence": 660
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "m96",
+   "name": "M96",
+   "nomComplet": "M96 Carbine",
+   "category": "Carabine",
+   "categorieWiki": "Carbines",
+   "caliber": "5.56×45mm",
+   "modes": [
+    "Rafale 3 balles"
+   ],
+   "poids": 3.63,
+   "stats": {
+    "reculVertical": 59,
+    "reculHorizontal": 35,
+    "ergonomie": 50,
+    "stabilite": 60,
+    "precision": 55,
+    "stabiliteHipfire": 60,
+    "portee": 57,
+    "vitesseProjectile": 960,
+    "cadence": 400
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "mini14",
+   "name": "Mini14",
+   "nomComplet": "Mini14 Carbine",
+   "category": "Carabine",
+   "categorieWiki": "Carbines",
+   "caliber": "5.56×45mm",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 4.22,
+   "stats": {
+    "reculVertical": 72,
+    "reculHorizontal": 52,
+    "ergonomie": 60,
+    "stabilite": 67,
+    "precision": 70,
+    "stabiliteHipfire": 55,
+    "portee": 67,
+    "vitesseProjectile": 990,
+    "cadence": 400
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "sa85m",
+   "name": "SA85M",
+   "nomComplet": "SA85M Carbine",
+   "category": "Carabine",
+   "categorieWiki": "Carbines",
+   "caliber": "7.62×39mm",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 4.6,
+   "stats": {
+    "reculVertical": 51,
+    "reculHorizontal": 46,
+    "ergonomie": 42,
+    "stabilite": 60,
+    "precision": 62,
+    "stabiliteHipfire": 70,
+    "portee": 54,
+    "vitesseProjectile": 716,
+    "cadence": 300
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "sks",
+   "name": "SKS",
+   "nomComplet": "SKS Carbine",
+   "category": "Carabine",
+   "categorieWiki": "Carbines",
+   "caliber": "7.62×39mm",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 5.02,
+   "stats": {
+    "reculVertical": 42,
+    "reculHorizontal": 39,
+    "ergonomie": 46,
+    "stabilite": 65,
+    "precision": 77,
+    "stabiliteHipfire": 50,
+    "portee": 58,
+    "vitesseProjectile": 735,
+    "cadence": 300
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "svtu",
+   "name": "SVTU",
+   "nomComplet": "SVTU Carbine",
+   "category": "Carabine",
+   "categorieWiki": "Carbines",
+   "caliber": "7.62×54mm",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 3.97,
+   "stats": {
+    "reculVertical": 30,
+    "reculHorizontal": 25,
+    "ergonomie": 30,
+    "stabilite": 50,
+    "precision": 35,
+    "stabiliteHipfire": 42,
+    "portee": 66,
+    "vitesseProjectile": 640,
+    "cadence": 200
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "m110",
+   "name": "M110",
+   "nomComplet": "M110 Marksman Rifle",
+   "category": "DMR",
+   "categorieWiki": "Marksman Rifles",
+   "caliber": "7.62×51mm",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 6.97,
+   "stats": {
+    "reculVertical": 58,
+    "reculHorizontal": 51,
+    "ergonomie": 58,
+    "stabilite": 66,
+    "precision": 91,
+    "stabiliteHipfire": 48,
+    "portee": 80,
+    "vitesseProjectile": 783,
+    "cadence": 300
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "mk14",
+   "name": "MK14",
+   "nomComplet": "MK14 Marksman Rifle",
+   "category": "DMR",
+   "categorieWiki": "Marksman Rifles",
+   "caliber": "7.62×51mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 8.14,
+   "stats": {
+    "reculVertical": 57,
+    "reculHorizontal": 54,
+    "ergonomie": 59,
+    "stabilite": 54,
+    "precision": 69,
+    "stabiliteHipfire": 48,
+    "portee": 55,
+    "vitesseProjectile": 853,
+    "cadence": 700
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "svds",
+   "name": "SVDS",
+   "nomComplet": "SVDS Marksman Rifle",
+   "category": "DMR",
+   "categorieWiki": "Marksman Rifles",
+   "caliber": "7.62×54mm",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 7.36,
+   "stats": {
+    "reculVertical": 43,
+    "reculHorizontal": 44,
+    "ergonomie": 44,
+    "stabilite": 64,
+    "precision": 91,
+    "stabiliteHipfire": 22,
+    "portee": 83,
+    "vitesseProjectile": 815,
+    "cadence": 225
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "u191",
+   "name": "U191",
+   "nomComplet": "U191 Marksman Rifle",
+   "category": "DMR",
+   "categorieWiki": "Marksman Rifles",
+   "caliber": "5.8×42mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 3.67,
+   "stats": {
+    "reculVertical": 63,
+    "reculHorizontal": 49,
+    "ergonomie": 46,
+    "stabilite": 72,
+    "precision": 90,
+    "stabiliteHipfire": 51,
+    "portee": 64,
+    "vitesseProjectile": 950,
+    "cadence": 750
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "vss",
+   "name": "VSS",
+   "nomComplet": "VSS Marksman Rifle",
+   "category": "DMR",
+   "categorieWiki": "Marksman Rifles",
+   "caliber": "9×39mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 6.22,
+   "stats": {
+    "reculVertical": 65,
+    "reculHorizontal": 45,
+    "ergonomie": 57,
+    "stabilite": 55,
+    "precision": 44,
+    "stabiliteHipfire": 71,
+    "portee": 26,
+    "vitesseProjectile": 287,
+    "cadence": 850
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "ace31",
+   "name": "ACE31",
+   "nomComplet": "ACE31 Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "7.62×39mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 4.37,
+   "stats": {
+    "reculVertical": 54,
+    "reculHorizontal": 32,
+    "ergonomie": 59,
+    "stabilite": 48,
+    "precision": 48,
+    "stabiliteHipfire": 74,
+    "portee": 58,
+    "vitesseProjectile": 800,
+    "cadence": 650
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "aek",
+   "name": "AEK",
+   "nomComplet": "AEK Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "7.62×39mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 4.17,
+   "stats": {
+    "reculVertical": 57,
+    "reculHorizontal": 38,
+    "ergonomie": 63,
+    "stabilite": 48,
+    "precision": 42,
+    "stabiliteHipfire": 70,
+    "portee": 59,
+    "vitesseProjectile": 800,
+    "cadence": 800
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "ak102",
+   "name": "AK-102",
+   "nomComplet": "AK-102 Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "5.56×45mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 4.9,
+   "stats": {
+    "reculVertical": 67,
+    "reculHorizontal": 50,
+    "ergonomie": 50,
+    "stabilite": 50,
+    "precision": 38,
+    "stabiliteHipfire": 77,
+    "portee": 50,
+    "vitesseProjectile": 850,
+    "cadence": 600
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "ak74n",
+   "name": "AK-74N",
+   "nomComplet": "AK-74N Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "5.45×39mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 4.48,
+   "stats": {
+    "reculVertical": 60,
+    "reculHorizontal": 47,
+    "ergonomie": 48,
+    "stabilite": 52,
+    "precision": 39,
+    "stabiliteHipfire": 71,
+    "portee": 42,
+    "vitesseProjectile": 900,
+    "cadence": 550
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "ak12",
+   "name": "AK12",
+   "nomComplet": "AK12 Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "5.45×39mm",
+   "modes": [
+    "Rafale 3 balles",
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 3.89,
+   "stats": {
+    "reculVertical": 69,
+    "reculHorizontal": 50,
+    "ergonomie": 60,
+    "stabilite": 47,
+    "precision": 43,
+    "stabiliteHipfire": 79,
+    "portee": 55,
+    "vitesseProjectile": 880,
+    "cadence": 730
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "akm",
+   "name": "AKM",
+   "nomComplet": "AKM Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "7.62×39mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 3.56,
+   "stats": {
+    "reculVertical": 50,
+    "reculHorizontal": 47,
+    "ergonomie": 44,
+    "stabilite": 50,
+    "precision": 38,
+    "stabiliteHipfire": 71,
+    "portee": 54,
+    "vitesseProjectile": 715,
+    "cadence": 600
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "aks74u",
+   "name": "AKS-74U",
+   "nomComplet": "AKS-74U Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "5.45×39mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 4.93,
+   "stats": {
+    "reculVertical": 52,
+    "reculHorizontal": 36,
+    "ergonomie": 44,
+    "stabilite": 50,
+    "precision": 29,
+    "stabiliteHipfire": 72,
+    "portee": 33,
+    "vitesseProjectile": 735,
+    "cadence": 500
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "amb17",
+   "name": "AMB-17",
+   "nomComplet": "AMB-17 Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "9×39mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 5.66,
+   "stats": {
+    "reculVertical": 75,
+    "reculHorizontal": 63,
+    "ergonomie": 61,
+    "stabilite": 51,
+    "precision": 49,
+    "stabiliteHipfire": 64,
+    "portee": 37,
+    "vitesseProjectile": 310,
+    "cadence": 730
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "an94",
+   "name": "AN-94",
+   "nomComplet": "AN-94 Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "5.45×39mm",
+   "modes": [
+    "Rafale 2 balles",
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 4.4,
+   "stats": {
+    "reculVertical": 60,
+    "reculHorizontal": 44,
+    "ergonomie": 59,
+    "stabilite": 48,
+    "precision": 72,
+    "stabiliteHipfire": 75,
+    "portee": 57,
+    "vitesseProjectile": 900,
+    "cadence": 630
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "ar57",
+   "name": "AR-57",
+   "nomComplet": "AR-57 Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "5.7×28mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 4.98,
+   "stats": {
+    "reculVertical": 69,
+    "reculHorizontal": 55,
+    "ergonomie": 57,
+    "stabilite": 50,
+    "precision": 41,
+    "stabiliteHipfire": 69,
+    "portee": 51,
+    "vitesseProjectile": 800,
+    "cadence": 850
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "aug",
+   "name": "AUG",
+   "nomComplet": "AUG Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "5.56×45mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 3.88,
+   "stats": {
+    "reculVertical": 77,
+    "reculHorizontal": 69,
+    "ergonomie": 68,
+    "stabilite": 51,
+    "precision": 59,
+    "stabiliteHipfire": 81,
+    "portee": 46,
+    "vitesseProjectile": 970,
+    "cadence": 750
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "cz807",
+   "name": "CZ 807",
+   "nomComplet": "CZ 807 Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "7.62×39mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 1.9,
+   "stats": {
+    "reculVertical": 66,
+    "reculHorizontal": 50,
+    "ergonomie": 74,
+    "stabilite": 48,
+    "precision": 37,
+    "stabiliteHipfire": 60,
+    "portee": 49,
+    "vitesseProjectile": 760,
+    "cadence": 750
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "mdr",
+   "name": "DT MDR",
+   "nomComplet": "DT MDR Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "5.56×45mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 5.43,
+   "stats": {
+    "reculVertical": 75,
+    "reculHorizontal": 25,
+    "ergonomie": 66,
+    "stabilite": 58,
+    "precision": 42,
+    "stabiliteHipfire": 74,
+    "portee": 51,
+    "vitesseProjectile": 960,
+    "cadence": 700
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "f2000",
+   "name": "F2000",
+   "nomComplet": "F2000 Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "5.56×45mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 5.46,
+   "stats": {
+    "reculVertical": 80,
+    "reculHorizontal": 74,
+    "ergonomie": 67,
+    "stabilite": 51,
+    "precision": 39,
+    "stabiliteHipfire": 83,
+    "portee": 48,
+    "vitesseProjectile": 900,
+    "cadence": 850
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "fal",
+   "name": "FAL",
+   "nomComplet": "FAL Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "7.62×51mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 6.93,
+   "stats": {
+    "reculVertical": 52,
+    "reculHorizontal": 43,
+    "ergonomie": 43,
+    "stabilite": 48,
+    "precision": 42,
+    "stabiliteHipfire": 57,
+    "portee": 51,
+    "vitesseProjectile": 820,
+    "cadence": 630
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "famas",
+   "name": "FAMAS",
+   "nomComplet": "FAMAS Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "5.56×45mm",
+   "modes": [
+    "Rafale 3 balles",
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 3.31,
+   "stats": {
+    "reculVertical": 73,
+    "reculHorizontal": 42,
+    "ergonomie": 51,
+    "stabilite": 51,
+    "precision": 45,
+    "stabiliteHipfire": 70,
+    "portee": 40,
+    "vitesseProjectile": 850,
+    "cadence": 900
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "g3",
+   "name": "G3",
+   "nomComplet": "G3 Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "7.62×51mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 5.32,
+   "stats": {
+    "reculVertical": 54,
+    "reculHorizontal": 29,
+    "ergonomie": 53,
+    "stabilite": 47,
+    "precision": 38,
+    "stabiliteHipfire": 65,
+    "portee": 39,
+    "vitesseProjectile": 790,
+    "cadence": 460
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "h416",
+   "name": "H416",
+   "nomComplet": "H416 Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "5.56×45mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 4.42,
+   "stats": {
+    "reculVertical": 72,
+    "reculHorizontal": 51,
+    "ergonomie": 73,
+    "stabilite": 48,
+    "precision": 39,
+    "stabiliteHipfire": 74,
+    "portee": 32,
+    "vitesseProjectile": 910,
+    "cadence": 860
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "m4a1",
+   "name": "M4A1",
+   "nomComplet": "M4A1 Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "5.56×45mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 5.57,
+   "stats": {
+    "reculVertical": 71,
+    "reculHorizontal": 55,
+    "ergonomie": 57,
+    "stabilite": 50,
+    "precision": 41,
+    "stabiliteHipfire": 72,
+    "portee": 49,
+    "vitesseProjectile": 900,
+    "cadence": 750
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "mcx",
+   "name": "MCX",
+   "nomComplet": "MCX Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "5.56×45mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 2.61,
+   "stats": {
+    "reculVertical": 77,
+    "reculHorizontal": 69,
+    "ergonomie": 80,
+    "stabilite": 46,
+    "precision": 30,
+    "stabiliteHipfire": 71,
+    "portee": 30,
+    "vitesseProjectile": 820,
+    "cadence": 700
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "pcc9",
+   "name": "PCC-9",
+   "nomComplet": "PCC-9 Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "9×19mm",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 2.46,
+   "stats": {
+    "reculVertical": 70,
+    "reculHorizontal": 51,
+    "ergonomie": 78,
+    "stabilite": 55,
+    "precision": 28,
+    "stabiliteHipfire": 73,
+    "portee": 36,
+    "vitesseProjectile": 396,
+    "cadence": 600
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "scarl",
+   "name": "SCAR-L",
+   "nomComplet": "SCAR-L Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "5.56×45mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 5.33,
+   "stats": {
+    "reculVertical": 66,
+    "reculHorizontal": 44,
+    "ergonomie": 70,
+    "stabilite": 52,
+    "precision": 50,
+    "stabiliteHipfire": 73,
+    "portee": 46,
+    "vitesseProjectile": 875,
+    "cadence": 500
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "sg550",
+   "name": "SG550",
+   "nomComplet": "SG550 Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "5.56×45mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 4.06,
+   "stats": {
+    "reculVertical": 55,
+    "reculHorizontal": 37,
+    "ergonomie": 46,
+    "stabilite": 50,
+    "precision": 32,
+    "stabiliteHipfire": 61,
+    "portee": 41,
+    "vitesseProjectile": 760,
+    "cadence": 525
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "t03",
+   "name": "T03",
+   "nomComplet": "T03 Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "5.8×42mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 3.7,
+   "stats": {
+    "reculVertical": 77,
+    "reculHorizontal": 37,
+    "ergonomie": 57,
+    "stabilite": 49,
+    "precision": 45,
+    "stabiliteHipfire": 72,
+    "portee": 53,
+    "vitesseProjectile": 930,
+    "cadence": 700
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "t191",
+   "name": "T191",
+   "nomComplet": "T191 Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "5.8×42mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 3.6,
+   "stats": {
+    "reculVertical": 64,
+    "reculHorizontal": 42,
+    "ergonomie": 73,
+    "stabilite": 60,
+    "precision": 80,
+    "stabiliteHipfire": 72,
+    "portee": 53,
+    "vitesseProjectile": 930,
+    "cadence": 750
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "t192",
+   "name": "T192",
+   "nomComplet": "T192 Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "5.8×42mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 2.5,
+   "stats": {
+    "reculVertical": 66,
+    "reculHorizontal": 42,
+    "ergonomie": 84,
+    "stabilite": 76,
+    "precision": 60,
+    "stabiliteHipfire": 80,
+    "portee": 41,
+    "vitesseProjectile": 900,
+    "cadence": 750
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "t951",
+   "name": "T951",
+   "nomComplet": "T951 Assault Rifle",
+   "category": "Fusil d'assaut",
+   "categorieWiki": "Assault Rifles",
+   "caliber": "5.8×42mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 5.06,
+   "stats": {
+    "reculVertical": 70,
+    "reculHorizontal": 40,
+    "ergonomie": 57,
+    "stabilite": 51,
+    "precision": 42,
+    "stabiliteHipfire": 68,
+    "portee": 45,
+    "vitesseProjectile": 930,
+    "cadence": 650
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "rpk16",
+   "name": "RPK16",
+   "nomComplet": "RPK16 Light Machine Gun",
+   "category": "LMG",
+   "categorieWiki": "Light Machine Guns",
+   "caliber": "5.45×39mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 6.63,
+   "stats": {
+    "reculVertical": 73,
+    "reculHorizontal": 58,
+    "ergonomie": 51,
+    "stabilite": 55,
+    "precision": 57,
+    "stabiliteHipfire": 66,
+    "portee": 53,
+    "vitesseProjectile": 890,
+    "cadence": 750
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "cz52",
+   "name": "CZ52",
+   "nomComplet": "CZ52 Pistol",
+   "category": "Pistolet",
+   "categorieWiki": "Pistols",
+   "caliber": "7.62×25mm",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 1.9,
+   "stats": {
+    "reculVertical": 55,
+    "reculHorizontal": 26,
+    "ergonomie": 77,
+    "stabilite": 48,
+    "precision": 13,
+    "stabiliteHipfire": 61,
+    "portee": 16,
+    "vitesseProjectile": 500,
+    "cadence": 325
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "desert_eagle",
+   "name": "Desert Eagle",
+   "nomComplet": "Desert Eagle Pistol",
+   "category": "Pistolet",
+   "categorieWiki": "Pistols",
+   "caliber": ".44 Magnum",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 1.81,
+   "stats": {
+    "reculVertical": 40,
+    "reculHorizontal": 24,
+    "ergonomie": 65,
+    "stabilite": 46,
+    "precision": 30,
+    "stabiliteHipfire": 58,
+    "portee": 31,
+    "vitesseProjectile": 470,
+    "cadence": 300
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "f57",
+   "name": "F57",
+   "nomComplet": "F57 Pistol",
+   "category": "Pistolet",
+   "categorieWiki": "Pistols",
+   "caliber": "5.7×28mm",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 2.49,
+   "stats": {
+    "reculVertical": 60,
+    "reculHorizontal": 25,
+    "ergonomie": 83,
+    "stabilite": 53,
+    "precision": 22,
+    "stabiliteHipfire": 62,
+    "portee": 20,
+    "vitesseProjectile": 650,
+    "cadence": 400
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "g17",
+   "name": "G17",
+   "nomComplet": "G17 Pistol",
+   "category": "Pistolet",
+   "categorieWiki": "Pistols",
+   "caliber": "9×19mm",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 1.16,
+   "stats": {
+    "reculVertical": 56,
+    "reculHorizontal": 23,
+    "ergonomie": 73,
+    "stabilite": 51,
+    "precision": 15,
+    "stabiliteHipfire": 65,
+    "portee": 14,
+    "vitesseProjectile": 375,
+    "cadence": 400
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "g18c",
+   "name": "G18C",
+   "nomComplet": "G18C Pistol",
+   "category": "Pistolet",
+   "categorieWiki": "Pistols",
+   "caliber": "9×19mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 1.31,
+   "stats": {
+    "reculVertical": 57,
+    "reculHorizontal": 24,
+    "ergonomie": 73,
+    "stabilite": 43,
+    "precision": 16,
+    "stabiliteHipfire": 65,
+    "portee": 12,
+    "vitesseProjectile": 375,
+    "cadence": 1000
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "gold_desert_eagle",
+   "name": "Gold Desert Eagle",
+   "nomComplet": "Gold Desert Eagle Pistol",
+   "category": "Pistolet",
+   "categorieWiki": "Pistolet",
+   "caliber": ".44 Magnum",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 1.87,
+   "stats": {
+    "reculVertical": 66,
+    "reculHorizontal": 35,
+    "ergonomie": 88,
+    "stabilite": 46,
+    "precision": 30,
+    "stabiliteHipfire": 58,
+    "portee": 31,
+    "vitesseProjectile": 470,
+    "cadence": 300
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "m1911",
+   "name": "M1911",
+   "nomComplet": "M1911 Pistol",
+   "category": "Pistolet",
+   "categorieWiki": "Pistols",
+   "caliber": ".45 ACP",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 2.5,
+   "stats": {
+    "reculVertical": 54,
+    "reculHorizontal": 26,
+    "ergonomie": 77,
+    "stabilite": 51,
+    "precision": 14,
+    "stabiliteHipfire": 63,
+    "portee": 16,
+    "vitesseProjectile": 251,
+    "cadence": 350
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "m45a1",
+   "name": "M45A1",
+   "nomComplet": "M45A1 Pistol",
+   "category": "Pistolet",
+   "categorieWiki": "Pistols",
+   "caliber": ".45 ACP",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 2.25,
+   "stats": {
+    "reculVertical": 58,
+    "reculHorizontal": 28,
+    "ergonomie": 84,
+    "stabilite": 50,
+    "precision": 15,
+    "stabiliteHipfire": 76,
+    "portee": 12,
+    "vitesseProjectile": 310,
+    "cadence": 250
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "m9a3",
+   "name": "M9A3",
+   "nomComplet": "M9A3 Pistol",
+   "category": "Pistolet",
+   "categorieWiki": "Pistols",
+   "caliber": "9×19mm",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 1.19,
+   "stats": {
+    "reculVertical": 46,
+    "reculHorizontal": 27,
+    "ergonomie": 81,
+    "stabilite": 50,
+    "precision": 14,
+    "stabiliteHipfire": 61,
+    "portee": 17,
+    "vitesseProjectile": 372,
+    "cadence": 600
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "mp9",
+   "name": "MP9",
+   "nomComplet": "MP9 Micro SMG",
+   "category": "Pistolet",
+   "categorieWiki": "Pistols",
+   "caliber": "9×19mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 2.19,
+   "stats": {
+    "reculVertical": 69,
+    "reculHorizontal": 42,
+    "ergonomie": 69,
+    "stabilite": 44,
+    "precision": 13,
+    "stabiliteHipfire": 72,
+    "portee": 11,
+    "vitesseProjectile": 400,
+    "cadence": 750
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "t05",
+   "name": "T05",
+   "nomComplet": "T05 Pistol",
+   "category": "Pistolet",
+   "categorieWiki": "Pistols",
+   "caliber": "9×19mm",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 1.62,
+   "stats": {
+    "reculVertical": 41,
+    "reculHorizontal": 22,
+    "ergonomie": 77,
+    "stabilite": 50,
+    "precision": 11,
+    "stabiliteHipfire": 58,
+    "portee": 14,
+    "vitesseProjectile": 300,
+    "cadence": 300
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "t54",
+   "name": "T54",
+   "nomComplet": "T54 Pistol",
+   "category": "Pistolet",
+   "categorieWiki": "Pistols",
+   "caliber": "7.62×25mm",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 1.6,
+   "stats": {
+    "reculVertical": 52,
+    "reculHorizontal": 23,
+    "ergonomie": 71,
+    "stabilite": 50,
+    "precision": 15,
+    "stabiliteHipfire": 64,
+    "portee": 12,
+    "vitesseProjectile": 420,
+    "cadence": 325
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "m3a1",
+   "name": "M3A1",
+   "nomComplet": "M3A1 Micro SMG",
+   "category": "SMG",
+   "categorieWiki": "Submachine Guns",
+   "caliber": ".45 ACP",
+   "modes": [
+    "Automatique"
+   ],
+   "poids": 3.02,
+   "stats": {
+    "reculVertical": 68,
+    "reculHorizontal": 50,
+    "ergonomie": 60,
+    "stabilite": 40,
+    "precision": 19,
+    "stabiliteHipfire": 60,
+    "portee": 34,
+    "vitesseProjectile": 274,
+    "cadence": 450
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "mac10",
+   "name": "MAC-10",
+   "nomComplet": "MAC-10 Micro SMG",
+   "category": "SMG",
+   "categorieWiki": "Submachine Guns",
+   "caliber": ".45 ACP",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 3.73,
+   "stats": {
+    "reculVertical": 70,
+    "reculHorizontal": 50,
+    "ergonomie": 74,
+    "stabilite": 41,
+    "precision": 25,
+    "stabiliteHipfire": 72,
+    "portee": 33,
+    "vitesseProjectile": 366,
+    "cadence": 745
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "mp40",
+   "name": "MP40",
+   "nomComplet": "MP40 Micro SMG",
+   "category": "SMG",
+   "categorieWiki": "Submachine Guns",
+   "caliber": "9×19mm",
+   "modes": [
+    "Automatique"
+   ],
+   "poids": 4.55,
+   "stats": {
+    "reculVertical": 68,
+    "reculHorizontal": 42,
+    "ergonomie": 65,
+    "stabilite": 40,
+    "precision": 17,
+    "stabiliteHipfire": 61,
+    "portee": 28,
+    "vitesseProjectile": 400,
+    "cadence": 500
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "mp5",
+   "name": "MP5",
+   "nomComplet": "MP5 Micro SMG",
+   "category": "SMG",
+   "categorieWiki": "Submachine Guns",
+   "caliber": "9×19mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 3.89,
+   "stats": {
+    "reculVertical": 70,
+    "reculHorizontal": 50,
+    "ergonomie": 74,
+    "stabilite": 42,
+    "precision": 22,
+    "stabiliteHipfire": 76,
+    "portee": 28,
+    "vitesseProjectile": 400,
+    "cadence": 750
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "mpf45",
+   "name": "MPF45",
+   "nomComplet": "MPF45 Micro SMG",
+   "category": "SMG",
+   "categorieWiki": "Submachine Guns",
+   "caliber": ".45 ACP",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 2.44,
+   "stats": {
+    "reculVertical": 56,
+    "reculHorizontal": 37,
+    "ergonomie": 71,
+    "stabilite": 42,
+    "precision": 15,
+    "stabiliteHipfire": 76,
+    "portee": 26,
+    "vitesseProjectile": 235,
+    "cadence": 700
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "mpx",
+   "name": "MPX",
+   "nomComplet": "MPX Micro SMG",
+   "category": "SMG",
+   "categorieWiki": "Submachine Guns",
+   "caliber": "9×19mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 3.77,
+   "stats": {
+    "reculVertical": 68,
+    "reculHorizontal": 48,
+    "ergonomie": 81,
+    "stabilite": 45,
+    "precision": 25,
+    "stabiliteHipfire": 74,
+    "portee": 33,
+    "vitesseProjectile": 390,
+    "cadence": 850
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "p90",
+   "name": "P90",
+   "nomComplet": "P90 Micro SMG",
+   "category": "SMG",
+   "categorieWiki": "Submachine Guns",
+   "caliber": "5.7×28mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 3.73,
+   "stats": {
+    "reculVertical": 73,
+    "reculHorizontal": 69,
+    "ergonomie": 72,
+    "stabilite": 43,
+    "precision": 20,
+    "stabiliteHipfire": 73,
+    "portee": 36,
+    "vitesseProjectile": 715,
+    "cadence": 1000
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "pp19",
+   "name": "PP19",
+   "nomComplet": "PP19 Micro SMG",
+   "category": "SMG",
+   "categorieWiki": "Submachine Guns",
+   "caliber": "9×19mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 3.72,
+   "stats": {
+    "reculVertical": 68,
+    "reculHorizontal": 58,
+    "ergonomie": 79,
+    "stabilite": 41,
+    "precision": 38,
+    "stabiliteHipfire": 60,
+    "portee": 26,
+    "vitesseProjectile": 380,
+    "cadence": 750
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "qc61",
+   "name": "QC61",
+   "nomComplet": "QC61 Micro SMG",
+   "category": "SMG",
+   "categorieWiki": "Submachine Guns",
+   "caliber": "7.62×25mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 3.72,
+   "stats": {
+    "reculVertical": 61,
+    "reculHorizontal": 41,
+    "ergonomie": 69,
+    "stabilite": 42,
+    "precision": 19,
+    "stabiliteHipfire": 62,
+    "portee": 33,
+    "vitesseProjectile": 490,
+    "cadence": 700
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "t79",
+   "name": "T79",
+   "nomComplet": "T79 Micro SMG",
+   "category": "SMG",
+   "categorieWiki": "Submachine Guns",
+   "caliber": "7.62×25mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 3.41,
+   "stats": {
+    "reculVertical": 65,
+    "reculHorizontal": 48,
+    "ergonomie": 67,
+    "stabilite": 43,
+    "precision": 17,
+    "stabiliteHipfire": 64,
+    "portee": 33,
+    "vitesseProjectile": 515,
+    "cadence": 750
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "t85",
+   "name": "T85",
+   "nomComplet": "T85 Micro SMG",
+   "category": "SMG",
+   "categorieWiki": "Submachine Guns",
+   "caliber": "7.62×25mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 3.05,
+   "stats": {
+    "reculVertical": 75,
+    "reculHorizontal": 74,
+    "ergonomie": 70,
+    "stabilite": 42,
+    "precision": 23,
+    "stabiliteHipfire": 71,
+    "portee": 39,
+    "vitesseProjectile": 500,
+    "cadence": 780
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "ump45",
+   "name": "UMP45",
+   "nomComplet": "UMP45 Micro SMG",
+   "category": "SMG",
+   "categorieWiki": "SMG",
+   "caliber": ".45 ACP",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 2.05,
+   "stats": {
+    "reculVertical": 65,
+    "reculHorizontal": 47,
+    "ergonomie": 66,
+    "stabilite": 43,
+    "precision": 20,
+    "stabiliteHipfire": 63,
+    "portee": 34,
+    "vitesseProjectile": 285,
+    "cadence": 600
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "uzi",
+   "name": "UZI",
+   "nomComplet": "UZI Micro SMG",
+   "category": "SMG",
+   "categorieWiki": "Submachine Guns",
+   "caliber": "9×19mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 3.1,
+   "stats": {
+    "reculVertical": 64,
+    "reculHorizontal": 43,
+    "ergonomie": 68,
+    "stabilite": 40,
+    "precision": 18,
+    "stabiliteHipfire": 65,
+    "portee": 29,
+    "vitesseProjectile": 400,
+    "cadence": 700
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "vector45",
+   "name": "Vector 45",
+   "nomComplet": "Vector 45 Micro SMG",
+   "category": "SMG",
+   "categorieWiki": "SMG",
+   "caliber": ".45 ACP",
+   "modes": [
+    "Rafale 2 balles",
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 3.28,
+   "stats": {
+    "reculVertical": 62,
+    "reculHorizontal": 47,
+    "ergonomie": 71,
+    "stabilite": 41,
+    "precision": 21,
+    "stabiliteHipfire": 79,
+    "portee": 25,
+    "vitesseProjectile": 270,
+    "cadence": 1100
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "vector9",
+   "name": "Vector 9",
+   "nomComplet": "Vector 9 Micro SMG",
+   "category": "SMG",
+   "categorieWiki": "SMG",
+   "caliber": "9×19mm",
+   "modes": [
+    "Rafale 2 balles",
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 3.47,
+   "stats": {
+    "reculVertical": 58,
+    "reculHorizontal": 40,
+    "ergonomie": 74,
+    "stabilite": 41,
+    "precision": 20,
+    "stabiliteHipfire": 77,
+    "portee": 25,
+    "vitesseProjectile": 300,
+    "cadence": 950
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "m870",
+   "name": "M870",
+   "nomComplet": "M870 Shotgun",
+   "category": "Shotgun",
+   "categorieWiki": "Shotguns",
+   "caliber": "12×70mm",
+   "modes": [
+    "Manuel"
+   ],
+   "poids": 4.32,
+   "stats": {
+    "reculVertical": 14,
+    "reculHorizontal": 15,
+    "ergonomie": 44,
+    "stabilite": 43,
+    "precision": 9,
+    "stabiliteHipfire": 50,
+    "portee": 12,
+    "vitesseProjectile": 403,
+    "cadence": 70
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "mp133",
+   "name": "MP-133",
+   "nomComplet": "MP-133 Shotgun",
+   "category": "Shotgun",
+   "categorieWiki": "Shotguns",
+   "caliber": "12×70mm",
+   "modes": [
+    "Manuel"
+   ],
+   "poids": 4.25,
+   "stats": {
+    "reculVertical": 7,
+    "reculHorizontal": 6,
+    "ergonomie": 47,
+    "stabilite": 41,
+    "precision": 5,
+    "stabiliteHipfire": 51,
+    "portee": 11,
+    "vitesseProjectile": 337,
+    "cadence": 60
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "s12k",
+   "name": "S12K",
+   "nomComplet": "S12K Shotgun",
+   "category": "Shotgun",
+   "categorieWiki": "Shotguns",
+   "caliber": "12×70mm",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 4.85,
+   "stats": {
+    "reculVertical": 30,
+    "reculHorizontal": 32,
+    "ergonomie": 66,
+    "stabilite": 41,
+    "precision": 10,
+    "stabiliteHipfire": 51,
+    "portee": 14,
+    "vitesseProjectile": 396,
+    "cadence": 200
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "spr310",
+   "name": "SPR310 Double-Barreled",
+   "nomComplet": "SPR310 Double-Barreled Shotgun",
+   "category": "Shotgun",
+   "categorieWiki": "Shotguns",
+   "caliber": "12×70mm",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 3.08,
+   "stats": {
+    "reculVertical": 25,
+    "reculHorizontal": 24,
+    "ergonomie": 49,
+    "stabilite": 38,
+    "precision": 10,
+    "stabiliteHipfire": 50,
+    "portee": 10,
+    "vitesseProjectile": 410,
+    "cadence": 300
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "usas12",
+   "name": "USAS12",
+   "nomComplet": "USAS12 Shotgun",
+   "category": "Shotgun",
+   "categorieWiki": "Shotguns",
+   "caliber": "12×70mm",
+   "modes": [
+    "Semi-automatique",
+    "Automatique"
+   ],
+   "poids": 3.37,
+   "stats": {
+    "reculVertical": 37,
+    "reculHorizontal": 42,
+    "ergonomie": 53,
+    "stabilite": 40,
+    "precision": 12,
+    "stabiliteHipfire": 50,
+    "portee": 12,
+    "vitesseProjectile": 400,
+    "cadence": 275
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "m24",
+   "name": "M24",
+   "nomComplet": "M24 Bolt-Action Rifle",
+   "category": "Sniper",
+   "categorieWiki": "Marksman Rifles",
+   "caliber": "7.62×51mm",
+   "modes": [
+    "Manuel"
+   ],
+   "poids": 4.4,
+   "stats": {
+    "reculVertical": 7,
+    "reculHorizontal": 12,
+    "ergonomie": 39,
+    "stabilite": 68,
+    "precision": 90,
+    "stabiliteHipfire": 10,
+    "portee": 120,
+    "vitesseProjectile": 853,
+    "cadence": 30
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "ml",
+   "name": "ML",
+   "nomComplet": "ML Lever-Action Rifle",
+   "category": "Sniper",
+   "categorieWiki": "Sniper",
+   "caliber": ".44 Magnum",
+   "modes": [
+    "Semi-automatique"
+   ],
+   "poids": 6.97,
+   "stats": {
+    "reculVertical": 37,
+    "reculHorizontal": 29,
+    "ergonomie": 62,
+    "stabilite": 65,
+    "precision": 86,
+    "stabiliteHipfire": 85,
+    "portee": 64,
+    "vitesseProjectile": 457,
+    "cadence": 75
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "mosin",
+   "name": "Mosin-Nagant",
+   "nomComplet": "Mosin-Nagant Bolt-Action Rifle",
+   "category": "Sniper",
+   "categorieWiki": "Marksman Rifles",
+   "caliber": "7.62×54mm",
+   "modes": [
+    "Manuel"
+   ],
+   "poids": 5.01,
+   "stats": {
+    "reculVertical": 9,
+    "reculHorizontal": 12,
+    "ergonomie": 22,
+    "stabilite": 64,
+    "precision": 87,
+    "stabiliteHipfire": 10,
+    "portee": 100,
+    "vitesseProjectile": 830,
+    "cadence": 28
+   },
+   "source": "wiki"
+  },
+  {
+   "id": "sj16",
+   "name": "SJ16",
+   "nomComplet": "SJ16 Bolt-Action Rifle",
+   "category": "Sniper",
+   "categorieWiki": "Marksman Rifles",
+   "caliber": ".338 Lapua",
+   "modes": [
+    "Manuel"
+   ],
+   "poids": 6.48,
+   "stats": {
+    "reculVertical": 11,
+    "reculHorizontal": 15,
+    "ergonomie": 32,
+    "stabilite": 65,
+    "precision": 90,
+    "stabiliteHipfire": 10,
+    "portee": 125,
+    "vitesseProjectile": 1300,
+    "cadence": 26
+   },
+   "source": "wiki"
+  }
+ ]
+}

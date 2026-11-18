@@ -1,0 +1,227 @@
+[
+ {
+  "src": "weapons",
+  "name": "H416",
+  "id": "h416",
+  "category": "Fusil d'assaut",
+  "image": "../img/armes/h416.jpg",
+  "wiki": "H416 Assault Rifle",
+  "score": 0.9
+ },
+ {
+  "src": "weapons",
+  "name": "U191",
+  "id": "u191",
+  "category": "Fusil d'assaut",
+  "image": "../img/armes/u191.jpg",
+  "wiki": "U191 Marksman Rifle",
+  "score": 0.9
+ },
+ {
+  "src": "weapons",
+  "name": "AK-12",
+  "id": "ak12",
+  "category": "Fusil d'assaut",
+  "image": "../img/armes/ak12.jpg",
+  "wiki": "AK12 Assault Rifle",
+  "score": 0.78
+ },
+ {
+  "src": "weapons",
+  "name": "M4A1",
+  "id": "m4a1",
+  "category": "Fusil d'assaut",
+  "image": "../img/armes/m4a1.jpg",
+  "wiki": "M4A1 Assault Rifle",
+  "score": 0.9
+ },
+ {
+  "src": "weapons",
+  "name": "AN-94",
+  "id": "an94",
+  "category": "Fusil d'assaut",
+  "image": "../img/armes/an-94.jpg",
+  "wiki": "AN-94 Assault Rifle",
+  "score": 0.9
+ },
+ {
+  "src": "weapons",
+  "name": "FAL",
+  "id": "fal",
+  "category": "Fusil d'assaut",
+  "image": "../img/armes/fal.jpg",
+  "wiki": "FAL Assault Rifle",
+  "score": 0.9
+ },
+ {
+  "src": "weapons",
+  "name": "M110",
+  "id": "m110",
+  "category": "DMR",
+  "image": "../img/armes/m110.jpg",
+  "wiki": "M110 Marksman Rifle",
+  "score": 0.9
+ },
+ {
+  "src": "weapons",
+  "name": "MK14",
+  "id": "mk14",
+  "category": "DMR",
+  "image": "../img/armes/mk14.jpg",
+  "wiki": "MK14 Marksman Rifle",
+  "score": 0.9
+ },
+ {
+  "src": "weapons",
+  "name": "SJ16",
+  "id": "sj16",
+  "category": "DMR",
+  "image": "../img/armes/sj16.jpg",
+  "wiki": "SJ16 Bolt-Action Rifle",
+  "score": 0.9
+ },
+ {
+  "src": "weapons",
+  "name": "M24",
+  "id": "m24",
+  "category": "Sniper",
+  "image": "../img/armes/m24.jpg",
+  "wiki": "M24 Bolt-Action Rifle",
+  "score": 0.9
+ },
+ {
+  "src": "weapons",
+  "name": "Mosin",
+  "id": "mosin",
+  "category": "Sniper",
+  "image": "../img/armes/mosin.jpg",
+  "wiki": "Mosin-Nagant Bolt-Action Rifle",
+  "score": 0.9
+ },
+ {
+  "src": "weapons",
+  "name": "MPX",
+  "id": "mpx",
+  "category": "SMG",
+  "image": "../img/armes/mpx.jpg",
+  "wiki": "MPX Micro SMG",
+  "score": 0.98
+ },
+ {
+  "src": "weapons",
+  "name": "P90",
+  "id": "p90",
+  "category": "SMG",
+  "image": "../img/armes/p90.jpg",
+  "wiki": "P90 Micro SMG",
+  "score": 0.98
+ },
+ {
+  "src": "weapons",
+  "name": "VSS",
+  "id": "vss",
+  "category": "SMG",
+  "image": "../img/armes/vss.jpg",
+  "wiki": "VSS Marksman Rifle",
+  "score": 0.9
+ },
+ {
+  "src": "weapons",
+  "name": "Vector .45",
+  "id": "vector",
+  "category": "SMG",
+  "image": "../img/armes/vector.jpg",
+  "wiki": "Vector 45 Micro SMG",
+  "score": 0.98
+ },
+ {
+  "src": "weapons",
+  "name": "SKS",
+  "id": "sks",
+  "category": "Carabine",
+  "image": "../img/armes/sks.jpg",
+  "wiki": "SKS Carbine",
+  "score": 0.9
+ },
+ {
+  "src": "weapons",
+  "name": "USAS-12",
+  "id": "usas12",
+  "category": "Shotgun",
+  "image": "../img/armes/usas12.jpg",
+  "wiki": "USAS-12 Shotgun",
+  "score": 0.98
+ },
+ {
+  "src": "weapons",
+  "name": "RPK-16",
+  "id": "rpk16",
+  "category": "LMG",
+  "image": "../img/armes/rpk16.jpg",
+  "wiki": "RPK16 Light Machine Gun",
+  "score": 0.96
+ },
+ {
+  "src": "items",
+  "name": "Lingot d'or",
+  "id": "goldbar",
+  "category": "Objet de valeur",
+  "image": "../img/items/goldbar.jpg",
+  "wiki": "Gold",
+  "score": 0.78
+ },
+ {
+  "src": "armors",
+  "name": "BT101",
+  "id": "bt101",
+  "category": "",
+  "image": "../img/armures/bt101.jpg",
+  "wiki": "BT101 Tactical Body Armor",
+  "score": 0.9
+ },
+ {
+  "src": "armors",
+  "name": "6B13",
+  "id": "6b13",
+  "category": "",
+  "image": "../img/armures/6b13.jpg",
+  "wiki": "6B13 Body Armor",
+  "score": 0.9
+ },
+ {
+  "src": "armors",
+  "name": "6B23",
+  "id": "6b23",
+  "category": "",
+  "image": "../img/armures/6b23.jpg",
+  "wiki": "6B23 Body Armor",
+  "score": 0.9
+ },
+ {
+  "src": "armors",
+  "name": "6B45",
+  "id": "6b45",
+  "category": "",
+  "image": "../img/armures/6b45.jpg",
+  "wiki": "6B45 Heavy Body Armor",
+  "score": 0.9
+ },
+ {
+  "src": "armors",
+  "name": "6B2",
+  "id": "6b2",
+  "category": "",
+  "image": "../img/armures/6b2.jpg",
+  "wiki": "6B23 Body Armor",
+  "score": 0.9
+ },
+ {
+  "src": "armors",
+  "name": "Gilet tactique",
+  "id": "tacticalvest",
+  "category": "",
+  "image": "../img/armures/6b2.jpg",
+  "wiki": "6B23 Body Armor",
+  "score": 0.78
+ }
+]

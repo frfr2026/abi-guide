@@ -1,0 +1,148 @@
+/* ════════════════════════════════════════════════════════════════
+   ABI NEXUS — Responsive : mobile-first, tablette, desktop, ultrawide
+   ════════════════════════════════════════════════════════════════ */
+
+/* ── Tablette (≤ 1024px) ──────────────────────────────────── */
+@media (max-width: 1024px) {
+  .grid--4 { grid-template-columns: repeat(2, 1fr); }
+  .grid--3 { grid-template-columns: repeat(2, 1fr); }
+  .footer-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .mega-menu { min-width: 480px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .hero-stats { gap: var(--space-xl); }
+}
+
+/* ── Mobile (≤ 768px) ─────────────────────────────────────── */
+@media (max-width: 768px) {
+  :root { --nav-height: 60px; }
+
+  .grid--2, .grid--3, .grid--4 { grid-template-columns: minmax(0, 1fr); }
+  .section { padding: var(--space-2xl) 0; }
+
+  /* Navigation mobile */
+  .hamburger {
+    display: grid; place-items: center;
+    width: 42px; height: 42px;
+    background: transparent; border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm); color: var(--color-text-primary);
+    margin-left: auto;
+  }
+  .hamburger svg { width: 22px; height: 22px; }
+  .nav-links {
+    position: fixed; top: var(--nav-height); left: 0; right: 0;
+    flex-direction: column; align-items: stretch; gap: 0;
+    background: var(--color-bg-secondary);
+    border-bottom: 1px solid var(--color-border);
+    padding: var(--space-md) var(--container-pad);
+    transform: translateY(-110%); opacity: 0; visibility: hidden;
+    transition: all var(--transition-base);
+    max-height: calc(100svh - var(--nav-height)); overflow-y: auto;
+  }
+  .nav-links.open { transform: translateY(0); opacity: 1; visibility: visible; }
+  .nav-link { padding: var(--space-sm) 0; border-bottom: 1px solid var(--color-border); }
+  /* Le badge de saison reste sur la meme ligne que le libelle :
+     on le decale pour que son halo ne touche pas le texte. */
+  .nav-link .badge { margin-left: .5rem; }
+  .mega-menu {
+    position: static; transform: none; opacity: 1; visibility: visible;
+    pointer-events: auto; min-width: 0; box-shadow: none; border: none;
+    padding: var(--space-sm) 0 var(--space-md); grid-template-columns: minmax(0, 1fr);
+    display: none;
+  }
+  .has-mega.open .mega-menu { display: grid; }
+  .nav-actions .btn { display: none; }
+
+  /* La barre doit tenir dans la largeur de l'ecran : on resserre
+     le logo, on rapproche les actions et la recherche se replie
+     sur son icone. */
+  .nav-inner { gap: var(--space-sm); }
+  .logo { font-size: 1.02rem; letter-spacing: .05em; gap: .4rem; }
+  .logo-mark { width: 32px; height: 32px; }
+  .nav-actions { gap: .4rem; }
+  .nav-icon-btn { width: 36px; height: 36px; }
+  .srch-kbd { display: none; }
+  .srch-input { width: 36px; padding: 0 6px 0 30px; }
+  .srch-input:focus { width: min(52vw, 200px); padding: 0 6px 0 30px; }
+
+  /* Hero */
+  .hero { min-height: auto; padding-top: calc(var(--nav-height) + var(--space-2xl)); }
+  .hero-cta .btn { flex: 1; justify-content: center; }
+  .hero-stats { gap: var(--space-lg); }
+  .hero-stat .stat-number { font-size: 1.6rem; }
+
+  /* Footer */
+  .footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-xl); }
+
+  /* Composants */
+  .weapon-stats { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .tier-row { flex-wrap: wrap; }
+  .tier-row .tier-reason { flex-basis: 100%; order: 3; }
+  .audio-player { right: var(--space-md); bottom: var(--space-md); }
+  .audio-player input[type="range"] { width: 60px; }
+  .audio-player .audio-label { display: none; }
+  .audio-narration { right: var(--space-md); bottom: calc(var(--space-md) + 54px); }
+  .audio-narration .audio-label { display: none; }
+  .audio-narration .audio-bar { width: 56px; }
+  .back-to-top { left: var(--space-md); bottom: var(--space-md); }
+  .toc { position: static; margin-bottom: var(--space-xl); }
+  .ticker-track { gap: var(--space-xl); }
+}
+
+/* ── Petit mobile (≤ 480px) ───────────────────────────────── */
+@media (max-width: 480px) {
+  .footer-grid { grid-template-columns: minmax(0, 1fr); }
+  .hero-stats { gap: var(--space-md); }
+  .btn { padding: 0.75rem 1.2rem; font-size: 0.85rem; }
+  .card-body { padding: var(--space-md); }
+  .weapon-stat .v { font-size: 0.9rem; }
+}
+
+/* ── Grand desktop / ultrawide (≥ 1800px) ─────────────────── */
+@media (min-width: 1800px) {
+  :root { --container-max: 1600px; --fs-body: 1.12rem; }
+}
+
+/* ── Nav 8 entrees (ajout de « Méta ») : compactage medium ─── */
+/* Le seuil est à 1320 px et non 1250 : entre 1251 et 1287 px, les
+   10 entrées + le badge + les actions dépassaient la largeur utile
+   et provoquaient un débordement horizontal de 7 px. */
+@media (max-width: 1320px) and (min-width: 769px) {
+  .footer-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .nav-links { gap: var(--space-sm); }
+  .nav-link { font-size: 0.78rem; letter-spacing: 0.04em; padding: 0 var(--space-xs); }
+  .nav-actions .btn { padding: 0.45rem 0.8rem; font-size: 0.72rem; }
+  .container { --container-pad: 20px; }
+}
+@media (max-width: 1050px) and (min-width: 769px) {
+  .nav-link { font-size: 0.72rem; letter-spacing: 0.02em; }
+  .logo { font-size: 1.05rem; }
+}
+
+/* ── S15 : recherche globale & modules interactifs ─────────── */
+@media (max-width: 768px) {
+  /* Sur mobile la recherche se replie en icône : le panneau
+     s'ouvre en plein largeur sous la barre de navigation. */
+  .nav-actions .srch-input { width: 34px; }
+  .nav-actions .srch-input:focus { width: min(52vw, 200px); }
+  .srch-panel { position: fixed; top: var(--nav-height); right: 0; left: 0; width: 100%; max-height: 70vh; border-radius: 0; border-left: 0; border-right: 0; }
+  .lb-grid { grid-template-columns: minmax(0, 1fr); }
+  .lb-pen-row { grid-template-columns: 54px minmax(0, 1fr) 48px; }
+  .fact { flex-wrap: wrap; }
+  .fact-label { min-width: 120px; }
+  .lb-summary { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .wc-picker { flex-direction: column; align-items: stretch; }
+  .wc-picker select { max-width: none; width: 100%; }
+  .mx-list { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 480px) {
+  .lb-summary { grid-template-columns: minmax(0, 1fr); }
+  .tlx-drop { min-height: 38px; }
+}
+
+/* ── Simulateur balistique : mobile ─────────────────────────────── */
+@media (max-width: 768px) {
+  .bal-panel { padding: var(--space-md); }
+  .bal-controls { grid-template-columns: minmax(0, 1fr); gap: var(--space-sm); }
+  .bal-out .facts { grid-template-columns: minmax(0, 1fr); }
+  .bal-out .facts .fact { flex-direction: column; align-items: flex-start; gap: .15rem; }
+  .bal-out .facts .fact-label { min-width: 0; }
+}

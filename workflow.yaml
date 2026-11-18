@@ -1,0 +1,358 @@
+# ═══════════════════════════════════════════════════════════════════
+#  ABI NEXUS — Guide Ultime Arena Breakout Infinite
+#  Fichier de workflow de gestion de projet (Machine à états S0 → S17)
+#  Projet : ABI-GUIDE-ULTIMATE v1.0 | Saison 7 : Utopia
+#  Démarré le : 2026-11-17 | Langue : FR | Patch cible : 1.0.0.142.19+
+# ═══════════════════════════════════════════════════════════════════
+
+project:
+  name: "ABI NEXUS — Guide Ultime Arena Breakout Infinite"
+  codename: "ABI-GUIDE-ULTIMATE"
+  version: "1.0.0"
+  season: "Saison 7 : Utopia"
+  season_launch: "2026-09-16"
+  target_patch: "1.0.0.142.19"
+  language: "fr"
+  started: "2026-11-17"
+  rules:
+    - "JAMAIS de ZIP, JAMAIS de PDF"
+    - "Images : JPG uniquement, hyperréalistes cinématographiques"
+    - "Audios : MP3 uniquement"
+    - "MAX 10 images + 10 audios par réponse"
+    - "Recherche web systématique avant chaque section"
+    - "Contenu 100% en français"
+    - "Checkpoint 'Continuer ?' entre chaque grande étape"
+
+# ─── Journal de progression ───────────────────────────────────────
+log:
+  - date: "2026-11-17"
+    event: "S17 QA_FINAL livrée — recette navigateur Chromium (260 chargements, 48/48), 12 volets statiques au vert, débordements horizontaux corrigés (0 sur 260 combinaisons pages x largeurs), hiérarchie des titres continue sur 65 pages, 2 ambiances sonores synthétisées, simulateur balistique TTK/pénétration, rapport RECETTE_S17.md"
+  - date: "2026-11-17"
+    event: "S0 INIT démarrée — recherches web S7 effectuées (IDC Games, games.gg, h4ck.se, senseos.gg, arenabreakout-infinite.com, Reddit r/ArenaBreakoutInfinite)"
+  - date: "2026-11-17"
+    event: "S16 SEO_PERF livrée — head SEO homogénéisé sur 64 pages, JSON-LD @graph, sitemap.xml/robots.txt/404.html/manifest.json, 4 images JPG, audit SEO 0 erreur, 51/51 tests S16"
+  - date: "2026-11-17"
+    event: "S15 INTERACTIVITY livrée — 5 modules interactifs (recherche globale, constructeur de kit, comparateur d'armes, tier list interactive, explorateur de cartes) integres aux 63 pages, 6 images JPG, 58 tests jsdom au vert, audit 63/63 HTTP 200"
+  - date: "2026-11-17"
+    event: "S11 PAGES_META livrée — 4 pages meta + Loadout Optimizer interactif, nav Méta, données balistiques réécrites sur la table ammo communautaire, favicon JPG, audit global vert (54 pages / 0 erreur)"
+
+# ─── Machine à états ──────────────────────────────────────────────
+steps:
+  - id: "S0"
+    name: "INIT"
+    status: "done"
+    checkpoint: true
+    files:
+      - "workflow.yaml"
+      - "css/variables.css"
+      - "css/main.css"
+      - "css/animations.css"
+      - "css/components.css"
+      - "css/responsive.css"
+      - "js/main.js"
+      - "js/navigation.js"
+      - "js/data-weapons.json"
+      - "js/data-armors.json"
+      - "js/data-ammo.json"
+      - "js/data-items.json"
+      - "js/data-maps.json"
+      - "index.html (aperçu design system)"
+    images: 10
+    audios: 0
+    research:
+      - "Arena Breakout Infinite Season 7 Utopia patch notes September 2026"
+      - "Arena Breakout Infinite zombie mode Infected Zone Zombie Endless guide Season 7"
+      - "ABI A545 AK-15SC weapon tier list best build Season 7 2026"
+      - "Arena Breakout Infinite latest patch version 2026 maps weapons armors list"
+    notes: "Design system complet, données JSON de base, 10 images hero générées."
+
+  - id: "S1"
+    name: "DESIGN_SYSTEM"
+    status: "done"
+    checkpoint: true
+    files: ["css/* (finalisés)", "charte graphique"]
+    notes: "Fusionné dans S0 : palette, typographies Orbitron/Rajdhani/Exo 2, composants UI, animations."
+
+  - id: "S2"
+    name: "ASSETS_GLOBAL"
+    status: "done"
+    checkpoint: true
+    files: ["img/hero/*.jpg (10)", "img/maps/*.jpg (3)", "img/armes/a545.jpg", "img/items/elysium.jpg", "img/events/s7-utopia-keyart.jpg", "img/personnages/emerald-operator.jpg", "img/armures/armor-t6.jpg"]
+    notes: "17 images JPG générées (photoréalisme cinématique). Audios : synthèse vocale parlée uniquement disponible (pas de musique d'ambiance) — briefings vocaux FR proposables."
+
+  - id: "S3"
+    name: "PAGE_INDEX"
+    status: "done"
+    checkpoint: true
+    files: ["index.html (version finale complète)"]
+    notes: "Hero cinématographique, breaking news S7, accès rapide 12 catégories, mise en avant S7, tier list rapide, cartes populaires, footer complet."
+
+  - id: "S4"
+    name: "PAGES_GUIDES"
+    status: "done"
+    checkpoint: true
+    files:
+      - "pages/guide-debutant.html"
+      - "pages/guide-avance.html"
+      - "pages/guide-extraction.html"
+      - "pages/guide-economie.html"
+      - "pages/guide-craft.html"
+      - "pages/guide-traders.html"
+      - "pages/guide-progression.html"
+
+  - id: "S5"
+    name: "PAGES_ARMES"
+    status: "done"
+    notes: "13 pages + moteur js/weapons.js (cartes dynamiques depuis data-weapons.json, fallback hero-armes.jpg). Tier list S7 rendue dynamiquement. Images à regénérer : m24.jpg, vss.jpg, guide-workbench.jpg."
+    checkpoint: false
+    files:
+      - "pages/armes-fusils-assaut.html"
+      - "pages/armes-dmr.html"
+      - "pages/armes-smg.html"
+      - "pages/armes-sniper.html"
+      - "pages/armes-shotgun.html"
+      - "pages/armes-pistolets.html"
+      - "pages/armes-lmg.html"
+      - "pages/armes-carbine.html"
+      - "pages/armes-nouveautes-s7.html"
+      - "pages/armes-attachements.html"
+      - "pages/armes-attachements-s7.html"
+      - "pages/armes-tier-list.html"
+      - "pages/armes-builds.html"
+
+  - id: "S6"
+    name: "PAGES_ARMURES"
+    status: "done"
+    notes: "6 pages + moteur js/armors.js (cartes dynamiques data-armors.json, fallback hero-armures.jpg). Images a generer au prochain tour : m24, vss, guide-workbench (3e essai), helmet-t6, helmet-t4, rig-cqb, backpack, headset, vest-t5, bt101 (10 max/tour)."
+    checkpoint: false
+    files:
+      - "pages/equipement-armures.html"
+      - "pages/equipement-casques.html"
+      - "pages/equipement-rigs.html"
+      - "pages/equipement-sacs.html"
+      - "pages/equipement-headsets.html"
+      - "pages/equipement-tier-list.html"
+
+  - id: "S7"
+    name: "PAGES_MAPS"
+    status: "done"
+    notes: "7 pages cartes avec boss nommés (Hecate/Fred/Renoir/Kurt/Rolf/Bernard/Phobos), S7 Infected Zone et Zombie Endless. 8 images générées (m24, helmet-t6/t4, rig-cqb, backpack, headset, vest-t5, bt101). guide-workbench.jpg et vss.jpg — génération refusée/échouée: visuels existants utilisés."
+    checkpoint: true
+    files:
+      - "pages/map-farm.html"
+      - "pages/map-valley.html"
+      - "pages/map-northridge.html"
+      - "pages/map-armory.html"
+      - "pages/map-tv-station.html"
+      - "pages/map-airport.html"
+      - "pages/map-no-mans-land.html"
+
+  - id: "S8"
+    name: "PAGES_SEASON7"
+    status: "done"
+    notes: "7 pages Saison 7 (hub, infected-zone, endless, zombie-research, balance-changes, battle-pass, nouvelles). 9 images JPG photorealistes (zombie-endless, zombie-research, balance-pvp, s7-battle-pass, s7-nouveautes, mutant-reaper, mutant-phobos, mutant-ambusher, merchant-field). Bloater non genere (plafond 10/turn + moderation) - a produire en S9. build_nav etendu (Saison 7, Tier List) + CSS .facts ajoute."
+    checkpoint: true
+    files:
+      - "pages/saison7-utopia.html"
+      - "pages/saison7-zombie-infected-zone.html"
+      - "pages/saison7-zombie-endless.html"
+      - "pages/saison7-zombie-research.html"
+      - "pages/saison7-balance-changes.html"
+      - "pages/saison7-battle-pass.html"
+      - "pages/saison7-nouveautes.html"
+
+  - id: "S9"
+    name: "PAGES_ITEMS"
+    status: "done"
+    notes: "7 pages Objets (munitions, medical, cles, valeur, craft-workbench, collection-room, koen-economie). Renderer dynamique js/items.js + data-items.json, CSS .items-grid, nav 'Objets' ajoutee aux 47 pages. 10 images JPG generees dont mutant-bloater.jpg et les 8 items; craft-workbench et tactical echoues (plafond/moderation). guide-workbench remplace par items/ammo.jpg."
+    checkpoint: false
+    files:
+      - "pages/items-munitions.html"
+      - "pages/items-medical.html"
+      - "pages/items-cles.html"
+      - "pages/items-valeur.html"
+      - "pages/items-craft-workbench.html"
+      - "pages/items-collection-room.html"
+      - "pages/items-koen-economy.html"
+
+  - id: "S10"
+    name: "PAGES_COSMETIQUES"
+    status: "done"
+    notes: "3 pages Cosmetiques (skins-perso, skins-armes, dog-tags). Sources: patchbot officiel, Reddit Season 7 Events Announcement, idcgames (Supply Emerald Arachnid/Toxic Edge), senseos, gamers.wiki, topuplive. 0 nouvelle image generee ce tour (plafond 10 atteint en S9) - visuels existants reutilises. 50 pages en HTTP 200, audit images OK."
+    checkpoint: false
+    files:
+      - "pages/cosmetiques-skins-perso.html"
+      - "pages/cosmetiques-skins-armes.html"
+      - "pages/cosmetiques-dog-tags.html"
+
+  - id: "S11"
+    name: "PAGES_META"
+    status: "done"
+    checkpoint: true
+    notes: "4 pages Meta livrees : tier list globale (5 criteres, 4 tiers, impact des season kits, tier list par carte et par categorie, armures T1-T6), builds par role (5 roles documentes slot par slot + variantes Normal/Lockdown/Forbidden), strategies S7 (patience armee, technique du rat, economie par mode, timing d'extraction, bruit, routine) et Loadout Optimizer interactif (js/optimizer.js, moteur de calcul exporte window.ABIOptimizerCore, budgets par mode, copie du build). 9 images JPG photorealistes dans img/meta/. Navigation 'Meta' (mega-menu) ajoutee aux 54 pages + index. Donnees balistiques refaites : data-ammo.json reecrit sur la table ammo communautaire (44 munitions, degats / penetration / Pierce Level / degats d'armure), data-weapons.json listes de munitions harmonisees, data-builds.json gabarits et budgets recales sur les estimations de marche. Favicon SVG inline remplace par un JPG genere (img/ui/favicon-64|180|512.jpg) sur les 54 pages + index + manifest.json cree. tools/audit.py ajoute (CJK, liens, images, balises HTML, JSON, favicon, HTTP) : 54 pages, 0 erreur, 54/54 en HTTP 200."
+    files:
+      - "pages/meta-tier-list-globale.html"
+      - "pages/meta-builds-roles.html"
+      - "pages/meta-stratégies-s7.html"
+      - "pages/meta-loadout-optimizer.html"
+      - "js/data-builds.json"
+      - "js/optimizer.js"
+      - "img/meta/*.jpg (9)"
+      - "img/ui/favicon-*.jpg (3)"
+      - "tools/build_s11a.py"
+      - "tools/build_s11b.py"
+      - "tools/audit.py"
+      - "manifest.json"
+
+  - id: "S12"
+    name: "PAGES_LORE"
+    status: "done"
+    checkpoint: false
+    notes: "3 pages Lore livrees : univers-lore.html (geographie, fracture, guerre Nord-Sud, trois rebellions internes, Comite Sumek, Operation Peacemaker/Blackout, Dark Zone, Utopia, chronologie, 7 mysteres non resolus, implications pratiques, sources classees), univers-factions.html (17 factions, 2 puissances etrangeres, forces locales, PMC, acteurs neutres, organisations criminelles, factions non confirmees, 14 personnages, matrice des relations, ce que revelent les boss) et univers-dark-zone.html (definition, 3 modes, Tac Ops/Covert Ops/Pioneers, 9 noeuds cartographiques, Comite Sumek, couche Utopia S7, lois non ecrites, implications). Systeme de classification des sources via badges .src-officiel / .src-communautaire / .src-theorie / .src-rapporte + composants .lore-card / .timeline / .mystery / .lore-quote / .rel-matrix / .src-list (ajoutes a css/components.css). 10 images JPG photorealistes generees dans img/univers/ (1536x1024). Navigation 'Univers' (mega-menu) ajoutee aux 57 pages + index, colonne Univers ajoutee au footer de toutes les pages (footer-grid passe a 6 colonnes), manifest.json corrige (start_url ./index.html, scope ./). Audit global : 57 pages, 0 erreur, 57/57 HTTP 200."
+    files:
+      - "pages/univers-lore.html"
+      - "pages/univers-factions.html"
+      - "pages/univers-dark-zone.html"
+      - "img/univers/*.jpg (10)"
+      - "css/components.css (bloc Lore/S12)"
+      - "tools/s12_lore.py"
+      - "tools/s12_factions.py"
+      - "tools/s12_darkzone.py"
+      - "tools/build_s12.py"
+      - "tools/accents.py"
+
+  - id: "S13"
+    name: "PAGES_EVENTS"
+    status: "done"
+    checkpoint: false
+    notes: "3 pages Evenements livrees : events-calendrier.html (statut live au 17/11/2026, 6 categories d'evenements, tableau de toutes les echeances S7, festival Biohazard & Bountiful Autumn 12 pistes, Mysterious Pumpkin Night 6 sous-evenements, evenements de novembre, modes evenementiels, serie Biohazard, Saison 8 sans date, plan d'action ordonne par deadline, sources classees), events-supplies-drops.html (mode, caisse de recompense a 5 niveaux, terminal standard vs confidentiel, Smelter illimite au niveau 3, airdrops et IA blindee, strategie d'equipe, erreurs a eviter, Trash to Treasure formule PDA+cable+portable close le 15/11, modes infectes S7, sources) et events-warlord-tournament.html (historique des 3 editions, 6 paliers de recompense jusqu'a Warlord 30 etoiles, 5 regles de scoring, fichier chiffre multiplicateur dynamique + diffusion globale, dog tags intel, conditions d'entree non publiees, evolution des citrouilles a 880 000 Koen, Pumpkin Messengers, Corrupted Treasures, Dim Dou Duk Gourmet Market, Kamona Investigation Tea Break Delights, tableau d'empilement des evenements, sources). Classification stricte officiel / communautaire / non confirme via badges .src-officiel / .src-communautaire / .src-theorie / .src-rapporte et statuts .evt-live / .evt-soon / .evt-closed / .evt-unconfirmed. 10 composants CSS ajoutes (evt-badge, event-card, evt-deadlines, evt-alert, steps, dodont, rank-track, evt-legend, evt-plan). 10 images JPG photorealistes generees dans img/events/ (1536x1024). Navigation 'Evenements' (mega-menu) ajoutee aux 57 pages + index via marqueurs <!--S13-NAV--> idempotents, colonne Evenements ajoutee au footer de toutes les pages (footer-grid passe a 7 colonnes). Audit global : 60 pages, 0 erreur statique, 60/60 HTTP 200, 0 CJK."
+    files:
+      - "pages/events-calendrier.html"
+      - "pages/events-supplies-drops.html"
+      - "pages/events-warlord-tournament.html"
+      - "img/events/*.jpg (10)"
+      - "css/components.css (bloc Evenements/S13)"
+      - "tools/s13_calendrier.py"
+      - "tools/s13_supplies.py"
+      - "tools/s13_warlord.py"
+      - "tools/build_s13.py"
+
+  - id: "S14"
+    name: "PAGES_COMMUNAUTE"
+    status: "done"
+    checkpoint: true
+    notes: "3 pages Communaute livrees : communaute-ressources.html (regle d'or anti-phishing, Discord officiel + serveur communautaire Mentor + serveurs regionaux FR/PL/PT/HU/ES-LATAM/JA, les 8 regles du subreddit r/ArenaBreakoutInfinite + fils de reference ULTIMATE TIPS N TRICKS 3.0, 6 bases de donnees dont ABI Database 2647 entrees patch 1.0.0.142.19 et l'obsolescence signalee d'abi-guide.dev fusionne dans abibuilder, 6 outils communautaires dont codes d'arme partages et calculateur d'armure, 7 projets open source GitHub avec le degon des depots de triche, pieges securite, programme Mentor du 22/06/2026, Inspector Community 24765 participants et 1617674 cas en S5 / 13058 et 618 en S6, methode de croisement des sources), communaute-streamers.html (canaux officiels, 4 evenements sponsorises dont KCD Edge 30000 dollars sur 3 cycles, 48H Global Clash 24 streamers et 6 chefs de region, Pumpkin Party 36 partenaires et 200000 Bonds, Twitch Drops niveau 10+ et 60 min, 14 createurs classes par type de contenu issus des fils Reddit, classement Streams Charts du 13/01/2026, scenes par langue, pieges des giveaways) et communaute-patch-notes.html (hierarchie des sources officielles, 6 miroirs avec l'avertissement abi-guide.dev, detail complet du patch S7 du 15/09 (Continuous Mastery, Supplies Drops 2.0, controles, suppression du ricochet et de la penetration a faible probabilite, Trophy Room, Collection Room), format des Live Updates du 27/10 et du 10/11, rapports de securite B.D.C. avec 624239 bannissements cumules dont 176884 a dix ans, methode de lecture en 10 minutes, chronologie des mises a jour). 10 composants CSS ajoutes (tool-grid, tool-card, link-list, creator-grid, creator-card, update-list, stat-strip). 10 images JPG photorealistes generees dans img/communaute/ (1536x1024). Navigation 'Communaute' (mega-menu) ajoutee aux 60 pages + index via marqueurs <!--S14-NAV--> idempotents avec ordre stable S13 puis S14, colonne Communaute ajoutee au footer de toutes les pages (footer-grid passe a 8 colonnes). Audit global : 63 pages, 0 erreur statique, 63/63 HTTP 200, 0 CJK visible."
+    files:
+      - "pages/communaute-ressources.html"
+      - "pages/communaute-streamers.html"
+      - "pages/communaute-patch-notes.html"
+      - "img/communaute/*.jpg (10)"
+      - "css/components.css (bloc Communaute/S14)"
+      - "tools/s14_ressources.py"
+      - "tools/s14_streamers.py"
+      - "tools/s14_patchnotes.py"
+      - "tools/build_s14.py"
+
+  - id: "S15"
+    name: "INTERACTIVITY"
+    status: "done"
+    checkpoint: true
+    notes: "5 modules interactifs livres et integres, 63 pages concernees. (1) Recherche globale js/search.js : champ injecte dans la barre de navigation des 63 pages + index.html, index local de 63 pages + 24 armes + 7 cartes + 14 armures + 18 objets + 44 munitions (107 entrees), resultats groupes (Pages / Armes / Cartes / Equipement / Objets / Munitions), navigation clavier (fleches, Entree, Echap), raccourcis / et Ctrl+K, historique local (localStorage, 6 entrees), correspondance insensible a la casse et aux accents, repli sans JavaScript conserve (les listes statiques restent dans le HTML). (2) Constructeur de kit js/loadout-builder.js sur meta-loadout-optimizer.html : selection libre arme / munition / gilet + 5 attachements, calcul en direct du cout, de la masse, de la mobilite, de la cadence, du controle du recul et du Pierce Level, estimation de penetration contre le tier de la plaque visee (methode communautaire floor(penetration/10), explicitement presentee comme estimation non officielle), 7 points de vigilance automatiques (tier S en Normal, gilet sous-equipé, munition hors plafond, etc.), recapitulatif exportable, complements au Loadout Optimizer existant conserve intact. (3) Comparateur d'armes js/weapon-compare.js sur armes-tier-list.html : deux armes face a face, 6 lignes de statistiques avec barre de valeur et mise en évidence du meilleur, munitions compatibles du calibre, indice DPS et rapport DPS / 1000 K, bouton d'echange. (4) Tier list interactive js/tier-list.js sur armes-tier-list.html : 24 armees reparties sur 4 tiers par glisser-deposer, clavier (Espace pour descendre d'un cran, fleches gauche/droite pour ordonner), filtre par categorie, copie du classement, sauvegarde locale (localStorage) et reinitialisation sur le consensus ; les sources (qrts.ru, gamer-choice.com, news.bittopup.com) et la methode (consensus moyen, listes recentes ponderees) sont affichees avec la mention explicite qu'aucune n'est l'editeur. (5) Explorateur de cartes js/map-explorer.js sur meta-stratgies-s7.html : 7 cartes, filtres difficulte / infection / mode / niveau d'apprentissage, points d'interet et pieges par carte, parcours d'apprentissage (Farm -> Valley -> Airport, TV Station en entrainement PvP avance), ordre d'apprentissage recommande rappele comme consensus communautaire. 6 images JPG photorealistes generees dans img/interactive/ (1536x1024, 6/6 referencees, aucun orphelin, aucun PNG ni SVG). Corrections de coherence des donnees : data-maps.json pointe desormais sur les vrais fichiers map-*.jpg, data-weapons.json corrige sur an-94.jpg. Tests automatises jsdom : tools/test_s15.js, 58 assertions, 0 echec (montage des 5 modules, exactitude du calcul de cout recalcule a la main, keyboard drag & drop, persistance locale, filtres, recherche). Audit global : 63 pages, 0 erreur statique, 63/63 HTTP 200, 0 CJK visible sur l'ensemble des .js/.css/.html/.json du projet."
+    files:
+      - "js/search.js"
+      - "js/loadout-builder.js"
+      - "js/weapon-compare.js"
+      - "js/map-explorer.js"
+      - "js/tier-list.js"
+      - "css/components.css (bloc Interactivity/S15)"
+      - "img/interactive/*.jpg (6)"
+      - "tools/test_s15.js"
+
+  - id: "S16"
+    name: "SEO_PERF"
+    status: "done"
+    checkpoint: true
+    notes: "Refonte SEO et performance des 64 pages (index + 63 pages) + fichiers racine. (1) Outils : tools/seo_config.py (source unique de verite, SITE_URL a definir avant mise en ligne), tools/build_s16.py (reecriture des <head>, idempotent verifie sur 3 passages consecutifs), tools/build_s16_files.py (sitemap, robots, 404, manifest), tools/audit_seo.py (conformite SEO), tools/test_s16.js (51 assertions jsdom). (2) Balises head homogenisees sur les 64 pages : title <= 60 caracteres (max 59), description <= 160 (max 160), meta robots explicite avec max-image-preview:large + max-snippet:-1, canonical absolute coherent avec l'URL de la page, hreflang fr, link rel=sitemap, theme-color clair et sombre, Open Graph complet (type, site_name, locale fr_FR, title, description, url, image, image:width, image:height, image:alt, image:type), Twitter Card summary_large_image (title, description, image, image:alt), article:section. (3) Donnees structurees JSON-LD : un bloc @graph unique par page avec Organization (#organization, logo 512x512 JPG), WebSite (#website, publisher, inLanguage fr-FR), WebPage (#webpage, isPartOf, primaryImageOfPage, dates), BreadcrumbList (#breadcrumb, itemListElement reconstruit depuis le fil d'Ariane visible) et Article (#article) sur les pages editoriales ; VideoGame ajoute sur l'accueil. Toutes les references @id sont croisees, aucune reference orpheline. (4) Performance : width et height sur les 130 balises img (anti-CLS), decoding=async, preload fetchpriority=high de l'image LCP de l'accueil, 16.5 Ko de CSS gzip (budget 80 Ko) et 32.2 Ko de JS gzip (budget 300 Ko). (5) sitemap.xml : 64 URL indexables, uniquement <loc> et <lastmod> au format W3C Datetime avec decalage horaire (ni priority ni changefreq, ignores par Google), 404.html exclu ; chaque URL verifiee contre le fichier reel. (6) robots.txt : a la racine, racine autorisee pour les robots de recherche, /tools/ et /backup/ exclus, directive Sitemap en URL absolue, crawlers d'entrainement IA bloques (GPTBot, CCBot, ClaudeBot, Google-Extended, Applebot-Extended, Bytespider, Meta-ExternalAgent) et crawlers de citation autorises (Googlebot, Bingbot, PerplexityBot) ; aucune utilisation de noindex dans robots.txt ou il ne fonctionne pas. (7) 404.html : page d'erreur personnalisee construite depuis le gabarit d'index.html (navigation globale et footer 8 colonnes conserves a l'identique, recherche globale operationnelle), meta noindex, 8 raccourcis vers les sections principales, image JPG cinematique 1938x812 ; configuration serveur nginx / Apache / Netlify / Vercel fournie dans DEPLOIEMENT.md pour renvoyer un vrai code HTTP 404. (8) manifest.json : id, display_override, categories, orientation, 4 icones JPG (dont une maskable) et 4 raccourcis (Debuter, Loadout, Tier List, Cartes). (9) 4 images JPG generees : 404-secteur-perdu.jpg (1938x812) et 3 cartes Open Graph 1200x630 recadrees depuis les visuels originaux (og-accueil, og-outils, og-archives) ; les og:image verticaux ont ete remplaces par des cartes paysage dediees. (10) Audit final : tools/audit.py 63 pages 0 erreur 63/63 HTTP 200 ; tools/audit_seo.py 0 erreur ; tools/test_s15.js 58/58 ; tools/test_s16.js 51/51."
+    files:
+      - "sitemap.xml"
+      - "robots.txt"
+      - "manifest.json"
+      - "404.html"
+      - "DEPLOIEMENT.md"
+      - "tools/seo_config.py"
+      - "tools/build_s16.py"
+      - "tools/build_s16_files.py"
+      - "tools/audit_seo.py"
+      - "tools/test_s16.js"
+      - "img/seo/*.jpg (4)"
+      - "css/components.css (bloc 404/S16)"
+
+  - id: "S17"
+    name: "QA_FINAL"
+    status: "done"
+    checkpoint: true
+    files:
+      - "RECETTE_S17.md"
+      - "tools/qa_final.py"
+      - "tools/test_s17_browser.js"
+      - "tools/test_s18_search.js"
+      - "tools/audit_deep.py"
+      - "tools/build_s17.py"
+      - "tools/build_audio.py"
+      - "tools/pending_visuals.json"
+      - "pages/reglages-sensibilite.html"
+      - "js/ballistics.js"
+      - "audio/ambiance-infection.mp3"
+      - "audio/ambiance-menu.mp3"
+      - "css/components.css (grilles élastiques, titres cassables)"
+      - "css/responsive.css (barre de navigation mobile)"
+      - "js/data-weapons.json (24 armes, visuels photographiques réels)"
+      - "js/data-items.json (24 objets, visuels photographiques réels)"
+    images: 153
+    audios: 2
+    results:
+      audit_global: "64 pages, 0 erreur, 64/64 HTTP 200"
+      audit_seo: "0 erreur, 0 avertissement"
+      qa_final: "12 volets, 0 erreur, 0 avertissement"
+      browser_s17: "48/48 (Chromium, 264 chargements à 375/768/1280/1440 px)"
+      non_regression: "S15 58/58, S16 51/51, S18 recherche 127/127"
+      audit_deep: "tools/audit_deep.py — 66 pages + racine, 0 erreur, 0 avertissement (153 JPG, 0 PNG/SVG, 0 orpheline, 467 references media, 4292 liens internes, 0 page hors navigation)"
+      hierarchy: "66 h1, 411 h2, 340 h3, 184 h4, 1761 h5, 0 saut"
+      external_links: "452 liens, tous annoncés + noopener, 0 doublon d'id"
+      media: "2 ambiances MP3 (menu + infection, 24 s chacune, décodage navigateur vérifié) ; 153 images JPG, 0 PNG/SVG, catalogue complet (24 armes + 24 objets photographiés)"
+      overflow: "0 débordement sur 66 pages × 4 largeurs (264 combinaisons)"
+      content_freshness: "Recherche globale reparee (prefixes DATA_BASE / PAGE_BASE / ROOT_BASE separes : 127 assertions) ; page saison7-nouveautes.html sortie de l'orphelinat via un mega-menu Saison 7 a deux colonnes ; accueil indexe dans la recherche ; section Secure Ops ajoutee (taux de conversion 30-40 %, rumeur 'armure neuve' demystifiee) ; <th> vide de equipement-rigs.html corrige ; Réactif officiel 'Cornered Beast' rétabli sur 3 pages ; section Sources créée sur la page Infected Zone (officiel / communautaire / à vérifier), sommaire porté à 9 entrées ; plafond officiel de 900 000 Koen et cap niveau 5 en Infected Zone documentés ; exclusion des core masteries en Zombie Endless signalée sur 2 pages"
+    notes: "Recette complète au vert. Corrigés : 196 sauts de hiérarchie, 34 débordements horizontaux à 375 px, 2 outline:none, 452 liens externes non annoncés, 32 visuels JSON non résolus, piste audio absente, 33 faux positifs d'orthographe. Navigation globale reconstruite (tools/build_nav.py) : le </div> surnuméraire qui fermait nav.nav-links éjectait le hamburger hors écran en 375 px — 0 header déséquilibré, 10 entrées de premier niveau, 1 seule variante de navigation. Accordéon mobile réparé (js/navigation.js). Simulateur balistique TTK/pénétration ajouté (js/ballistics.js) sur la page Munitions. Catalogue photographique achevé : 153 JPG, 0 PNG/SVG, 0 orpheline, tools/pending_visuals.json vide (24 armes + 24 objets avec photo réelle)."
+
+# ─── Données de référence S7 (vérifiées web) ──────────────────────
+reference_data:
+  season_launch: "2026-09-16"
+  patch: "1.0.0.142.19"
+  zombie_modes:
+    infected_zone: "PvPvE — Farm (Heavy), Valley (standard), Airport (Heavy)"
+    zombie_endless: "PvE — Airport, niveau 8+, escouade 1-4 joueurs"
+    zombie_types: 6
+    progression: "Zombie Research"
+  new_weapons:
+    - "A545 (5.45×39mm, top-tier ≈ U191/H416)"
+    - "AK-15SC (7.62×39mm, close-to-mid haute puissance)"
+  seasonal_attachments:
+    - "PCC-9 Full-Auto Kit"
+    - "M110 Dual-Stage Trigger"
+    - "FAL Recoil Kit"
+    - "MPX Vulcan Barrel"
+  balance:
+    - "Portée effective augmentée (toutes armes)"
+    - "Headshots renforcés, ricochets casques supprimés"
+    - "RNG pénétration T5/T6 supprimé"
+    - "Flashlight nerf (ergonomie -7)"
+    - "Caps : Normal T4 / Lockdown T5 / Forbidden T6"
+  core_masteries:
+    - "Acoustic Earpads"
+    - "Tactical Belt (+4 poches)"
+    - "Hidden Compartment"
+  tier_list_s7:
+    S: ["A545", "H416", "U191", "AK-12", "M24", "P90"]
+    A: ["AK-15SC", "PCC9 Full-Auto", "AN-94", "FAL Recoil Kit", "M110 Dual-Stage", "AR-57", "AEK-971", "F2000", "MK14", "SJ16", "RPK-16", "Vector .45"]
+    B: ["MPX Vulcan", "MCX", "M4A1", "ACE31", "AUG", "VSS", "USAS-12"]
+    C: ["MDR", "FAMAS", "Mini14", "S12K", "Banshee", "Mosin", "SKS"]

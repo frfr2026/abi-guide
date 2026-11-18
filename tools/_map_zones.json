@@ -1,0 +1,791 @@
+{
+ "Valley": {
+  "infobox": {
+   "image1": "ValleyBanner.jpg",
+   "LocationName": "Valley",
+   "duration": "30 Mins",
+   "player_count": "20",
+   "Enemies": "Players, [[Scavengers]], [[Doss]]"
+  },
+  "description": "Nestled by the Floranpino Sea, the Valley is a scenic vacation area with high terrain around the edges and lower in the middle. The southern Beach Villa are surrounded by a bay, creating a secure and comfortable environment for the gang leader to securely place their wealth. Atop the low hills in the middle of the valley sits Noan Courtyard, used for gatherings, and a secluded Small Factory lies at the base of the mountains to the north, casting a shadow over the entire Valley, awaiting your exploration.",
+  "extractions": [
+   "Helipad",
+   "Boat",
+   "Road to City",
+   "Temporary Command Post Extraction",
+   "Abandoned Shack",
+   "Steel Bridge Extraction",
+   "Escape Boat",
+   "Abandoned RV"
+  ],
+  "bosses": [
+   "Doss"
+  ],
+  "poi": [
+   {
+    "name": "Beach Villa",
+    "features": [
+     "Nombreux Scavengers",
+     "Point d'extraction",
+     "Plusieurs coffres-forts",
+     "Spawn de boss possible",
+     "Nombreux conteneurs de loot"
+    ]
+   },
+   {
+    "name": "Port",
+    "features": [
+     "Coffre-fort",
+     "Plusieurs Scavengers",
+     "Point d'extraction",
+     "Nombreux conteneurs de loot"
+    ]
+   },
+   {
+    "name": "Small Factory",
+    "features": [
+     "Coffre-fort",
+     "Nombreux conteneurs de loot",
+     "Plusieurs Scavengers"
+    ]
+   },
+   {
+    "name": "North Courtyard",
+    "features": [
+     "Coffre-fort",
+     "Nombreux conteneurs de loot",
+     "Plusieurs Scavengers"
+    ]
+   },
+   {
+    "name": "Beachhead Positions",
+    "features": [
+     "Quelques conteneurs de loot"
+    ]
+   },
+   {
+    "name": "Valley Village",
+    "features": [
+     "Quelques conteneurs de loot"
+    ]
+   },
+   {
+    "name": "Crash Canyon",
+    "features": [
+     "Quelques conteneurs de loot"
+    ]
+   },
+   {
+    "name": "Radar Station",
+    "features": [
+     "Quelques conteneurs de loot"
+    ]
+   },
+   {
+    "name": "Frontier Positions",
+    "features": [
+     "Quelques conteneurs de loot"
+    ]
+   },
+   {
+    "name": "Supply Camp",
+    "features": [
+     "Quelques conteneurs de loot"
+    ]
+   },
+   {
+    "name": "Eastern Farm",
+    "features": [
+     "Quelques conteneurs de loot"
+    ]
+   }
+  ],
+  "zones": [
+   "Villa",
+   "Boss"
+  ],
+  "sections": [
+   "Description",
+   "Bosses",
+   "Extractions",
+   "Points Of Interest",
+   "Keys",
+   "Maps",
+   "Gallery"
+  ],
+  "keys": [
+   {
+    "name": "Staff Dormitory Key",
+    "durability": 45,
+    "notes": "1 Safe 1 Winter Coat 1 Duffle Bag"
+   },
+   {
+    "name": "Factory Dressing Room Key",
+    "durability": 45,
+    "notes": "Long Weapon Box 2 Working Clothes 1 Duffle Bag 1 Safe"
+   },
+   {
+    "name": "Beach Villa Main Bedroom Key",
+    "durability": 30,
+    "notes": "1 Electronic Safe 1 Winter Coat 1 Premium Weapon Case"
+   },
+   {
+    "name": "Factory File Room Key",
+    "durability": 45,
+    "notes": "1 Safe 1 Large Weapon Case"
+   },
+   {
+    "name": "Beach Villa Storage Key",
+    "durability": 30,
+    "notes": "1 Safe 1 Medium Weapon Case 1 Suitcase"
+   },
+   {
+    "name": "RV Camp Cabin Cafeteria Key",
+    "durability": 45,
+    "notes": "1 Safe 1 Long Weapon Box 1 Filing Cabinet"
+   },
+   {
+    "name": "Courtyard Basement Key",
+    "durability": 30,
+    "notes": "1 Safe 1 Computer 1 Suitcase"
+   }
+  ]
+ },
+ "Farm": {
+  "infobox": {},
+  "description": "The Farm of Arbor Town is located in the pass of the Onotos Mountains and serves as Kamona's main agricultural production center. The area is elongated with a main road running through it, and buildings are distributed along this road. The central Motel on the map is the core area of the farm and the stronghold of the boss.",
+  "extractions": [
+   "Outpost",
+   "Highway",
+   "Artificial Lake",
+   "Hunter's Path",
+   "Southern Blockade",
+   "Path to Northridge",
+   "Boulder Wall",
+   "Path to Restricted Area"
+  ],
+  "bosses": [
+   "Ajax"
+  ],
+  "poi": [
+   {
+    "name": "SW Farmhouse",
+    "features": [
+     "Loot libre"
+    ]
+   },
+   {
+    "name": "Grain Trade Center",
+    "features": [
+     "Bureau verrouillé avec coffre"
+    ]
+   },
+   {
+    "name": "Artificial Lake",
+    "features": [
+     "Extraction possible"
+    ]
+   },
+   {
+    "name": "Stables",
+    "features": [
+     "Spawn de boss possible"
+    ]
+   },
+   {
+    "name": "Motel",
+    "features": [
+     "Spawn de boss possible"
+    ]
+   },
+   {
+    "name": "Bridge Fracture (pont)",
+    "features": [
+     "Bifurcation principale de la carte"
+    ]
+   },
+   {
+    "name": "South Wheatfield",
+    "features": [
+     "Grandes zones ouvertes"
+    ]
+   },
+   {
+    "name": "North Wheatfield",
+    "features": [
+     "Grandes zones ouvertes"
+    ]
+   },
+   {
+    "name": "Loading Area",
+    "features": [
+     "Spawn de boss possible"
+    ]
+   },
+   {
+    "name": "Zone de stockage",
+    "features": [
+     "Boîtes à outils"
+    ]
+   },
+   {
+    "name": "Villa",
+    "features": [
+     "Coffre-fort (pièce verrouillée)"
+    ]
+   }
+  ],
+  "zones": [
+   "Location",
+   "Motel",
+   "Stables",
+   "Loading Area",
+   "Boss",
+   "Boss",
+   "Boss"
+  ],
+  "sections": [
+   "Description",
+   "Bosses",
+   "Extractions",
+   "Points Of Interest",
+   "Keys",
+   "Maps",
+   "Gallery"
+  ],
+  "keys": [
+   {
+    "name": "Master Bedroom Key",
+    "durability": 45,
+    "notes": "1 Safe 1 Computer 1 Jacket 1 Rare Spawn on Shelve"
+   },
+   {
+    "name": "Stables Warehouse Key",
+    "durability": 75,
+    "notes": "1 Document Box 1 Jacket 1 Toolbox"
+   },
+   {
+    "name": "Motel 201 Key",
+    "durability": 45,
+    "notes": "1 Safe 1 Pro first-aid kit 1 Rare spawn on table"
+   },
+   {
+    "name": "Motel Main Guest Room Key",
+    "durability": 30,
+    "notes": "1 Electronic Safe 1 Safe 1 Winter Coat 1 Premium weapons Container 1 Rare spawn on table"
+   },
+   {
+    "name": "Barn Office Key",
+    "durability": 45,
+    "notes": "1 Safe 1 Computer 1 Suitcase"
+   }
+  ]
+ },
+ "Northridge": {
+  "infobox": {},
+  "description": "Northridge is the largest map in the current version of Arena Breakout: Infinite. A central lake divides it into East and West sections, connected by a single narrow bridge. While the bridge provides crucial access between both sides, it also leaves anyone crossing it vulnerable to sniper fire and ambushes.",
+  "extractions": [
+   "Dam Sluice Gate",
+   "Access Bridge",
+   "Lifeboat",
+   "Armored Vehicle",
+   "Eastern Bridge",
+   "Village End",
+   "Path to Onotos Mountains",
+   "Bus Terminal",
+   "Sawmill",
+   "Lakeside Boardwalk",
+   "Star Observation Deck"
+  ],
+  "bosses": [
+   "Frade Lee"
+  ],
+  "poi": [
+   {
+    "name": "Cable Car Station",
+    "features": [
+     "Nombreux conteneurs de loot",
+     "Point d'extraction"
+    ]
+   },
+   {
+    "name": "Parking Lot",
+    "features": [
+     "Loot libre",
+     "Plusieurs Scavengers"
+    ]
+   },
+   {
+    "name": "Communication Station",
+    "features": [
+     "Nombreux conteneurs de loot",
+     "Plusieurs coffres-forts"
+    ]
+   },
+   {
+    "name": "NW Woodland",
+    "features": [
+     "Loot libre"
+    ]
+   },
+   {
+    "name": "West Building",
+    "features": [
+     "Nombreux conteneurs de loot",
+     "Zones de bureaux"
+    ]
+   },
+   {
+    "name": "Service Room",
+    "features": [
+     "Coffre-fort",
+     "Nombreux conteneurs de loot"
+    ]
+   },
+   {
+    "name": "Access Bridge",
+    "features": [
+     "Point d'extraction",
+     "Postes de sniper"
+    ]
+   },
+   {
+    "name": "Radio Room",
+    "features": [
+     "Nombreux conteneurs de loot"
+    ]
+   },
+   {
+    "name": "Barracks",
+    "features": [
+     "Nombreux conteneurs de loot",
+     "Lits"
+    ]
+   },
+   {
+    "name": "Testing Station",
+    "features": [
+     "Coffre-fort",
+     "Nombreux conteneurs de loot"
+    ]
+   },
+   {
+    "name": "Observation Station",
+    "features": [
+     "Plusieurs coffres-forts",
+     "Loot premium"
+    ]
+   },
+   {
+    "name": "Schoolhouse",
+    "features": [
+     "Nombreux conteneurs de loot"
+    ]
+   },
+   {
+    "name": "SW Camp",
+    "features": [
+     "Loot libre"
+    ]
+   },
+   {
+    "name": "NW Campsite",
+    "features": [
+     "Loot libre"
+    ]
+   },
+   {
+    "name": "Observation Dock",
+    "features": [
+     "Point d'extraction",
+     "Postes de sniper"
+    ]
+   },
+   {
+    "name": "Stray Site",
+    "features": [
+     "Spawn de loot rare"
+    ]
+   }
+  ],
+  "zones": [
+   "Location",
+   "Fred (Frade) Lee"
+  ],
+  "sections": [
+   "Description",
+   "Bosses",
+   "Extractions",
+   "Points Of Interest",
+   "Maps",
+   "Gallery"
+  ],
+  "keys": [
+   {
+    "name": "Cafeteria Cashiers Office Key",
+    "durability": 3,
+    "notes": "Soon"
+   },
+   {
+    "name": "Building C Lounge 1 Key",
+    "durability": 30,
+    "notes": "Soon"
+   },
+   {
+    "name": "Building B Managers Office Key",
+    "durability": 45,
+    "notes": "Soon"
+   },
+   {
+    "name": "Service Area Managers Office Key",
+    "durability": 30,
+    "notes": "Soon"
+   },
+   {
+    "name": "Building D Projection Room Key",
+    "durability": 45,
+    "notes": "Soon"
+   },
+   {
+    "name": "Sewage Plant Workshop Key",
+    "durability": 45,
+    "notes": "Soon"
+   },
+   {
+    "name": "Building C Lounge Private Room Key",
+    "durability": 30,
+    "notes": "Soon"
+   },
+   {
+    "name": "Building B Reception Room Key",
+    "durability": 30,
+    "notes": "Soon"
+   },
+   {
+    "name": "Waiting Area Lounge Key",
+    "durability": 45,
+    "notes": "Soon"
+   }
+  ]
+ },
+ "TV Station": {
+  "infobox": {
+   "image1": "TVimage.jpg",
+   "LocationName": "TV Station",
+   "duration": "20 Mins",
+   "player_count": "Up to 12",
+   "Enemies": "Players, [[Scavengers]], [[Kurt Williams], [[Bernard Martin]]"
+  },
+  "description": "The TV Station, true to its name, was the main broadcaster for most of native Kamona television. During the North-South Conflict, it was seized by the Northerners, but the Sumek Committee later intervened, bringing an end to the war. The station was eventually taken over by the White Wolves, who are believed to have installed the gas distribution system in the central area. Under Kayla's leadership, Blackgold Universal launched a siege of the TV Station, creating an opportunity for other groups to enter in search of the valuable remnants left behind.",
+  "extractions": [
+   "Elevator",
+   "Loading Dock",
+   "Main Entrance"
+  ],
+  "bosses": [
+   "Kurt Williams",
+   "Bernard Martin"
+  ],
+  "poi": [
+   {
+    "name": "Live Broadcast Room",
+    "features": []
+   },
+   {
+    "name": "Auditorium",
+    "features": []
+   },
+   {
+    "name": "Couloir d'exposition",
+    "features": []
+   },
+   {
+    "name": "Lobby",
+    "features": []
+   },
+   {
+    "name": "Cafeteria",
+    "features": []
+   },
+   {
+    "name": "Archive Room",
+    "features": []
+   }
+  ],
+  "zones": [
+   "Location"
+  ],
+  "sections": [
+   "Description",
+   "Bosses",
+   "Extractions",
+   "Points Of Interest",
+   "Keys",
+   "Maps",
+   "Gallery"
+  ],
+  "keys": [
+   {
+    "name": "2F Directors Office Card",
+    "durability": 30,
+    "notes": "Soon"
+   },
+   {
+    "name": "2F General Office Key",
+    "durability": 30,
+    "notes": "Soon"
+   },
+   {
+    "name": "Post-Production Room Key",
+    "durability": 30,
+    "notes": "Soon"
+   },
+   {
+    "name": "Editing Room Key",
+    "durability": 30,
+    "notes": "1 Electric Safe 1 Office Drawer 1 Storage Case"
+   },
+   {
+    "name": "Darkroom Key",
+    "durability": 45,
+    "notes": "Soon"
+   },
+   {
+    "name": "Infirmary Key",
+    "durability": 45,
+    "notes": "Soon"
+   },
+   {
+    "name": "Planning Room Key",
+    "durability": 30,
+    "notes": "Soon"
+   }
+  ]
+ },
+ "Armory": {
+  "infobox": {
+   "image1": "Armoryimage.jpg",
+   "LocationName": "Armory",
+   "duration": "20 Mins",
+   "player_count": "12",
+   "Enemies": "Players, [[Scavengers]], [[Ajax]]"
+  },
+  "description": "This military armory, once under the Northern Front's control, was heavily fortified and stocked with weapons. During the North-South Conflict, Ajax defended it for months until Renoir's forces took over. Now, Renoir's men control the armory, with heavily armed guards stationed at key choke points to keep outsiders at bay.",
+  "extractions": [
+   "F Control Room",
+   "B1 Canal",
+   "B1 Passage"
+  ],
+  "bosses": [
+   "Ajax"
+  ],
+  "poi": [
+   {
+    "name": "Core Unit",
+    "features": []
+   },
+   {
+    "name": "Control Room",
+    "features": []
+   },
+   {
+    "name": "Lounge",
+    "features": []
+   },
+   {
+    "name": "Ammo Dump",
+    "features": []
+   },
+   {
+    "name": "Conference Room",
+    "features": []
+   },
+   {
+    "name": "Canal",
+    "features": []
+   },
+   {
+    "name": "Command Room",
+    "features": []
+   }
+  ],
+  "zones": [
+   "Location",
+   "Armory Interior"
+  ],
+  "sections": [
+   "Description",
+   "Bosses",
+   "Extractions",
+   "Points Of Interest",
+   "Keys",
+   "Maps",
+   "Gallery"
+  ],
+  "keys": [
+   {
+    "name": "Weapon Storage Keycard",
+    "durability": 30,
+    "notes": "Soon"
+   },
+   {
+    "name": "Commnand Room Entry Keycard",
+    "durability": 30,
+    "notes": "Soon"
+   },
+   {
+    "name": "Private Lounge Key",
+    "durability": 45,
+    "notes": "Soon"
+   },
+   {
+    "name": "Second Floor Lounge Key",
+    "durability": 45,
+    "notes": "Soon"
+   },
+   {
+    "name": "Commnand Room Exit Keycard",
+    "durability": 30,
+    "notes": "Soon"
+   },
+   {
+    "name": "Sluice No. 2 Key",
+    "durability": 3,
+    "notes": "Soon"
+   }
+  ]
+ },
+ "Airport": {
+  "infobox": {
+   "LocationName": "Airport",
+   "duration": "30 Mins",
+   "player_count": "12"
+  },
+  "description": "L'Aeroport de Kamona est le hub de transport du monde : terminal, tour de controle, zone d'exposition et fret. Loot premium,，很多 zones cles et une pression PvP elevee.",
+  "extractions": [
+   "VIP Lounge Extraction",
+   "Runway Extraction",
+   "Hangar Extraction",
+   "Service Road Extraction"
+  ],
+  "bosses": [],
+  "poi": [
+   {
+    "name": "Fuel Storage",
+    "features": [
+     "Zone de stockage",
+     "Plusieurs conteneurs de loot"
+    ]
+   },
+   {
+    "name": "Construction Site",
+    "features": [
+     "Nombreux conteneurs de loot"
+    ]
+   },
+   {
+    "name": "Medical Area",
+    "features": [
+     "Loot médical",
+     "Plusieurs conteneurs de loot"
+    ]
+   },
+   {
+    "name": "Control Tower",
+    "features": [
+     "Point d'extraction",
+     "Loot premium",
+     "Plusieurs coffres-forts"
+    ]
+   },
+   {
+    "name": "Exhibition",
+    "features": [
+     "Plusieurs conteneurs de loot",
+     "Point d'extraction"
+    ]
+   },
+   {
+    "name": "Military Zone",
+    "features": [
+     "Loot militaire",
+     "Nombreux Scavengers"
+    ]
+   },
+   {
+    "name": "Freight Center",
+    "features": [
+     "Nombreux conteneurs de loot",
+     "Plusieurs coffres-forts"
+    ]
+   },
+   {
+    "name": "Ticket Hall",
+    "features": [
+     "Plusieurs conteneurs de loot",
+     "Coffre-fort"
+    ]
+   },
+   {
+    "name": "Parking Lot",
+    "features": [
+     "Loot libre",
+     "Point d'extraction"
+    ]
+   }
+  ],
+  "zones": [],
+  "sections": [
+   "Description",
+   "Points Of Interest",
+   "Keys"
+  ],
+  "keys": [
+   {
+    "name": "Executive Lounge Key",
+    "durability": 30,
+    "notes": ""
+   },
+   {
+    "name": "VIP Reception Keycard",
+    "durability": 30,
+    "notes": ""
+   },
+   {
+    "name": "AOC Secret Archives Keycard",
+    "durability": 30,
+    "notes": ""
+   },
+   {
+    "name": "Employee Lounge Key",
+    "durability": 30,
+    "notes": ""
+   },
+   {
+    "name": "Fuel Storage Key",
+    "durability": 30,
+    "notes": ""
+   },
+   {
+    "name": "Cargo Inspection Area Key",
+    "durability": 30,
+    "notes": ""
+   },
+   {
+    "name": "Exhibition Uitlity Room Key",
+    "durability": 30,
+    "notes": ""
+   },
+   {
+    "name": "Control Area Permission Card",
+    "durability": 30,
+    "notes": ""
+   },
+   {
+    "name": "Ticket Hall Conference Room Key",
+    "durability": 30,
+    "notes": ""
+   }
+  ]
+ }
+}

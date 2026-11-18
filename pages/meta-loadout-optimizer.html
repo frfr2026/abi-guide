@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loadout Optimizer | ABI NEXUS</title>
+  <meta name="description" content="Outil interactif ABI Saison 7 : choisissez votre mode, votre rôle et votre budget, l&#x27;optimiseur calcule le kit complet — arme, munitions, gilet, casque, rig…">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="author" content="ABI NEXUS">
+  <meta name="language" content="French">
+  <meta name="theme-color" content="#0a0b0e" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)">
+  <link rel="canonical" href="https://abinexus.fr/pages/meta-loadout-optimizer.html">
+  <link rel="alternate" hreflang="fr" href="https://abinexus.fr/pages/meta-loadout-optimizer.html">
+  <link rel="sitemap" type="application/xml" title="Sitemap ABI NEXUS" href="https://abinexus.fr/sitemap.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ABI NEXUS">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="Loadout Optimizer — ABI NEXUS">
+  <meta property="og:description" content="Outil interactif ABI Saison 7 : choisissez votre mode, votre rôle et votre budget, l&#x27;optimiseur calcule le kit complet — arme, munitions, gilet, casque, rig, sac, audio et médical — avec verdict et export.">
+  <meta property="og:url" content="https://abinexus.fr/pages/meta-loadout-optimizer.html">
+  <meta property="og:image" content="https://abinexus.fr/img/seo/og-outils.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="ABI NEXUS — guide Arena Breakout Infinite, Saison 7 : Utopia">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Loadout Optimizer — ABI NEXUS">
+  <meta name="twitter:description" content="Outil interactif ABI Saison 7 : choisissez votre mode, votre rôle et votre budget, l&#x27;optimiseur calcule le kit complet — arme, munitions, gilet, casque, rig, sac, audio et médical — avec verdict et export.">
+  <meta name="twitter:image" content="https://abinexus.fr/img/seo/og-outils.jpg">
+  <meta name="twitter:image:alt" content="ABI NEXUS — guide Arena Breakout Infinite, Saison 7 : Utopia">
+  <meta property="article:section" content="Accueil">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Rajdhani:wght@400;500;600;700&family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/variables.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/animations.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="icon" type="image/jpeg" sizes="64x64" href="../img/ui/favicon-64.jpg">
+  <link rel="apple-touch-icon" href="../img/ui/favicon-180.jpg">
+  <link rel="manifest" href="../manifest.json">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://abinexus.fr/#organization",
+      "name": "ABI NEXUS",
+      "url": "https://abinexus.fr/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://abinexus.fr/img/ui/favicon-512.jpg",
+        "width": 512,
+        "height": 512
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://abinexus.fr/#website",
+      "url": "https://abinexus.fr/",
+      "name": "ABI NEXUS — Guide Ultime Arena Breakout Infinite",
+      "description": "Le guide de reference francais d'Arena Breakout Infinite : Saison 7 Utopia, armes, armures, munitions, cartes, economie, strategies, tier lists et outils interactifs.",
+      "inLanguage": "fr-FR",
+      "publisher": {
+        "@id": "https://abinexus.fr/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://abinexus.fr/pages/meta-loadout-optimizer.html#webpage",
+      "url": "https://abinexus.fr/pages/meta-loadout-optimizer.html",
+      "name": "Loadout Optimizer | ABI NEXUS",
+      "description": "Outil interactif ABI Saison 7 : choisissez votre mode, votre rôle et votre budget, l'optimiseur calcule le kit complet — arme, munitions, gilet, casque, rig…",
+      "inLanguage": "fr-FR",
+      "isPartOf": {
+        "@id": "https://abinexus.fr/#website"
+      },
+      "publisher": {
+        "@id": "https://abinexus.fr/#organization"
+      },
+      "datePublished": "2026-09-16",
+      "dateModified": "2026-11-17",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://abinexus.fr/img/seo/og-outils.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "breadcrumb": {
+        "@id": "https://abinexus.fr/pages/meta-loadout-optimizer.html#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://abinexus.fr/pages/meta-loadout-optimizer.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://abinexus.fr/index.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Meta"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://abinexus.fr/pages/meta-loadout-optimizer.html#article",
+      "headline": "Loadout Optimizer",
+      "description": "Outil interactif ABI Saison 7 : choisissez votre mode, votre rôle et votre budget, l'optimiseur calcule le kit complet — arme, munitions, gilet, casque, rig…",
+      "image": [
+        "https://abinexus.fr/img/seo/og-outils.jpg"
+      ],
+      "datePublished": "2026-09-16",
+      "dateModified": "2026-11-17",
+      "author": {
+        "@id": "https://abinexus.fr/#organization"
+      },
+      "publisher": {
+        "@id": "https://abinexus.fr/#organization"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://abinexus.fr/pages/meta-loadout-optimizer.html#webpage"
+      },
+      "inLanguage": "fr-FR",
+      "isPartOf": {
+        "@id": "https://abinexus.fr/#website"
+      }
+    }
+  ]
+}
+  </script>
+</head><body>
+  <a class="skip-link" href="#contenu" id="lnk-meta-loadout-optimizer-001">Aller au contenu</a>
+  <div class="progress-bar" aria-hidden="true"></div>
+
+  <header class="site-nav">
+    <div class="nav-inner">
+      <a class="logo" href="../index.html" aria-label="ABI NEXUS — Accueil" id="lnk-meta-loadout-optimizer-002">
+        <span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="#C8A84B" stroke-width="2"><path d="M12 2l8 4.5v9L12 20l-8-4.5v-9z"/><path d="M12 22V12M12 12L4 6.5M12 12l8-5.5"/></svg></span>
+        ABI<span class="logo-accent">NEXUS</span>
+      </a>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <div class="has-mega">
+          <a class="nav-link" href="guide-debutant.html" id="lnk-meta-loadout-optimizer-003">Guides</a>
+          <div class="mega-menu">
+            <div class="mega-col"><h5>Progression</h5>
+              <a href="guide-debutant.html" id="lnk-meta-loadout-optimizer-004">Guide du débutant</a>
+              <a href="guide-avance.html" id="lnk-meta-loadout-optimizer-005">Guide avancé</a>
+              <a href="guide-progression.html" id="lnk-meta-loadout-optimizer-006">Progression</a>
+              <a href="guide-extraction.html" id="lnk-meta-loadout-optimizer-007">Extraction</a>
+            </div>
+            <div class="mega-col"><h5>Économie</h5>
+              <a href="guide-economie.html" id="lnk-meta-loadout-optimizer-008">Économie Koen</a>
+              <a href="guide-craft.html" id="lnk-meta-loadout-optimizer-009">Craft &amp; Workbench</a>
+              <a href="guide-traders.html" id="lnk-meta-loadout-optimizer-010">Marchands</a>
+            </div>
+            <div class="mega-col"><h5>Stratégie</h5>
+              <a href="meta-stratégies-s7.html" id="lnk-meta-loadout-optimizer-011">Stratégies S7</a>
+              <a href="meta-builds-roles.html" id="lnk-meta-loadout-optimizer-012">Builds par rôle</a>
+              <a href="meta-loadout-optimizer.html" id="lnk-meta-loadout-optimizer-013">Loadout Optimizer</a>
+              <a href="reglages-sensibilite.html" id="lnk-meta-loadout-optimizer-014">Réglages &amp; sensibilité</a>
+            </div>
+          </div>
+        </div>
+        <div class="has-mega">
+          <a class="nav-link" href="armes-fusils-assaut.html" id="lnk-meta-loadout-optimizer-015">Armes</a>
+          <div class="mega-menu">
+            <div class="mega-col"><h5>Catégories</h5>
+              <a href="armes-fusils-assaut.html" id="lnk-meta-loadout-optimizer-016">Fusils d'assaut</a>
+              <a href="armes-dmr.html" id="lnk-meta-loadout-optimizer-017">DMR</a>
+              <a href="armes-smg.html" id="lnk-meta-loadout-optimizer-018">SMG</a>
+              <a href="armes-sniper.html" id="lnk-meta-loadout-optimizer-019">Snipers</a>
+              <a href="armes-shotgun.html" id="lnk-meta-loadout-optimizer-020">Shotguns</a>
+              <a href="armes-pistolets.html" id="lnk-meta-loadout-optimizer-021">Pistolets</a>
+              <a href="armes-lmg.html" id="lnk-meta-loadout-optimizer-022">LMG</a>
+              <a href="armes-carbine.html" id="lnk-meta-loadout-optimizer-023">Carabines</a>
+            </div>
+            <div class="mega-col"><h5>Saison 7</h5>
+              <a href="armes-nouveautes-s7.html" id="lnk-meta-loadout-optimizer-024">A545 &amp; AK-15SC</a>
+              <a href="armes-attachements-s7.html" id="lnk-meta-loadout-optimizer-025">Attachements S7</a>
+              <a href="armes-attachements.html" id="lnk-meta-loadout-optimizer-026">Tous attachements</a>
+            </div>
+            <div class="mega-col"><h5>Méta</h5>
+              <a href="armes-tier-list.html" id="lnk-meta-loadout-optimizer-027">Tier List Armes</a>
+              <a href="armes-builds.html" id="lnk-meta-loadout-optimizer-028">Meilleurs builds</a>
+              <a href="meta-tier-list-globale.html" id="lnk-meta-loadout-optimizer-029">Tier List globale S7</a>
+            </div>
+          </div>
+        </div>
+        <div class="has-mega">
+          <a class="nav-link" href="equipement-armures.html" id="lnk-meta-loadout-optimizer-030">Équipement</a>
+          <div class="mega-menu">
+            <div class="mega-col"><h5>Protection</h5>
+              <a href="equipement-armures.html" id="lnk-meta-loadout-optimizer-031">Armures T1–T6</a>
+              <a href="equipement-casques.html" id="lnk-meta-loadout-optimizer-032">Casques</a>
+              <a href="equipement-rigs.html" id="lnk-meta-loadout-optimizer-033">Rigs</a>
+              <a href="equipement-sacs.html" id="lnk-meta-loadout-optimizer-034">Sacs à dos</a>
+              <a href="equipement-headsets.html" id="lnk-meta-loadout-optimizer-035">Casques audio</a>
+            </div>
+            <div class="mega-col"><h5>Méta</h5>
+              <a href="equipement-tier-list.html" id="lnk-meta-loadout-optimizer-036">Tier List Équipement</a>
+            </div>
+          </div>
+        </div>
+        <div class="has-mega">
+          <a class="nav-link" href="map-farm.html" id="lnk-meta-loadout-optimizer-037">Cartes</a>
+          <div class="mega-menu">
+            <div class="mega-col"><h5>Cartes</h5>
+              <a href="map-farm.html" id="lnk-meta-loadout-optimizer-038">Farm</a>
+              <a href="map-valley.html" id="lnk-meta-loadout-optimizer-039">Valley</a>
+              <a href="map-northridge.html" id="lnk-meta-loadout-optimizer-040">Northridge</a>
+              <a href="map-armory.html" id="lnk-meta-loadout-optimizer-041">Armory</a>
+              <a href="map-tv-station.html" id="lnk-meta-loadout-optimizer-042">TV Station</a>
+              <a href="map-airport.html" id="lnk-meta-loadout-optimizer-043">Airport</a>
+              <a href="map-no-mans-land.html" id="lnk-meta-loadout-optimizer-044">No Man's Land</a>
+            </div>
+          </div>
+        </div>
+        <div class="has-mega">
+          <a class="nav-link" href="items-munitions.html" id="lnk-meta-loadout-optimizer-045">Objets</a>
+          <div class="mega-menu">
+            <div class="mega-col"><h5>Munitions &amp; Valeur</h5>
+              <a href="items-munitions.html" id="lnk-meta-loadout-optimizer-046">Munitions &amp; Pénétration</a>
+              <a href="items-valeur.html" id="lnk-meta-loadout-optimizer-047">Valeur des objets</a>
+              <a href="items-koen-economy.html" id="lnk-meta-loadout-optimizer-048">Koen &amp; Économie</a>
+            </div>
+            <div class="mega-col"><h5>Accès &amp; Production</h5>
+              <a href="items-cles.html" id="lnk-meta-loadout-optimizer-049">Clés &amp; Accès</a>
+              <a href="items-collection-room.html" id="lnk-meta-loadout-optimizer-050">Collection Room</a>
+              <a href="items-craft-workbench.html" id="lnk-meta-loadout-optimizer-051">Craft &amp; Workbench</a>
+            </div>
+            <div class="mega-col"><h5>Soins &amp; Cosmétiques</h5>
+              <a href="items-medical.html" id="lnk-meta-loadout-optimizer-052">Médical &amp; Soins</a>
+              <a href="cosmetiques-skins-armes.html" id="lnk-meta-loadout-optimizer-053">Skins d'armes</a>
+              <a href="cosmetiques-skins-perso.html" id="lnk-meta-loadout-optimizer-054">Cosmétiques de personnage</a>
+              <a href="cosmetiques-dog-tags.html" id="lnk-meta-loadout-optimizer-055">Dog Tags</a>
+            </div>
+          </div>
+        </div>
+        <div class="has-mega">
+          <a class="nav-link" href="saison7-utopia.html" id="lnk-meta-loadout-optimizer-056">Saison 7 <span class="badge badge-s7">Utopia</span></a>
+          <div class="mega-menu">
+            <div class="mega-col"><h5>La saison</h5>
+              <a href="saison7-utopia.html" id="lnk-meta-loadout-optimizer-057">Utopia (S7)</a>
+              <a href="saison7-nouveautes.html" id="lnk-meta-loadout-optimizer-058">Nouveautés S7</a>
+              <a href="saison7-balance-changes.html" id="lnk-meta-loadout-optimizer-059">Balance Changes</a>
+              <a href="saison7-battle-pass.html" id="lnk-meta-loadout-optimizer-060">Battle Pass S7</a>
+            </div>
+            <div class="mega-col"><h5>Modes zombies</h5>
+              <a href="saison7-zombie-infected-zone.html" id="lnk-meta-loadout-optimizer-061">Infected Zone</a>
+              <a href="saison7-zombie-endless.html" id="lnk-meta-loadout-optimizer-062">Zombie Endless</a>
+              <a href="saison7-zombie-research.html" id="lnk-meta-loadout-optimizer-063">Zombie Research</a>
+            </div>
+          </div>
+        </div>
+        <div class="has-mega">
+          <a class="nav-link active" href="meta-tier-list-globale.html" aria-current="page" id="lnk-meta-loadout-optimizer-064">Méta</a>
+          <div class="mega-menu">
+            <div class="mega-col"><h5>Classements</h5>
+              <a href="meta-tier-list-globale.html" id="lnk-meta-loadout-optimizer-065">Tier List globale S7</a>
+              <a href="meta-builds-roles.html" id="lnk-meta-loadout-optimizer-066">Builds par rôle</a>
+            </div>
+            <div class="mega-col"><h5>Stratégie &amp; Outils</h5>
+              <a href="meta-stratégies-s7.html" id="lnk-meta-loadout-optimizer-067">Stratégies Saison 7</a>
+              <a href="meta-loadout-optimizer.html" id="lnk-meta-loadout-optimizer-068">Loadout Optimizer</a>
+            </div>
+          </div>
+        </div>
+        <div class="has-mega">
+          <a class="nav-link" href="univers-lore.html" id="lnk-meta-loadout-optimizer-069">Univers</a>
+          <div class="mega-menu">
+            <div class="mega-col"><h5>Univers de Kamona</h5>
+              <a href="univers-lore.html" id="lnk-meta-loadout-optimizer-070">Histoire &amp; chronologie</a>
+              <a href="univers-factions.html" id="lnk-meta-loadout-optimizer-071">Factions &amp; personnages</a>
+              <a href="univers-dark-zone.html" id="lnk-meta-loadout-optimizer-072">La Dark Zone</a>
+            </div>
+            <div class="mega-col"><h5>Sur le terrain</h5>
+              <a href="map-tv-station.html" id="lnk-meta-loadout-optimizer-073">TV Station</a>
+              <a href="map-armory.html" id="lnk-meta-loadout-optimizer-074">Armory</a>
+              <a href="map-farm.html" id="lnk-meta-loadout-optimizer-075">Farm</a>
+              <a href="saison7-utopia.html" id="lnk-meta-loadout-optimizer-076">Utopia (S7)</a>
+            </div>
+          </div>
+        </div>
+        <!--S13-NAV-->
+        <div class="has-mega">
+          <a class="nav-link" href="events-calendrier.html" id="lnk-meta-loadout-optimizer-077">Événements</a>
+          <div class="mega-menu">
+            <div class="mega-col"><h5>Saison 7 : Utopia</h5>
+              <a href="events-calendrier.html" id="lnk-meta-loadout-optimizer-078">Calendrier &amp; échéances</a>
+              <a href="events-supplies-drops.html" id="lnk-meta-loadout-optimizer-079">Supply Drops 2.0</a>
+              <a href="events-warlord-tournament.html" id="lnk-meta-loadout-optimizer-080">Warlord Tournament III</a>
+            </div>
+            <div class="mega-col"><h5>Événements majeurs</h5>
+              <a href="saison7-utopia.html" id="lnk-meta-loadout-optimizer-081">Utopia (S7)</a>
+              <a href="saison7-battle-pass.html" id="lnk-meta-loadout-optimizer-082">Battle Pass S7</a>
+              <a href="saison7-zombie-infected-zone.html" id="lnk-meta-loadout-optimizer-083">Infected Zone</a>
+            </div>
+          </div>
+        </div>
+        <!--/S13-NAV-->
+        <!--S14-NAV-->
+        <div class="has-mega">
+          <a class="nav-link" href="communaute-ressources.html" id="lnk-meta-loadout-optimizer-084">Communauté</a>
+          <div class="mega-menu">
+            <div class="mega-col"><h5>Ressources</h5>
+              <a href="communaute-ressources.html" id="lnk-meta-loadout-optimizer-085">Ressources communautaires</a>
+              <a href="communaute-patch-notes.html" id="lnk-meta-loadout-optimizer-086">Patch notes &amp; mises à jour</a>
+              <a href="communaute-streamers.html" id="lnk-meta-loadout-optimizer-087">Streamers &amp; créateurs</a>
+            </div>
+            <div class="mega-col"><h5>Créateurs &amp; Patch notes</h5>
+              <a href="meta-stratégies-s7.html" id="lnk-meta-loadout-optimizer-088">Stratégies S7</a>
+              <a href="saison7-utopia.html" id="lnk-meta-loadout-optimizer-089">Utopia (S7)</a>
+              <a href="guide-craft.html" id="lnk-meta-loadout-optimizer-090">Craft &amp; Workbench</a>
+            </div>
+          </div>
+        </div>
+        <!--/S14-NAV-->
+      </nav>
+      <div class="nav-actions">
+        <button class="nav-icon-btn" data-theme-toggle aria-label="Basculer le thème">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+        <a class="btn btn-primary btn-sm" href="meta-loadout-optimizer.html" id="lnk-meta-loadout-optimizer-091">Loadout Builder</a>
+        <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenu" class="section">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Fil d'Ariane">
+        <a href="../index.html" id="lnk-meta-loadout-optimizer-092">Accueil</a><span class="sep">/</span>
+        <a href="meta-tier-list-globale.html" id="lnk-meta-loadout-optimizer-093">Meta</a><span class="sep">/</span>
+        <span aria-current="page">Loadout Optimizer</span>
+      </nav>
+
+      <header class="page-head">
+        <p class="eyebrow">Meta — Outil</p>
+        <h1>Loadout Optimizer</h1>
+        <p class="page-sub">Mode, rôle, budget : l'outil calcule votre kit complet et signale les incohérences avant la raid.</p>
+      </header>
+
+      <div class="page-layout">
+        <article class="content-col">
+          <figure class="page-figure">
+            <img width="1536" height="1024" src="../img/interactive/loadout-bench.jpg" alt="L'etabli de chargement, ou chaque kit se monte" loading="lazy" decoding="async">
+            <figcaption>L'etabli de chargement, ou chaque kit se monte</figcaption>
+          </figure>
+
+
+          <figure class="page-figure">
+            <img width="1535" height="1024" src="../img/meta/meta-optimizer.jpg" alt="Poste de travail d'optimisation d'équipement" loading="lazy" decoding="async">
+            <figcaption>Loadout Optimizer — choisissez votre mode, votre rôle et votre budget : l'outil calcule le kit, son coût et ses points de vigilance.</figcaption>
+          </figure>
+
+          <div class="facts">
+            <div class="fact"><span class="fact-label">Entrées</span><span class="fact-value">Mode · Rôle · Budget</span></div>
+            <div class="fact"><span class="fact-label">Sources</span><span class="fact-value">24 armes · 14 gilets · 17 munitions</span></div>
+            <div class="fact"><span class="fact-label">Contraintes</span><span class="fact-value">Plafond de tier par mode</span></div>
+            <div class="fact"><span class="fact-label">Sortie</span><span class="fact-value">8 lignes de kit + verdict + export</span></div>
+          </div>
+
+          <h2 id="outil">1. L'outil</h2>
+          <p>Choisissez un <strong>mode</strong> (il fixe le plafond de tier et donc l'équipement possible), un <strong>rôle</strong> (il pondère cadence, portée et catégorie d'arme) et un <strong>budget</strong>. L'optimizer sélectionne l'arme, la munition, le gilet et l'équipement annexe, calcule le coût total et signale les incohérences.</p>
+
+          <div class="optimizer">
+            <div class="opt-controls">
+              <div class="opt-field">
+                <label for="opt-mode">Mode de jeu</label>
+                <select id="opt-mode"></select>
+              </div>
+              <div class="opt-field">
+                <label for="opt-role">Rôle de jeu</label>
+                <select id="opt-role"></select>
+              </div>
+              <div class="opt-field">
+                <label for="opt-budget">Budget (Koen)</label>
+                <div class="opt-budget-head"><span>Budget total du kit</span><b id="opt-budget-val">450 000 K</b></div>
+                <input type="range" id="opt-budget" min="120000" max="3500000" step="10000" value="450000">
+              </div>
+            </div>
+            <div class="opt-result">
+              <div class="callout"><p>Chargement des données…</p></div>
+            </div>
+            <div class="opt-actions">
+              <button type="button" class="btn btn-primary" id="opt-copy">Copier le build</button>
+              <pre class="opt-summary"></pre>
+            </div>
+          </div>
+
+          <h2 id="builder">2. Constructeur de kit libre</h2>
+          <p>Le <strong>Loadout Optimizer</strong> ci-dessus fait le choix pour vous. Le <strong>constructeur</strong> ci-dessous fait l'inverse : vous installez vous-même chaque pièce et l'outil mesure ce que vaut le résultat. Coût, masse, mobilité, cadence, contrôle du recul et compatibilité de tier sont recalculés à chaque changement.</p>
+
+          <figure class="page-figure">
+            <img width="1536" height="1024" src="../img/meta/vis-optimizer-cinematique.jpg" alt="Équipement tactique posé sur un établi d’acier : arme, casque, gilet, munitions et trousse médicale" loading="lazy" decoding="async">
+            <figcaption>Constructeur de kit — chaque pièce se choisit, se compte et se compare : le total n’est jamais une surprise avant la raid.</figcaption>
+          </figure>
+
+          <div class="loadout-builder">
+            <div class="lb-inline">
+              <div class="lb-field">
+                <label for="lb-mode">Mode de jeu</label>
+                <select id="lb-mode"></select>
+              </div>
+              <div class="lb-field">
+                <label for="lb-budget">Budget (Koen)</label>
+                <div class="lb-budget-head"><span>Enveloppe du kit</span><b id="lb-budget-val">450 000 K</b></div>
+                <input type="range" id="lb-budget" min="120000" max="3500000" step="10000" value="450000">
+              </div>
+              <div class="lb-field">
+                <label for="lb-rounds">Cartouches</label>
+                <div class="lb-budget-head"><span>Munitions emportées</span><b id="lb-rounds-val">120 cartouches</b></div>
+                <input type="range" id="lb-rounds" min="30" max="300" step="10" value="120">
+              </div>
+            </div>
+
+            <div class="lb-grid">
+              <div class="lb-fields">
+                <div class="lb-field">
+                  <label for="lb-weapon">Arme</label>
+                  <select id="lb-weapon"></select>
+                </div>
+                <div class="lb-field">
+                  <label for="lb-ammo">Munition</label>
+                  <select id="lb-ammo"></select>
+                </div>
+                <div class="lb-field">
+                  <label for="lb-armor">Gilet</label>
+                  <select id="lb-armor"></select>
+                </div>
+                <div class="lb-field">
+                  <label>Attachements</label>
+                  <div class="lb-attach">
+                    <label><input type="checkbox" data-attach="optic"> Optique</label>
+                    <label><input type="checkbox" data-attach="suppressor"> Silencieux</label>
+                    <label><input type="checkbox" data-attach="grip"> Poignée</label>
+                    <label><input type="checkbox" data-attach="stock"> Crosse</label>
+                    <label><input type="checkbox" data-attach="mag"> Chargeur étendu</label>
+                  </div>
+                </div>
+                <div class="lb-actions">
+                  <button type="button" class="btn btn-outline btn-sm" id="lb-reset">Réinitialiser</button>
+                  <button type="button" class="btn btn-outline btn-sm" id="lb-code-toggle">Afficher le récapitulatif</button>
+                </div>
+              </div>
+              <div class="lb-out">
+                <div class="callout"><p>Chargement des données…</p></div>
+              </div>
+            </div>
+          </div>
+
+          <figure class="page-figure">
+            <img width="1536" height="1024" src="../img/interactive/ammo-penetration.jpg" alt="Cartouche de fusil à côté d’une plaque d’armure en céramique sur béton" loading="lazy" decoding="async">
+            <figcaption>La pénétration décide de qui survit au premier tir : elle se compare au tier de la plaque visée, pas au tier de l’arme.</figcaption>
+          </figure>
+
+          <p class="lb-hint">Les masses sont des estimations de marche issues de sources communautaires, cohérentes avec les poids publiés dans la base armures. La pénétration affichée est un calcul dérivé (Pierce Level = plancher de la pénétration divisée par 10) : c'est une estimation, pas une valeur publiée par l'éditeur.</p>
+
+          <h2 id="lecture">3. Comment lire le résultat</h2>
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead><tr><th>Indicateur</th><th>Signification</th></tr></thead>
+              <tbody>
+                <tr><td><strong>Coût total du kit</strong></td><td>Somme de l'arme, des munitions (120 cartouches, 180 pour le rôle Soutien, au prix unitaire du calibre), du gilet, du casque, du rig, du sac, de l'audio et du médical</td></tr>
+                <tr><td><strong>% du budget</strong></td><td>Barre verte sous 95 %, ambre à 95 %, rouge au-dessus de 100 %. Chaque mode charge sa propre enveloppe : 450 000 K en Normal, 900 000 K en Lockdown, 2 000 000 K en Forbidden</td></tr>
+                <tr><td><strong>Verdict</strong></td><td>Jugement de cohérence économique du kit par rapport au budget déclaré</td></tr>
+                <tr><td><strong>Points de vigilance</strong></td><td>Incohérences détectées automatiquement : arme de tier S en mode Normal, munition en dessous du plafond, gilet sous-équipé, sniper en Normal, CQB en Forbidden…</td></tr>
+                <tr><td><strong>Conseil du rôle</strong></td><td>La ligne de jeu spécifique au rôle sélectionné</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2 id="methode">4. La méthode de calcul</h2>
+          <figure class="page-figure">
+            <img width="1536" height="1024" src="../img/meta/ammo-tiers.jpg" alt="Cartouches de munitions classées par niveau de pénétration" loading="lazy" decoding="async">
+            <figcaption>Les niveaux de pénétration décident du choix : chaque cartouche porte un Pierce Level, comparé au niveau de la plaque visée.</figcaption>
+          </figure>
+          <ol>
+            <li><strong>Filtrage par mode</strong> : le tier de plafond (T4 / T5 / T6) élimine tout ce qui n'est pas autorisé.</li>
+            <li><strong>Filtrage par rôle</strong> : seules les catégories d'armes du rôle sont considérées (fusils pour l'assaut, SMG et shotgun pour le CQB, sniper et DMR pour la longue distance…).</li>
+            <li><strong>Score d'arme</strong> : tier (×14), cadence (pondérée par le rôle), portée effective (pondérée par le rôle), ergonomie, dégâts de base, moins une pénalité de coût.</li>
+            <li><strong>Choix final</strong> : l'enveloppe disponible est répartie entre l'arme (60 %), le gilet (25 %) et les munitions (le reste). L'arme retenue est la mieux notée du rôle dont le prix entre dans sa part ; le gilet vise le tier maximal du mode puis se dégrade d'un cran tant qu'il dépasse l'enveloppe.</li>
+            <li><strong>Munition</strong> : la plus haute pénétration du calibre de l'arme, plafonnée par le mode et par le prix unitaire restant.</li>
+            <li><strong>Gilet</strong> : le tier maximal autorisé par le mode, dégradé d'un cran si son prix dépasse l'enveloppe.</li>
+            <li><strong>Équipement annexe</strong> : casques, rigs, sacs, audio et médical issus du template du mode, complétés par les parts restantes du budget.</li>
+          </ol>
+          <div class="callout callout-warning">
+            <h3 class="h4">Ce que l'outil ne fait pas</h3>
+            <p>Il ne calcule <strong>pas</strong> le coût de vos clés, de votre case sécurisée, de vos quick kits ni de vos consommables de raid. Et il ne remplace pas votre style : il part du principe qu'un build doit être <strong>une fonction</strong> avant d'être un optimum statistique.</p>
+          </div>
+
+          <h2 id="presets">5. Les presets à copier immédiatement</h2>
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead><tr><th>Preset</th><th>Mode</th><th>Rôle</th><th>Budget</th><th>Résultat attendu</th></tr></thead>
+              <tbody>
+                <tr><td>Apprentissage sûr</td><td>Normal</td><td>Lointier</td><td>250 000</td><td>MP5 ou UMP + dum-dum, gilet T3, sac léger : on apprend sans mourir riche</td></tr>
+                <tr><td>Lockdown standard</td><td>Lockdown</td><td>Polyvalent</td><td>900 000</td><td>AK-12 ou H416 en T5, gilet T5, le kit de la majorité</td></tr>
+                <tr><td>Push agressif</td><td>Lockdown</td><td>Assaut</td><td>1 200 000</td><td>H416 / A545, 6B43, casque T5, médical complet</td></tr>
+                <tr><td>Overwatch</td><td>Lockdown</td><td>Longue distance</td><td>1 000 000</td><td>M110 + Binary, M62 en T5, armure T4 pour la mobilité</td></tr>
+                <tr><td>Zombies</td><td>Normal</td><td>CQB</td><td>500 000</td><td>USAS-12 + dum-dum, le meta anti-horde</td></tr>
+                <tr><td>Forbidden anti-armure</td><td>Forbidden</td><td>Longue distance</td><td>2 000 000</td><td>M61 en 7.62×51 ou 7N37, gilet T6, casque T6 : le seul qui perce la classe 6</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2 id="apropos">6. À propos des données</h2>
+          <p>Les données proviennent des bases de référence du site (<code>data-weapons.json</code>, <code>data-armors.json</code>, <code>data-ammo.json</code>) et des <code>data-builds.json</code> de l'étape Meta. Les prix sont <strong>indicatifs</strong> et fluctuent avec le marché joueur : la valeur de référence d'une arme ou d'un gilet change chaque semaine.</p>
+          <div class="callout callout-success">
+            <h3 class="h4">Le bon réflexe</h3>
+            <p>Utilisez l'optimizer pour <strong>structurer</strong> votre kit, jamais pour valider un achat. La décision d'investissement doit suivre le marché : achetez le <strong>calibre</strong> que vous utilisez (5.56×45 couvre 13 armes, 9×19 en couvre 12), pas l'arme exacte.</p>
+          </div>
+          <p>Pour comprendre le classement des armes, voir <a href="meta-tier-list-globale.html" id="lnk-meta-loadout-optimizer-094">la tier list globale</a>. Pour la méthode de jeu, voir <a href="meta-stratégies-s7.html" id="lnk-meta-loadout-optimizer-095">les stratégies S7</a>.</p>
+
+        </article>
+        <aside class="toc" aria-label="Sommaire">
+          <h4>Sommaire</h4>
+<a href="#outil" id="lnk-meta-loadout-optimizer-096">1. L'outil</a>
+<a href="#lecture" id="lnk-meta-loadout-optimizer-097">2. Lire le résultat</a>
+<a href="#methode" id="lnk-meta-loadout-optimizer-098">3. Méthode de calcul</a>
+<a href="#presets" id="lnk-meta-loadout-optimizer-099">4. Presets</a>
+<a href="#apropos" id="lnk-meta-loadout-optimizer-100">5. À propos des données</a>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="../index.html" id="lnk-meta-loadout-optimizer-101"><span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="#C8A84B" stroke-width="2"><path d="M12 2l8 4.5v9L12 20l-8-4.5v-9z"/></svg></span>ABI<span class="logo-accent">NEXUS</span></a>
+          <p class="mt-md">Le guide de référence ultime d'Arena Breakout Infinite. Toutes les armes, armures, cartes, stratégies et les nouveautés de la Saison 7 : Utopia.</p>
+          <p class="small text-muted mt-sm">Dernière mise à jour : <span data-updated>17 novembre 2026</span></p>
+        </div>
+        <div class="footer-col"><h5>Guides</h5>
+          <a href="guide-debutant.html" id="lnk-meta-loadout-optimizer-102">Débutant</a><a href="guide-avance.html" id="lnk-meta-loadout-optimizer-103">Avancé</a>
+          <a href="guide-extraction.html" id="lnk-meta-loadout-optimizer-104">Extraction</a><a href="guide-economie.html" id="lnk-meta-loadout-optimizer-105">Économie</a>
+          <a href="guide-craft.html" id="lnk-meta-loadout-optimizer-106">Craft</a><a href="guide-traders.html" id="lnk-meta-loadout-optimizer-107">Marchands</a>
+        </div>
+        <div class="footer-col"><h5>Armes &amp; Équipement</h5>
+          <a href="armes-fusils-assaut.html" id="lnk-meta-loadout-optimizer-108">Fusils d'assaut</a><a href="armes-tier-list.html" id="lnk-meta-loadout-optimizer-109">Tier List Armes</a>
+          <a href="equipement-armures.html" id="lnk-meta-loadout-optimizer-110">Armures</a><a href="equipement-tier-list.html" id="lnk-meta-loadout-optimizer-111">Tier List Équipement</a>
+          <a href="items-munitions.html" id="lnk-meta-loadout-optimizer-112">Munitions</a><a href="items-valeur.html" id="lnk-meta-loadout-optimizer-113">Loot rouge</a>
+        </div>
+        <div class="footer-col"><h5>Saison 7 : Utopia</h5>
+          <a href="saison7-utopia.html" id="lnk-meta-loadout-optimizer-114">Hub S7</a><a href="saison8-attente.html" id="lnk-meta-loadout-optimizer-115">Saison 8 : ce qui arrive</a><a href="saison7-zombie-infected-zone.html" id="lnk-meta-loadout-optimizer-116">Infected Zone</a>
+          <a href="saison7-zombie-endless.html" id="lnk-meta-loadout-optimizer-117">Zombie Endless</a><a href="saison7-zombie-research.html" id="lnk-meta-loadout-optimizer-118">Zombie Research</a>
+          <a href="saison7-balance-changes.html" id="lnk-meta-loadout-optimizer-119">Balance Changes</a><a href="saison7-battle-pass.html" id="lnk-meta-loadout-optimizer-120">Battle Pass</a>
+        </div>
+        <div class="footer-col"><h5>Univers</h5>
+          <a href="univers-lore.html" id="lnk-meta-loadout-optimizer-121">Histoire de Kamona</a><a href="univers-factions.html" id="lnk-meta-loadout-optimizer-122">Factions</a>
+          <a href="univers-dark-zone.html" id="lnk-meta-loadout-optimizer-123">La Dark Zone</a><a href="meta-stratégies-s7.html" id="lnk-meta-loadout-optimizer-124">Stratégies S7</a>
+        </div>
+        <!--S13-FOOTER-->
+        <div class="footer-col"><h5>Événements</h5>
+          <a href="events-calendrier.html" id="lnk-meta-loadout-optimizer-125">Calendrier S7</a><a href="events-supplies-drops.html" id="lnk-meta-loadout-optimizer-126">Supply Drops 2.0</a>
+          <a href="events-warlord-tournament.html" id="lnk-meta-loadout-optimizer-127">Warlord Tournament III</a><a href="meta-stratégies-s7.html" id="lnk-meta-loadout-optimizer-128">Stratégies S7</a>
+        </div>
+        <!--/S13-FOOTER-->
+        <!--S14-FOOTER-->
+        <div class="footer-col"><h5>Communauté</h5>
+          <a href="communaute-ressources.html" id="lnk-meta-loadout-optimizer-129">Ressources</a><a href="communaute-streamers.html" id="lnk-meta-loadout-optimizer-130">Streamers</a>
+          <a href="communaute-patch-notes.html" id="lnk-meta-loadout-optimizer-131">Patch notes</a><a href="meta-stratégies-s7.html" id="lnk-meta-loadout-optimizer-132">Stratégies S7</a>
+        </div>
+        <!--/S14-FOOTER-->
+        <div class="footer-col"><h5>Officiel</h5>
+          <a href="https://www.arenabreakoutinfinite.com/" target="_blank" rel="noopener" id="lnk-meta-loadout-optimizer-133">Site officiel ABI<span class="sr-only"> (nouvel onglet)</span></a>
+          <a href="https://x.com/ArenaBreakoutPC" target="_blank" rel="noopener" id="lnk-meta-loadout-optimizer-134">X / Twitter<span class="sr-only"> (nouvel onglet)</span></a>
+          <a href="https://www.youtube.com/@ArenaBreakoutInfinite" target="_blank" rel="noopener" id="lnk-meta-loadout-optimizer-135">YouTube officiel<span class="sr-only"> (nouvel onglet)</span></a>
+          <a href="https://discord.gg/arenabreakoutinfinite" target="_blank" rel="noopener" id="lnk-meta-loadout-optimizer-136">Discord officiel<span class="sr-only"> (nouvel onglet)</span></a>
+          <a href="https://www.reddit.com/r/ArenaBreakoutInfinite/" target="_blank" rel="noopener" id="lnk-meta-loadout-optimizer-137">Reddit r/ArenaBreakoutInfinite<span class="sr-only"> (nouvel onglet)</span></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="disclaimer">ABI NEXUS est un guide communautaire non officiel. Arena Breakout Infinite est une marque de MoreFun Studios. Toutes les informations sont compilées depuis des sources publiques et peuvent évoluer à chaque patch. Jouez responsable, extrayez vivant.</p>
+        <p>© <span data-year>2026</span> ABI NEXUS — Exfiltration réussie ou mort en essayant. 🎖️</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="audio-narration" data-track="../audio/narration-meta-loadout-optimizer.mp3" data-label="Narration : Loadout Optimizer">
+    <button aria-label="Ecouter la narration"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
+    <span class="audio-label">Narration</span>
+    <span class="audio-bar"><span class="audio-bar-fill"></span></span>
+  </div>
+  <div class="audio-player" data-track="../audio/ambiance-menu.mp3" data-label="Briefing">
+    <button aria-label="Lecture / Pause du briefing"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
+    <span class="audio-label">Briefing</span>
+    <input type="range" min="0" max="1" step="0.05" value="0.5" aria-label="Volume">
+  </div>
+  <button class="back-to-top" aria-label="Retour en haut"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+
+  <script src="../js/navigation.js" defer></script>
+  <script src="../js/main.js" defer></script>
+  <script src="../js/optimizer.js" defer></script>
+  <script src="../js/loadout-builder.js" defer></script>
+  <script src="../js/search.js" defer></script>
+</body>
+</html>

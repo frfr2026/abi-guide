@@ -1,0 +1,702 @@
+[
+ {
+  "kind": "weapon",
+  "id": "a545",
+  "name": "A545",
+  "image": "../img/armes/a545.jpg",
+  "file": null
+ },
+ {
+  "kind": "weapon",
+  "id": "ak15sc",
+  "name": "AK-15SC",
+  "image": "../img/armes/ak15sc.jpg",
+  "file": null
+ },
+ {
+  "kind": "weapon",
+  "id": "h416",
+  "name": "H416",
+  "image": "../img/armes/h416.jpg",
+  "file": "H416.png"
+ },
+ {
+  "kind": "weapon",
+  "id": "u191",
+  "name": "U191",
+  "image": "../img/armes/u191.jpg",
+  "file": "U191.png"
+ },
+ {
+  "kind": "weapon",
+  "id": "ak12",
+  "name": "AK-12",
+  "image": "../img/armes/ak12.jpg",
+  "file": null
+ },
+ {
+  "kind": "weapon",
+  "id": "m4a1",
+  "name": "M4A1",
+  "image": "../img/armes/m4a1.jpg",
+  "file": "M4A1.png"
+ },
+ {
+  "kind": "weapon",
+  "id": "aek971",
+  "name": "AEK-971",
+  "image": "../img/armes/aek971.jpg",
+  "file": null
+ },
+ {
+  "kind": "weapon",
+  "id": "an94",
+  "name": "AN-94",
+  "image": "../img/armes/an-94.jpg",
+  "file": null
+ },
+ {
+  "kind": "weapon",
+  "id": "fal",
+  "name": "FAL",
+  "image": "../img/armes/fal.jpg",
+  "file": "FAL.png"
+ },
+ {
+  "kind": "weapon",
+  "id": "m110",
+  "name": "M110",
+  "image": "../img/armes/m110.jpg",
+  "file": "M110.png"
+ },
+ {
+  "kind": "weapon",
+  "id": "mk14",
+  "name": "MK14",
+  "image": "../img/armes/mk14.jpg",
+  "file": "MK14.png"
+ },
+ {
+  "kind": "weapon",
+  "id": "sj16",
+  "name": "SJ16",
+  "image": "../img/armes/sj16.jpg",
+  "file": "SJ16.png"
+ },
+ {
+  "kind": "weapon",
+  "id": "m24",
+  "name": "M24",
+  "image": "../img/armes/m24.jpg",
+  "file": "M24.png"
+ },
+ {
+  "kind": "weapon",
+  "id": "mosin",
+  "name": "Mosin",
+  "image": "../img/armes/mosin.jpg",
+  "file": "Mosin.png"
+ },
+ {
+  "kind": "weapon",
+  "id": "mpx",
+  "name": "MPX",
+  "image": "../img/armes/mpx.jpg",
+  "file": "MPX.png"
+ },
+ {
+  "kind": "weapon",
+  "id": "p90",
+  "name": "P90",
+  "image": "../img/armes/p90.jpg",
+  "file": "P90.png"
+ },
+ {
+  "kind": "weapon",
+  "id": "vss",
+  "name": "VSS",
+  "image": "../img/armes/vss.jpg",
+  "file": "VSS.png"
+ },
+ {
+  "kind": "weapon",
+  "id": "vector",
+  "name": "Vector .45",
+  "image": "../img/armes/vector.jpg",
+  "file": "Vector 45.png"
+ },
+ {
+  "kind": "weapon",
+  "id": "pcc9",
+  "name": "PCC9",
+  "image": "../img/armes/pcc9.jpg",
+  "file": null
+ },
+ {
+  "kind": "weapon",
+  "id": "sks",
+  "name": "SKS",
+  "image": "../img/armes/sks.jpg",
+  "file": "SKS.png"
+ },
+ {
+  "kind": "weapon",
+  "id": "usas12",
+  "name": "USAS-12",
+  "image": "../img/armes/usas12.jpg",
+  "file": null
+ },
+ {
+  "kind": "weapon",
+  "id": "rpk16",
+  "name": "RPK-16",
+  "image": "../img/armes/rpk16.jpg",
+  "file": null
+ },
+ {
+  "kind": "weapon",
+  "id": "banshee",
+  "name": "Banshee",
+  "image": "../img/armes/banshee.jpg",
+  "file": null
+ },
+ {
+  "kind": "weapon",
+  "id": "t88",
+  "name": "T88",
+  "image": "../img/armes/t88.jpg",
+  "file": null
+ },
+ {
+  "kind": "item",
+  "id": "elysium",
+  "name": "Elysium",
+  "image": "../img/items/elysium.jpg",
+  "file": null
+ },
+ {
+  "kind": "item",
+  "id": "mrid",
+  "name": "Laptop MRID",
+  "image": "../img/items/mrid.jpg",
+  "file": null
+ },
+ {
+  "kind": "item",
+  "id": "northernstars",
+  "name": "Northern Stars",
+  "image": "../img/items/northernstars.jpg",
+  "file": null
+ },
+ {
+  "kind": "item",
+  "id": "lute",
+  "name": "Luth à double manche",
+  "image": "../img/items/lute.jpg",
+  "file": null
+ },
+ {
+  "kind": "item",
+  "id": "jadeflute",
+  "name": "Flûte de jade émeraude",
+  "image": "../img/items/jadeflute.jpg",
+  "file": null
+ },
+ {
+  "kind": "item",
+  "id": "gpu",
+  "name": "Carte graphique",
+  "image": "../img/items/gpu.jpg",
+  "file": "Graphics Card.png"
+ },
+ {
+  "kind": "item",
+  "id": "militarycircuit",
+  "name": "Circuit militaire",
+  "image": "../img/items/militarycircuit.jpg",
+  "file": null
+ },
+ {
+  "kind": "item",
+  "id": "goldbar",
+  "name": "Lingot d'or",
+  "image": "../img/items/goldbar.jpg",
+  "file": null
+ },
+ {
+  "kind": "item",
+  "id": "rolex",
+  "name": "Montre de luxe",
+  "image": "../img/items/rolex.jpg",
+  "file": "Gold Watch.png"
+ },
+ {
+  "kind": "item",
+  "id": "morphine",
+  "name": "Morphine",
+  "image": "../img/items/morphine.jpg",
+  "file": null
+ },
+ {
+  "kind": "item",
+  "id": "y40",
+  "name": "Traitement Y40",
+  "image": "../img/items/y40.jpg",
+  "file": null
+ },
+ {
+  "kind": "item",
+  "id": "flaregun",
+  "name": "Pistolet de détresse",
+  "image": "../img/items/flaregun.jpg",
+  "file": null
+ },
+ {
+  "kind": "item",
+  "id": "pheromone",
+  "name": "Grenades à phéromones",
+  "image": "../img/items/pheromone.jpg",
+  "file": null
+ },
+ {
+  "kind": "item",
+  "id": "healingsmoke",
+  "name": "Grenades fumigènes de soin",
+  "image": "../img/items/healingsmoke.jpg",
+  "file": null
+ },
+ {
+  "kind": "item",
+  "id": "m290stun",
+  "name": "Grenade étourdissante M290",
+  "image": "../img/items/m290stun.jpg",
+  "file": null
+ },
+ {
+  "kind": "item",
+  "id": "keycard",
+  "name": "Carte d'accès",
+  "image": "../img/items/keycard.jpg",
+  "file": null
+ },
+ {
+  "kind": "item",
+  "id": "medkit",
+  "name": "Trousse de secours",
+  "image": "../img/items/medkit.jpg",
+  "file": null
+ },
+ {
+  "kind": "item",
+  "id": "bandage",
+  "name": "Bandage",
+  "image": "../img/items/bandage.jpg",
+  "file": null
+ },
+ {
+  "kind": "armor",
+  "id": "bt101",
+  "name": "BT101",
+  "image": "../img/armures/bt101.jpg",
+  "file": "BT101 Tactical Body Armor.png"
+ },
+ {
+  "kind": "armor",
+  "id": "926composite",
+  "name": "926 Composite",
+  "image": "../img/armures/926composite.jpg",
+  "file": "926 Composite Body Armor.png"
+ },
+ {
+  "kind": "armor",
+  "id": "bt6",
+  "name": "BT6",
+  "image": "../img/armures/bt6.jpg",
+  "file": "BT6 Heavy Body Armor.png"
+ },
+ {
+  "kind": "armor",
+  "id": "hvk",
+  "name": "Hvk",
+  "image": "../img/armures/hvk.jpg",
+  "file": null
+ },
+ {
+  "kind": "armor",
+  "id": "6b43",
+  "name": "6B43",
+  "image": "../img/armures/6b43.jpg",
+  "file": null
+ },
+ {
+  "kind": "armor",
+  "id": "bt5",
+  "name": "BT5",
+  "image": "../img/armures/bt5.jpg",
+  "file": null
+ },
+ {
+  "kind": "armor",
+  "id": "6b13",
+  "name": "6B13",
+  "image": "../img/armures/6b13.jpg",
+  "file": "6B13 Body Armor.png"
+ },
+ {
+  "kind": "armor",
+  "id": "6b23",
+  "name": "6B23",
+  "image": "../img/armures/6b23.jpg",
+  "file": "6B23 Body Armor.png"
+ },
+ {
+  "kind": "armor",
+  "id": "6b45",
+  "name": "6B45",
+  "image": "../img/armures/6b45.jpg",
+  "file": "6B45 Heavy Body Armor.png"
+ },
+ {
+  "kind": "armor",
+  "id": "6b62",
+  "name": "6B62",
+  "image": "../img/armures/6b62.jpg",
+  "file": null
+ },
+ {
+  "kind": "armor",
+  "id": "kn",
+  "name": "KN",
+  "image": "../img/armures/6b43.jpg",
+  "file": "KN Assault Body Armor.png"
+ },
+ {
+  "kind": "armor",
+  "id": "6b12",
+  "name": "6B12",
+  "image": "../img/armures/6b62.jpg",
+  "file": null
+ },
+ {
+  "kind": "armor",
+  "id": "6b2",
+  "name": "6B2",
+  "image": "../img/armures/6b2.jpg",
+  "file": "6B23 Body Armor.png"
+ },
+ {
+  "kind": "armor",
+  "id": "tacticalvest",
+  "name": "Gilet tactique",
+  "image": "../img/armures/6b2.jpg",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "545hp",
+  "name": "5.45×39 HP",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "545ps",
+  "name": "5.45×39 PS",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "545pp",
+  "name": "5.45×39 PP",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "545bp",
+  "name": "5.45×39 BP",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "545bs",
+  "name": "5.45×39 BS",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "ppbs",
+  "name": "PPBS",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "m855",
+  "name": "5.56×45 M855",
+  "image": "",
+  "file": "5.56x45mm M855.png"
+ },
+ {
+  "kind": "ammo",
+  "id": "m855a1",
+  "name": "5.56×45 M855A1",
+  "image": "",
+  "file": "5.56x45mm M855A1.png"
+ },
+ {
+  "kind": "ammo",
+  "id": "m855a2",
+  "name": "5.56×45 M855A2",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "m995",
+  "name": "5.56×45 M995",
+  "image": "",
+  "file": "5.56x45mm M995.png"
+ },
+ {
+  "kind": "ammo",
+  "id": "ss190",
+  "name": "5.7×28 SS190",
+  "image": "",
+  "file": "5.7x28mm SS190.png"
+ },
+ {
+  "kind": "ammo",
+  "id": "l191",
+  "name": "5.7×28 L191",
+  "image": "",
+  "file": "5.7x28mm L191.png"
+ },
+ {
+  "kind": "ammo",
+  "id": "ss198",
+  "name": "5.7×28 SS198",
+  "image": "",
+  "file": "5.7x28mm SS198.png"
+ },
+ {
+  "kind": "ammo",
+  "id": "ss197sr",
+  "name": "5.7×28 SS197SR",
+  "image": "",
+  "file": "5.7x28mm SS197SR.png"
+ },
+ {
+  "kind": "ammo",
+  "id": "762ps",
+  "name": "7.62×39 PS",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "t45m",
+  "name": "7.62×39 T45M",
+  "image": "",
+  "file": "7.62x39mm T45M.png"
+ },
+ {
+  "kind": "ammo",
+  "id": "bp762",
+  "name": "7.62×39 BP",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "ap762",
+  "name": "7.62×39 AP",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "bpz",
+  "name": "7.62×51 BPZ",
+  "image": "",
+  "file": "7.62x51mm BPZ.png"
+ },
+ {
+  "kind": "ammo",
+  "id": "m80",
+  "name": "7.62×51 M80",
+  "image": "",
+  "file": "7.62x51mm M80.png"
+ },
+ {
+  "kind": "ammo",
+  "id": "m62",
+  "name": "7.62×51 M62",
+  "image": "",
+  "file": "7.62x51mm M62.png"
+ },
+ {
+  "kind": "ammo",
+  "id": "m61",
+  "name": "7.62×51 M61",
+  "image": "",
+  "file": "7.62x51mm M61.png"
+ },
+ {
+  "kind": "ammo",
+  "id": "lps",
+  "name": "7.62×54 LPS",
+  "image": "",
+  "file": "7.62x54mm LPS.png"
+ },
+ {
+  "kind": "ammo",
+  "id": "t46m",
+  "name": "7.62×54 T46M",
+  "image": "",
+  "file": "7.62x54mm T46M.png"
+ },
+ {
+  "kind": "ammo",
+  "id": "7bt1",
+  "name": "7.62×54 7BT1",
+  "image": "",
+  "file": "7.62x54mm 7BT1.png"
+ },
+ {
+  "kind": "ammo",
+  "id": "snb",
+  "name": "7.62×54 SNB",
+  "image": "",
+  "file": "7.62x54mm SNB.png"
+ },
+ {
+  "kind": "ammo",
+  "id": "7n37",
+  "name": "7.62×54 7N37",
+  "image": "",
+  "file": "7.62x54mm 7N37.png"
+ },
+ {
+  "kind": "ammo",
+  "id": "pso",
+  "name": "9×19 PSO",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "pst9",
+  "name": "9×19 Pst",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "ap63",
+  "name": "9×19 AP 6.3",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "7n31",
+  "name": "9×19 7N31",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "dumdum",
+  "name": "9×19 Dum-Dum",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "sp5",
+  "name": "9×39 SP-5",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "sp6",
+  "name": "9×39 SP-6",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "7n9",
+  "name": "9×39 7N9",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "7n12",
+  "name": "9×39 7N12",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "45hs",
+  "name": ".45 HS",
+  "image": "",
+  "file": ".45 HS.png"
+ },
+ {
+  "kind": "ammo",
+  "id": "45fmj",
+  "name": ".45 FMJ",
+  "image": "",
+  "file": ".45 FMJ.png"
+ },
+ {
+  "kind": "ammo",
+  "id": "45ap",
+  "name": ".45 AP",
+  "image": "",
+  "file": ".45 AP.png"
+ },
+ {
+  "kind": "ammo",
+  "id": "type5",
+  "name": "12ga Type 5 Buckshot",
+  "image": "",
+  "file": "12x70mm Type 5 Buckshot.png"
+ },
+ {
+  "kind": "ammo",
+  "id": "gtslug",
+  "name": "12ga GT Slug",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "apslug",
+  "name": "12ga Slug Perforant",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "flechette",
+  "name": "12ga Fléchette",
+  "image": "",
+  "file": null
+ },
+ {
+  "kind": "ammo",
+  "id": "ripslug",
+  "name": "12ga RIP Slug",
+  "image": "",
+  "file": null
+ }
+]
